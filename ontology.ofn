@@ -1,0 +1,1372 @@
+Prefix(:=<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge>
+
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#A_history_of_cybernetics._Personalities>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Abstract_machines>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Adaptive_and_learning_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Additive_number_theory._Forms>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_and_analytical_methods_in_geometry>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_geometry>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_topology>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algorithms_for_solving_problems_of_computational_and_discrete_mathematics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analysis_and_synthesis_of_finite_automats>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_number_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_space>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_theory_of_ordinary_differential_equations_and_systems_of_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Application_of_probability-theoretic_and_statistical_methods>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximate_methods_of_functional_analysis>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximation_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Asymptotic_methods_in_the_theory_of_ordinary_differential_equations_and_systems_of_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Automatic_control_system_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems._General_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems_and_eigenvalue_problems_for_ordinary_differential_equations_and_systems_of_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Categories>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cauchy_problem>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Coding_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cognitive_psychology_models>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Combinatorial_analysis._Graph_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computability_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computer_modelling_of_reality._Virtual_reality>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Conformal_mapping_and_geometric_issues_in_the_theory_of_functions_of_complex_variables._Analytic_functions_and_their_generalisations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetic_aspects_of_structural-logic_theory_of_algorithms_and_programming>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Decision_formation_in_an_intelligent_environment._Reasoning_models>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Descriptive_function_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential-functional_and_discrete_equations_and_systems_of_equations_with_one_independent_variable>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_and_integral_calculus>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_games>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_geometry>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Diophantine_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Discourse_models>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_arithmetic>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_number_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ergatic_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Expert_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Extremal_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Fields_and_polynomials>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Finite_automata_theory_and_formal_language>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_equations_and_finite-difference_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_many_complex_variables>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_one_complex_variable>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Game_theory_and_its_application_to_cybernetic_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_first_order_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_higher_order_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_issues_of_artificial_intelligence>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_material>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_artificial_intelligence>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_mathematical_logic_and_foundations_of_mathematics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_questions>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_combinatorial_analysis>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_differential_equations_and_systems_of_equations_with_partial_derivatives>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_ordinary_differential_equations_and_systems_of_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_topology>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Generalised_functions>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometric_study_of_objects_of_natural_sciences_and_engineering>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_in_spaces_with_fundamental_groups>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_of_numbers>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Graph_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Groups>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Guidance_materials>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Hardware_implementation_of_intelligent_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Harmonic_functions_and_their_generalisations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Heuristic_methods>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Homological_algebra>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_activities>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_transformations._Operational_calculus>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integro-differential_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_knowledge_bases>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_robotics_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#International_cooperation>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Introduction_to_analysis_and_some_special_issues_in_analysis>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Knowledge_engineering>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Languages_of_representation_and_languages_of_knowledge_manipulation>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Learning_models_and_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Legal_issues>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Lie_groups>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_algebras>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_and_quasilinear_equations_and_systems_of_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_deterministic_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_integral_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_operators_and_operator_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Logic_in_artificial_intelligence>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_Structures._Theory_of_models.>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_issues_in_semiotics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_modelling>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_acoustics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_aero-_and_hydromechanics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_biology>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_boundary_layer_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_convection>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_elasticity_and_plasticity>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electrodynamics_of_moving_media>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electromagnetic_waves_in_plasma>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electronic_optics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_filtration>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gas_dynamics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_geophysics_and_meteorology>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gravitation_and_cosmology>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_heat_conduction_and_diffusion>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_hydrodynamics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_laser_physics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_magnetohydrodynamics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_particle_and_system_mechanics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_quantum_physics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_semiconductor_physics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_statistical_physics_and_thermodynamics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_wave_motions_of_heavy_fluid>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_waveguides>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_problems_of_artificial_intelligence>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_statistics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_tables>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theories_of_diffraction>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control._Optimal_control>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_information>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_operations_research>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_reliability_assessment>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Metric_function_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_control_processes>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_logic_structures>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_physical_processes>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Models_of_information_perception_in_intelligent_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Neural_networks>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_deterministic_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_equations_and_systems_of_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_functional_analysis>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_integral_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_for_solving_differential_and_integral_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_algebra>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_analysis>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Operations_research>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Optimal_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Organisation_of_research_work>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Pattern_recognition._Image_processing.>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Personnel>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Perturbation_theory_methods>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Physical_modelling>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_mathematical_statistics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_random_processes>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programme_and_target_planning>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programmed_learning>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Proof_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Qualitative_theory_of_ordinary_differential_equations_and_systems_of_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Quantitative_characteristics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_of_ergatic_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_optimisation>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Rings_and_modules>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Self-organising_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Semigroups>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Series_and_sequences>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Set_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Signalling_theory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Software_implementation_of_intelligent_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Soliton_solutions_of_evolution_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Solving_mathematical_problems_using_modelling_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Special_functions>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Spectral_theory_of_linear_operators>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structural-functional_redundancy>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures_of_data_transmission_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_identification>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Tasks_of_streamline>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Teaching>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Technical_applications_of_probabilistic-statistical_methods>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Terminology._Reference._Educational_literature>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_complex_variables>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_experiment_planning>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_functions_of_real_variable>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_mass_service_and_its_applications>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topological_algebras_and_the_theory_of_infinite-dimensional_representations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology_of_manifolds>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Transfer_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Universal_algebras>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Utility_theory_and_decision_making>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalMaterials_27_01_05>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidanceMaterials_27_01_01>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#historyOfMathematics_27_01_09>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#informationActivities_27_01_29>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internationalCooperation_27_01_17>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematicsEducation_27_01_45>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnelInMathematics_27_01_79>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#researchAndDevelopmentActivities_27_01_21>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientificSocieties_27_01_13>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#terminology_27_01_33>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_number_theory_(algebraic_number_fields)>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_mechanics_equations,_mathematical_theory_of_motion_control>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Economics,_organisation,_management,_planning_and_forecasting>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Formalisation_of_traditional_mathematical_theories_(arithmetic,_analysis,_etc.)>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_spaces_equipped_with_topology,_order_and_other_structures>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Machine,_graphical_and_other_methods_of_computational_mathematics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_plasma_physics,_kinetic_equations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Measure_theory,_representations_of_Boolean_algebras,_dynamical_systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Scientific_and_technical_societies,_meetings,_congresses,_conferences,_symposiums,_seminars,_exhibitions>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Stochastic_automatic_control_systems,_tracking_systems>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#A_history_of_cybernetics._Personalities> (История кибернетики. Персоналия)
+
+AnnotationAssertion(Annotation(rdfs:label "A history of cybernetics. Personalities") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#A_history_of_cybernetics._Personalities> "История кибернетики. Персоналия")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#A_history_of_cybernetics._Personalities> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Abstract_machines> (Абстрактные машины)
+
+AnnotationAssertion(Annotation(rdfs:label "Abstract machines") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Abstract_machines> "Абстрактные машины")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Abstract_machines> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Finite_automata_theory_and_formal_language>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Adaptive_and_learning_systems> (Адаптивные и обучающие системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Adaptive and learning systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Adaptive_and_learning_systems> "Адаптивные и обучающие системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Adaptive_and_learning_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Additive_number_theory._Forms> (Аддитивная теория чисел. Формы)
+
+AnnotationAssertion(Annotation(rdfs:label "Additive number theory. Forms") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Additive_number_theory._Forms> "Аддитивная теория чисел. Формы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Additive_number_theory._Forms> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra> (Алгебра)
+
+AnnotationAssertion(Annotation(rdfs:label "Algebra") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra> "Алгебра")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_and_analytical_methods_in_geometry> (Алгебраические и аналитические методы в геометрии)
+
+AnnotationAssertion(Annotation(rdfs:label "Algebraic and analytical methods in geometry") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_and_analytical_methods_in_geometry> "Алгебраические и аналитические методы в геометрии")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_and_analytical_methods_in_geometry> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_geometry> (Алгебраическая геометрия)
+
+AnnotationAssertion(Annotation(rdfs:label "Algebraic geometry") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_geometry> "Алгебраическая геометрия")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_geometry> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_topology> (Алгебраическая топология)
+
+AnnotationAssertion(Annotation(rdfs:label "Algebraic topology") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_topology> "Алгебраическая топология")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_topology> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algorithms_for_solving_problems_of_computational_and_discrete_mathematics> (Алгоритмы решения задач вычислительной и дискретной математики)
+
+AnnotationAssertion(Annotation(rdfs:label "Algorithms for solving problems of computational and discrete mathematics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algorithms_for_solving_problems_of_computational_and_discrete_mathematics> "Алгоритмы решения задач вычислительной и дискретной математики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algorithms_for_solving_problems_of_computational_and_discrete_mathematics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analysis_and_synthesis_of_finite_automats> (Анализ и синтез конечных автоматов)
+
+AnnotationAssertion(Annotation(rdfs:label "Analysis and synthesis of finite automats") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analysis_and_synthesis_of_finite_automats> "Анализ и синтез конечных автоматов")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analysis_and_synthesis_of_finite_automats> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Finite_automata_theory_and_formal_language>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_number_theory> (Аналитическая теория чисел)
+
+AnnotationAssertion(Annotation(rdfs:label "Analytical number theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_number_theory> "Аналитическая теория чисел")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_number_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_space> (Аналитические пространства)
+
+AnnotationAssertion(Annotation(rdfs:label "Analytical space") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_space> "Аналитические пространства")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_space> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_theory_of_ordinary_differential_equations_and_systems_of_equations> (Аналитическая теория обыкновенных дифференциальных уравнений и систем уравнений)
+
+AnnotationAssertion(Annotation(rdfs:label "Analytical theory of ordinary differential equations and systems of equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_theory_of_ordinary_differential_equations_and_systems_of_equations> "Аналитическая теория обыкновенных дифференциальных уравнений и систем уравнений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_theory_of_ordinary_differential_equations_and_systems_of_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Application_of_probability-theoretic_and_statistical_methods> (Применение теоретико-вероятностных и статистических методов)
+
+AnnotationAssertion(Annotation(rdfs:label "Application of probability-theoretic and statistical methods") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Application_of_probability-theoretic_and_statistical_methods> "Применение теоретико-вероятностных и статистических методов")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Application_of_probability-theoretic_and_statistical_methods> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_mathematical_statistics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximate_methods_of_functional_analysis> (Приближенные методы функционального анализа)
+
+AnnotationAssertion(Annotation(rdfs:label "Approximate methods of functional analysis") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximate_methods_of_functional_analysis> "Приближенные методы функционального анализа")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximate_methods_of_functional_analysis> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximation_theory> (Теория приближений)
+
+AnnotationAssertion(Annotation(rdfs:label "Approximation theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximation_theory> "Теория приближений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximation_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_functions_of_real_variable>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence> (Искусственный интеллект)
+
+AnnotationAssertion(Annotation(rdfs:label "Artificial intelligence") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence> "Искусственный интеллект")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Asymptotic_methods_in_the_theory_of_ordinary_differential_equations_and_systems_of_equations> (Асимптотические методы в теории обыкновенных дифференциальных уравнений и систем уравнений)
+
+AnnotationAssertion(Annotation(rdfs:label "Asymptotic methods in the theory of ordinary differential equations and systems of equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Asymptotic_methods_in_the_theory_of_ordinary_differential_equations_and_systems_of_equations> "Асимптотические методы в теории обыкновенных дифференциальных уравнений и систем уравнений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Asymptotic_methods_in_the_theory_of_ordinary_differential_equations_and_systems_of_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Automatic_control_system_theory> (Теория систем автоматического управления)
+
+AnnotationAssertion(Annotation(rdfs:label "Automatic control system theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Automatic_control_system_theory> "Теория систем автоматического управления")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Automatic_control_system_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems._General_theory> (Краевые задачи. Общая теория)
+
+AnnotationAssertion(Annotation(rdfs:label "Boundary value problems. General theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems._General_theory> "Краевые задачи. Общая теория")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems._General_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems_and_eigenvalue_problems_for_ordinary_differential_equations_and_systems_of_equations> (Краевые задачи и задачи на собственные значения для обыкновенных дифференциальных уравнений и систем уравнений)
+
+AnnotationAssertion(Annotation(rdfs:label "Boundary value problems and eigenvalue problems for ordinary differential equations and systems of equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems_and_eigenvalue_problems_for_ordinary_differential_equations_and_systems_of_equations> "Краевые задачи и задачи на собственные значения для обыкновенных дифференциальных уравнений и систем уравнений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems_and_eigenvalue_problems_for_ordinary_differential_equations_and_systems_of_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations> (Вариационное исчисление)
+
+AnnotationAssertion(Annotation(rdfs:label "Calculus of variations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations> "Вариационное исчисление")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation> (Вариационное исчисление и математическая теория оптимального уравнения)
+
+AnnotationAssertion(Annotation(rdfs:label "Calculus of variations and mathematical theory of the optimal equation") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation> "Вариационное исчисление и математическая теория оптимального уравнения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Categories> (Категории)
+
+AnnotationAssertion(Annotation(rdfs:label "Categories") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Categories> "Категории")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Categories> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cauchy_problem> (Задача Коши)
+
+AnnotationAssertion(Annotation(rdfs:label "Cauchy problem") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cauchy_problem> "Задача Коши")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cauchy_problem> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Coding_theory> (Теория кодирования)
+
+AnnotationAssertion(Annotation(rdfs:label "Coding theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Coding_theory> "Теория кодирования")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Coding_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cognitive_psychology_models> (Модели когнитивной психологии)
+
+AnnotationAssertion(Annotation(rdfs:label "Cognitive psychology models") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cognitive_psychology_models> "Модели когнитивной психологии")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cognitive_psychology_models> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Combinatorial_analysis._Graph_theory> (Комбинаторный анализ. Теория графов)
+
+AnnotationAssertion(Annotation(rdfs:label "Combinatorial analysis. Graph theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Combinatorial_analysis._Graph_theory> "Комбинаторный анализ. Теория графов")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Combinatorial_analysis._Graph_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computability_theory> (Теория вычислимости)
+
+AnnotationAssertion(Annotation(rdfs:label "Computability theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computability_theory> "Теория вычислимости")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computability_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics> (Вычислительная математика)
+
+AnnotationAssertion(Annotation(rdfs:label "Computational mathematics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics> "Вычислительная математика")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computer_modelling_of_reality._Virtual_reality> (Компьютерное моделирование реальности. Виртуальная реальность)
+
+AnnotationAssertion(Annotation(rdfs:label "Computer modelling of reality. Virtual reality") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computer_modelling_of_reality._Virtual_reality> "Компьютерное моделирование реальности. Виртуальная реальность")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computer_modelling_of_reality._Virtual_reality> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Conformal_mapping_and_geometric_issues_in_the_theory_of_functions_of_complex_variables._Analytic_functions_and_their_generalisations> (Конформное отображение и геометрические вопросы теории функций комплексных переменных. Аналитические функции и их обобщения)
+
+AnnotationAssertion(Annotation(rdfs:label "Conformal mapping and geometric issues in the theory of functions of complex variables. Analytic functions and their generalisations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Conformal_mapping_and_geometric_issues_in_the_theory_of_functions_of_complex_variables._Analytic_functions_and_their_generalisations> "Конформное отображение и геометрические вопросы теории функций комплексных переменных. Аналитические функции и их обобщения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Conformal_mapping_and_geometric_issues_in_the_theory_of_functions_of_complex_variables._Analytic_functions_and_their_generalisations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_complex_variables>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetic_aspects_of_structural-logic_theory_of_algorithms_and_programming> (Кибернетические аспекты структурно-логической теории алгоритмов и программирования)
+
+AnnotationAssertion(Annotation(rdfs:label "Cybernetic aspects of structural-logic theory of algorithms and programming") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetic_aspects_of_structural-logic_theory_of_algorithms_and_programming> "Кибернетические аспекты структурно-логической теории алгоритмов и программирования")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetic_aspects_of_structural-logic_theory_of_algorithms_and_programming> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Finite_automata_theory_and_formal_language>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics> (Кибернетика)
+
+AnnotationAssertion(Annotation(rdfs:label "Cybernetics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics> "Кибернетика")
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Decision_formation_in_an_intelligent_environment._Reasoning_models> (Формирование решений в интеллектуальной среде. Модели рассуждений)
+
+AnnotationAssertion(Annotation(rdfs:label "Decision formation in an intelligent environment. Reasoning models") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Decision_formation_in_an_intelligent_environment._Reasoning_models> "Формирование решений в интеллектуальной среде. Модели рассуждений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Decision_formation_in_an_intelligent_environment._Reasoning_models> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Descriptive_function_theory> (Дескриптивная теория функций)
+
+AnnotationAssertion(Annotation(rdfs:label "Descriptive function theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Descriptive_function_theory> "Дескриптивная теория функций")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Descriptive_function_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_functions_of_real_variable>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential-functional_and_discrete_equations_and_systems_of_equations_with_one_independent_variable> (Дифференциально-функциональные и дискретные уравнения и системы уравнений с одной независимой переменной)
+
+AnnotationAssertion(Annotation(rdfs:label "Differential-functional and discrete equations and systems of equations with one independent variable") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential-functional_and_discrete_equations_and_systems_of_equations_with_one_independent_variable> "Дифференциально-функциональные и дискретные уравнения и системы уравнений с одной независимой переменной")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential-functional_and_discrete_equations_and_systems_of_equations_with_one_independent_variable> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_and_integral_calculus> (Дифференциальное и интегральное исчисление)
+
+AnnotationAssertion(Annotation(rdfs:label "Differential and integral calculus") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_and_integral_calculus> "Дифференциальное и интегральное исчисление")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_and_integral_calculus> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_games> (Дифференциальные игры)
+
+AnnotationAssertion(Annotation(rdfs:label "Differential games") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_games> "Дифференциальные игры")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_games> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_geometry> (Дифференциальная геометрия)
+
+AnnotationAssertion(Annotation(rdfs:label "Differential geometry") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_geometry> "Дифференциальная геометрия")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_geometry> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Diophantine_equations> (Диофантовы уравнения)
+
+AnnotationAssertion(Annotation(rdfs:label "Diophantine equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Diophantine_equations> "Диофантовы уравнения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Diophantine_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Discourse_models> (Модели дискурса)
+
+AnnotationAssertion(Annotation(rdfs:label "Discourse models") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Discourse_models> "Модели дискурса")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Discourse_models> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_arithmetic> (Элементарная арифметика)
+
+AnnotationAssertion(Annotation(rdfs:label "Elementary arithmetic") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_arithmetic> "Элементарная арифметика")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_arithmetic> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_number_theory> (Элементарная теория чисел)
+
+AnnotationAssertion(Annotation(rdfs:label "Elementary number theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_number_theory> "Элементарная теория чисел")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_number_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ergatic_systems> (Эргатические системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Ergatic systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ergatic_systems> "Эргатические системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ergatic_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Expert_systems> (Экспертные системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Expert systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Expert_systems> "Экспертные системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Expert_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Extremal_systems> (Экстремальные системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Extremal systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Extremal_systems> "Экстремальные системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Extremal_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Fields_and_polynomials> (Поля и многочлены)
+
+AnnotationAssertion(Annotation(rdfs:label "Fields and polynomials") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Fields_and_polynomials> "Поля и многочлены")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Fields_and_polynomials> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Finite_automata_theory_and_formal_language> (Теория конечных автоматов и формальных языков)
+
+AnnotationAssertion(Annotation(rdfs:label "Finite automata theory and formal language") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Finite_automata_theory_and_formal_language> "Теория конечных автоматов и формальных языков")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Finite_automata_theory_and_formal_language> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis> (Функциональный анализ)
+
+AnnotationAssertion(Annotation(rdfs:label "Functional analysis") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis> "Функциональный анализ")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_equations_and_finite-difference_theory> (Функциональные уравнения и теория конечных разностей)
+
+AnnotationAssertion(Annotation(rdfs:label "Functional equations and finite-difference theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_equations_and_finite-difference_theory> "Функциональные уравнения и теория конечных разностей")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_equations_and_finite-difference_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_many_complex_variables> (Функции многих комплексных переменных)
+
+AnnotationAssertion(Annotation(rdfs:label "Functions of many complex variables") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_many_complex_variables> "Функции многих комплексных переменных")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_many_complex_variables> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_complex_variables>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_one_complex_variable> (Функции одного комплексного переменного)
+
+AnnotationAssertion(Annotation(rdfs:label "Functions of one complex variable") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_one_complex_variable> "Функции одного комплексного переменного")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_one_complex_variable> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_complex_variables>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Game_theory_and_its_application_to_cybernetic_systems> (Теория игр и ее применение в кибернетических системах)
+
+AnnotationAssertion(Annotation(rdfs:label "Game theory and its application to cybernetic systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Game_theory_and_its_application_to_cybernetic_systems> "Теория игр и ее применение в кибернетических системах")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Game_theory_and_its_application_to_cybernetic_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues> (Общие вопросы кибернетики)
+
+AnnotationAssertion(Annotation(rdfs:label "General cybernetics issues") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues> "Общие вопросы кибернетики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_first_order_equations> (Общие уравнения первого порядка)
+
+AnnotationAssertion(Annotation(rdfs:label "General first order equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_first_order_equations> "Общие уравнения первого порядка")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_first_order_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_higher_order_equations> (Общие уравнения высших порядков)
+
+AnnotationAssertion(Annotation(rdfs:label "General higher order equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_higher_order_equations> "Общие уравнения высших порядков")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_higher_order_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_issues_of_artificial_intelligence> (Общие вопросы искусственного интеллекта)
+
+AnnotationAssertion(Annotation(rdfs:label "General issues of artificial intelligence") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_issues_of_artificial_intelligence> "Общие вопросы искусственного интеллекта")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_issues_of_artificial_intelligence> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_material> (Материалы общего характера)
+
+AnnotationAssertion(Annotation(rdfs:label "General material") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_material> "Материалы общего характера")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_material> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_artificial_intelligence> (Общие проблемы искусственного интеллекта)
+
+AnnotationAssertion(Annotation(rdfs:label "General problems of artificial intelligence") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_artificial_intelligence> "Общие проблемы искусственного интеллекта")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_artificial_intelligence> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_mathematical_logic_and_foundations_of_mathematics> (Общие проблемы математической логики и основания математики)
+
+AnnotationAssertion(Annotation(rdfs:label "General problems of mathematical logic and foundations of mathematics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_mathematical_logic_and_foundations_of_mathematics> "Общие проблемы математической логики и основания математики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_mathematical_logic_and_foundations_of_mathematics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_questions> (Общие вопросы)
+
+AnnotationAssertion(Annotation(rdfs:label "General questions") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_questions> "Общие вопросы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_questions> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_combinatorial_analysis> (Общая теория комбинаторного анализа)
+
+AnnotationAssertion(Annotation(rdfs:label "General theory of combinatorial analysis") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_combinatorial_analysis> "Общая теория комбинаторного анализа")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_combinatorial_analysis> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Combinatorial_analysis._Graph_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_differential_equations_and_systems_of_equations_with_partial_derivatives> (Общая теория дифференциальных уравнений и систем уравнений с частными производными)
+
+AnnotationAssertion(Annotation(rdfs:label "General theory of differential equations and systems of equations with partial derivatives") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_differential_equations_and_systems_of_equations_with_partial_derivatives> "Общая теория дифференциальных уравнений и систем уравнений с частными производными")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_differential_equations_and_systems_of_equations_with_partial_derivatives> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_ordinary_differential_equations_and_systems_of_equations> (Общая теория обыкновенных дифференциальных уравнений и систем уравнений)
+
+AnnotationAssertion(Annotation(rdfs:label "General theory of ordinary differential equations and systems of equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_ordinary_differential_equations_and_systems_of_equations> "Общая теория обыкновенных дифференциальных уравнений и систем уравнений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_ordinary_differential_equations_and_systems_of_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_topology> (Общая топология)
+
+AnnotationAssertion(Annotation(rdfs:label "General topology") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_topology> "Общая топология")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_topology> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Generalised_functions> (Обобщенные функции)
+
+AnnotationAssertion(Annotation(rdfs:label "Generalised functions") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Generalised_functions> "Обобщенные функции")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Generalised_functions> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometric_study_of_objects_of_natural_sciences_and_engineering> (Геометрическое исследование объектов естественных наук и техники)
+
+AnnotationAssertion(Annotation(rdfs:label "Geometric study of objects of natural sciences and engineering") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometric_study_of_objects_of_natural_sciences_and_engineering> "Геометрическое исследование объектов естественных наук и техники")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometric_study_of_objects_of_natural_sciences_and_engineering> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry> (Геометрия)
+
+AnnotationAssertion(Annotation(rdfs:label "Geometry") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry> "Геометрия")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_in_spaces_with_fundamental_groups> (Геометрия в пространствах с фундаментальными группами)
+
+AnnotationAssertion(Annotation(rdfs:label "Geometry in spaces with fundamental groups") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_in_spaces_with_fundamental_groups> "Геометрия в пространствах с фундаментальными группами")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_in_spaces_with_fundamental_groups> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_of_numbers> (Геометрия чисел)
+
+AnnotationAssertion(Annotation(rdfs:label "Geometry of numbers") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_of_numbers> "Геометрия чисел")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_of_numbers> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Graph_theory> (Теория графов)
+
+AnnotationAssertion(Annotation(rdfs:label "Graph theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Graph_theory> "Теория графов")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Graph_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Combinatorial_analysis._Graph_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Groups> (Группы)
+
+AnnotationAssertion(Annotation(rdfs:label "Groups") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Groups> "Группы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Groups> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Guidance_materials> (Руководящие материалы)
+
+AnnotationAssertion(Annotation(rdfs:label "Guidance materials") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Guidance_materials> "Руководящие материалы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Guidance_materials> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Hardware_implementation_of_intelligent_systems> (Аппаратная реализация интеллектуальных систем)
+
+AnnotationAssertion(Annotation(rdfs:label "Hardware implementation of intelligent systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Hardware_implementation_of_intelligent_systems> "Аппаратная реализация интеллектуальных систем")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Hardware_implementation_of_intelligent_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Harmonic_functions_and_their_generalisations> (Гармонические функции и их обобщения)
+
+AnnotationAssertion(Annotation(rdfs:label "Harmonic functions and their generalisations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Harmonic_functions_and_their_generalisations> "Гармонические функции и их обобщения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Harmonic_functions_and_their_generalisations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_complex_variables>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Heuristic_methods> (Эвристические методы)
+
+AnnotationAssertion(Annotation(rdfs:label "Heuristic methods") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Heuristic_methods> "Эвристические методы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Heuristic_methods> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Homological_algebra> (Гомологическая алгебра)
+
+AnnotationAssertion(Annotation(rdfs:label "Homological algebra") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Homological_algebra> "Гомологическая алгебра")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Homological_algebra> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_activities> (Информационная деятельность)
+
+AnnotationAssertion(Annotation(rdfs:label "Information activities") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_activities> "Информационная деятельность")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_activities> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_theory> (Теория информации)
+
+AnnotationAssertion(Annotation(rdfs:label "Information theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_theory> "Теория информации")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_equations> (Интегральные уравнения)
+
+AnnotationAssertion(Annotation(rdfs:label "Integral equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_equations> "Интегральные уравнения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_transformations._Operational_calculus> (Интегральные преобразования. Операционное исчисление)
+
+AnnotationAssertion(Annotation(rdfs:label "Integral transformations. Operational calculus") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_transformations._Operational_calculus> "Интегральные преобразования. Операционное исчисление")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_transformations._Operational_calculus> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integro-differential_equations> (Интегро-дифференциальные уравнения)
+
+AnnotationAssertion(Annotation(rdfs:label "Integro-differential equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integro-differential_equations> "Интегро-дифференциальные уравнения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integro-differential_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_knowledge_bases> (Интеллектуальные базы знаний)
+
+AnnotationAssertion(Annotation(rdfs:label "Intelligent knowledge bases") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_knowledge_bases> "Интеллектуальные базы знаний")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_knowledge_bases> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_robotics_systems> (Интеллектуальные робототехнические системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Intelligent robotics systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_robotics_systems> "Интеллектуальные робототехнические системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_robotics_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#International_cooperation> (Международное сотрудничество)
+
+AnnotationAssertion(Annotation(rdfs:label "International cooperation") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#International_cooperation> "Международное сотрудничество")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#International_cooperation> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Introduction_to_analysis_and_some_special_issues_in_analysis> (Введение в анализ и некоторые специальные вопросы анализа)
+
+AnnotationAssertion(Annotation(rdfs:label "Introduction to analysis and some special issues in analysis") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Introduction_to_analysis_and_some_special_issues_in_analysis> "Введение в анализ и некоторые специальные вопросы анализа")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Introduction_to_analysis_and_some_special_issues_in_analysis> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Knowledge_engineering> (Инженерия знаний)
+
+AnnotationAssertion(Annotation(rdfs:label "Knowledge engineering") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Knowledge_engineering> "Инженерия знаний")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Knowledge_engineering> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Languages_of_representation_and_languages_of_knowledge_manipulation> (Языки представления и языки манипулирования знаниями)
+
+AnnotationAssertion(Annotation(rdfs:label "Languages of representation and languages of knowledge manipulation") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Languages_of_representation_and_languages_of_knowledge_manipulation> "Языки представления и языки манипулирования знаниями")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Languages_of_representation_and_languages_of_knowledge_manipulation> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Learning_models_and_systems> (Модели и системы обучения)
+
+AnnotationAssertion(Annotation(rdfs:label "Learning models and systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Learning_models_and_systems> "Модели и системы обучения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Learning_models_and_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Legal_issues> (Правовые вопросы)
+
+AnnotationAssertion(Annotation(rdfs:label "Legal issues") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Legal_issues> "Правовые вопросы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Legal_issues> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Lie_groups> (Группы Ли)
+
+AnnotationAssertion(Annotation(rdfs:label "Lie groups") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Lie_groups> "Группы Ли")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Lie_groups> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_algebras> (Линейная алгебра)
+
+AnnotationAssertion(Annotation(rdfs:label "Linear algebras") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_algebras> "Линейная алгебра")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_algebras> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_and_quasilinear_equations_and_systems_of_equations> (Линейные и квазилинейные уравнения и системы уравнений)
+
+AnnotationAssertion(Annotation(rdfs:label "Linear and quasilinear equations and systems of equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_and_quasilinear_equations_and_systems_of_equations> "Линейные и квазилинейные уравнения и системы уравнений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_and_quasilinear_equations_and_systems_of_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_deterministic_systems> (Линейные детерминированные системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Linear deterministic systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_deterministic_systems> "Линейные детерминированные системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_deterministic_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Automatic_control_system_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_integral_equations> (Линейные интегральные уравнения)
+
+AnnotationAssertion(Annotation(rdfs:label "Linear integral equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_integral_equations> "Линейные интегральные уравнения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_integral_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_operators_and_operator_equations> (Линейные операторы и операторные уравнения)
+
+AnnotationAssertion(Annotation(rdfs:label "Linear operators and operator equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_operators_and_operator_equations> "Линейные операторы и операторные уравнения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_operators_and_operator_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Logic_in_artificial_intelligence> (Логика в искусственном интеллекте)
+
+AnnotationAssertion(Annotation(rdfs:label "Logic in artificial intelligence") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Logic_in_artificial_intelligence> "Логика в искусственном интеллекте")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Logic_in_artificial_intelligence> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_Structures._Theory_of_models.> (Математические структуры. Теория моделей.)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical Structures. Theory of models.") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_Structures._Theory_of_models.> "Математические структуры. Теория моделей.")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_Structures._Theory_of_models.> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis> (Математический анализ)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical analysis") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis> "Математический анализ")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics> (Математическая кибернетика)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical cybernetics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics> "Математическая кибернетика")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_issues_in_semiotics> (Математические вопросы семиотики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical issues in semiotics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_issues_in_semiotics> "Математические вопросы семиотики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_issues_in_semiotics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic> (Математическая логика)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical logic") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic> "Математическая логика")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics> (Математическая логика и основания математики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical logic and foundations of mathematics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics> "Математическая логика и основания математики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_modelling> (Математическое моделирование)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical modelling") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_modelling> "Математическое моделирование")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_modelling> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models> (Математические модели)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models> "Математические модели")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_acoustics> (Математические модели акустики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of acoustics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_acoustics> "Математические модели акустики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_acoustics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_aero-_and_hydromechanics> (Математические модели аэро- и гидромеханики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of aero- and hydromechanics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_aero-_and_hydromechanics> "Математические модели аэро- и гидромеханики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_aero-_and_hydromechanics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_biology> (Математические модели биологии)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of biology") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_biology> "Математические модели биологии")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_biology> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_boundary_layer_theory> (Математические модели теории пограничного слоя)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of boundary layer theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_boundary_layer_theory> "Математические модели теории пограничного слоя")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_boundary_layer_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_convection> (Математические модели конвекции)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of convection") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_convection> "Математические модели конвекции")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_convection> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_elasticity_and_plasticity> (Математические модели упругости и пластичности)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of elasticity and plasticity") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_elasticity_and_plasticity> "Математические модели упругости и пластичности")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_elasticity_and_plasticity> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electrodynamics_of_moving_media> (Математические модели электродинамики движущихся сред)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of electrodynamics of moving media") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electrodynamics_of_moving_media> "Математические модели электродинамики движущихся сред")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electrodynamics_of_moving_media> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electromagnetic_waves_in_plasma> (Математические модели электромагнитных волн в плазме)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of electromagnetic waves in plasma") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electromagnetic_waves_in_plasma> "Математические модели электромагнитных волн в плазме")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electromagnetic_waves_in_plasma> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electronic_optics> (Математические модели электронной оптики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of electronic optics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electronic_optics> "Математические модели электронной оптики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electronic_optics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_filtration> (Математические модели фильтрации)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of filtration") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_filtration> "Математические модели фильтрации")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_filtration> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gas_dynamics> (Математические модели газовой динамики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of gas dynamics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gas_dynamics> "Математические модели газовой динамики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gas_dynamics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_geophysics_and_meteorology> (Математические модели геофизики и метеорологии)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of geophysics and meteorology") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_geophysics_and_meteorology> "Математические модели геофизики и метеорологии")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_geophysics_and_meteorology> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gravitation_and_cosmology> (Математические модели гравитации и космологии)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of gravitation and cosmology") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gravitation_and_cosmology> "Математические модели гравитации и космологии")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gravitation_and_cosmology> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_heat_conduction_and_diffusion> (Математические модели теплопроводности и диффузии)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of heat conduction and diffusion") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_heat_conduction_and_diffusion> "Математические модели теплопроводности и диффузии")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_heat_conduction_and_diffusion> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_hydrodynamics> (Математические модели гидродинамики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of hydrodynamics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_hydrodynamics> "Математические модели гидродинамики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_hydrodynamics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_laser_physics> (Математические модели лазерной физики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of laser physics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_laser_physics> "Математические модели лазерной физики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_laser_physics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_magnetohydrodynamics> (Математические модели магнитной гидродинамики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of magnetohydrodynamics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_magnetohydrodynamics> "Математические модели магнитной гидродинамики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_magnetohydrodynamics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics> (Математические модели естественных наук и технических наук. Уравнения математической физики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of natural sciences and technical sciences. Equations of mathematical physics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics> "Математические модели естественных наук и технических наук. Уравнения математической физики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_particle_and_system_mechanics> (Математические модели механики частиц и систем)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of particle and system mechanics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_particle_and_system_mechanics> "Математические модели механики частиц и систем")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_particle_and_system_mechanics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_quantum_physics> (Математические модели квантовой физики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of quantum physics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_quantum_physics> "Математические модели квантовой физики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_quantum_physics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_semiconductor_physics> (Математические модели физики полупроводников)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of semiconductor physics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_semiconductor_physics> "Математические модели физики полупроводников")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_semiconductor_physics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_statistical_physics_and_thermodynamics> (Математические модели статистической физики и термодинамики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of statistical physics and thermodynamics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_statistical_physics_and_thermodynamics> "Математические модели статистической физики и термодинамики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_statistical_physics_and_thermodynamics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_wave_motions_of_heavy_fluid> (Математические модели волновых движений тяжелой жидкости)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of wave motions of heavy fluid") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_wave_motions_of_heavy_fluid> "Математические модели волновых движений тяжелой жидкости")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_wave_motions_of_heavy_fluid> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_waveguides> (Математические модели волноводов)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of waveguides") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_waveguides> "Математические модели волноводов")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_waveguides> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_problems_of_artificial_intelligence> (Математические проблемы искусственного интеллекта)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical problems of artificial intelligence") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_problems_of_artificial_intelligence> "Математические проблемы искусственного интеллекта")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_problems_of_artificial_intelligence> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_statistics> (Математическая статистика)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical statistics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_statistics> "Математическая статистика")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_statistics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_mathematical_statistics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_tables> (Математические таблицы)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical tables") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_tables> "Математические таблицы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_tables> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theories_of_diffraction> (Математические теория дифракции)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical theories of diffraction") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theories_of_diffraction> "Математические теория дифракции")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theories_of_diffraction> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control._Optimal_control> (Математическая теория управления. Оптимальное управление)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical theory of control. Optimal control") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control._Optimal_control> "Математическая теория управления. Оптимальное управление")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control._Optimal_control> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control_systems> (Математическая теория управляющих систем)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical theory of control systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control_systems> "Математическая теория управляющих систем")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_information> (Математическая теория информации)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical theory of information") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_information> "Математическая теория информации")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_information> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_operations_research> (Методы исследования операций)
+
+AnnotationAssertion(Annotation(rdfs:label "Methods of operations research") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_operations_research> "Методы исследования операций")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_operations_research> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_reliability_assessment> (Методы оценки надежности)
+
+AnnotationAssertion(Annotation(rdfs:label "Methods of reliability assessment") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_reliability_assessment> "Методы оценки надежности")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_reliability_assessment> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Metric_function_theory> (Метрическая теория функций)
+
+AnnotationAssertion(Annotation(rdfs:label "Metric function theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Metric_function_theory> "Метрическая теория функций")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Metric_function_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_functions_of_real_variable>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_control_processes> (Моделирование процессов управления)
+
+AnnotationAssertion(Annotation(rdfs:label "Modelling control processes") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_control_processes> "Моделирование процессов управления")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_control_processes> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_logic_structures> (Моделирование логических структур)
+
+AnnotationAssertion(Annotation(rdfs:label "Modelling logic structures") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_logic_structures> "Моделирование логических структур")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_logic_structures> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_physical_processes> (Моделирование физических процессов)
+
+AnnotationAssertion(Annotation(rdfs:label "Modelling physical processes") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_physical_processes> "Моделирование физических процессов")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_physical_processes> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory> (Теория моделирования)
+
+AnnotationAssertion(Annotation(rdfs:label "Modelling theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory> "Теория моделирования")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Models_of_information_perception_in_intelligent_systems> (Модели восприятия информации в интеллектуальных системах)
+
+AnnotationAssertion(Annotation(rdfs:label "Models of information perception in intelligent systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Models_of_information_perception_in_intelligent_systems> "Модели восприятия информации в интеллектуальных системах")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Models_of_information_perception_in_intelligent_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Neural_networks> (Нейронные сети)
+
+AnnotationAssertion(Annotation(rdfs:label "Neural networks") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Neural_networks> "Нейронные сети")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Neural_networks> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_deterministic_systems> (Нелинейные детерминированные системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Nonlinear deterministic systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_deterministic_systems> "Нелинейные детерминированные системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_deterministic_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Automatic_control_system_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_equations_and_systems_of_equations> (Нелинейные уравнения и системы уравнений)
+
+AnnotationAssertion(Annotation(rdfs:label "Nonlinear equations and systems of equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_equations_and_systems_of_equations> "Нелинейные уравнения и системы уравнений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_equations_and_systems_of_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_functional_analysis> (Нелинейный функциональный анализ)
+
+AnnotationAssertion(Annotation(rdfs:label "Nonlinear functional analysis") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_functional_analysis> "Нелинейный функциональный анализ")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_functional_analysis> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_integral_equations> (Нелинейные интегральные уравнения)
+
+AnnotationAssertion(Annotation(rdfs:label "Nonlinear integral equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_integral_equations> "Нелинейные интегральные уравнения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_integral_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory> (Теория чисел)
+
+AnnotationAssertion(Annotation(rdfs:label "Number theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory> "Теория чисел")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_for_solving_differential_and_integral_equations> (Численные методы решения дифференциальных и интегральных уравнений)
+
+AnnotationAssertion(Annotation(rdfs:label "Numerical methods for solving differential and integral equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_for_solving_differential_and_integral_equations> "Численные методы решения дифференциальных и интегральных уравнений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_for_solving_differential_and_integral_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_algebra> (Численные методы алгебры)
+
+AnnotationAssertion(Annotation(rdfs:label "Numerical methods of algebra") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_algebra> "Численные методы алгебры")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_algebra> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_analysis> (Численные методы анализа)
+
+AnnotationAssertion(Annotation(rdfs:label "Numerical methods of analysis") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_analysis> "Численные методы анализа")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_analysis> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Operations_research> (Исследование операций)
+
+AnnotationAssertion(Annotation(rdfs:label "Operations research") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Operations_research> "Исследование операций")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Operations_research> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Optimal_systems> (Оптимальные системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Optimal systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Optimal_systems> "Оптимальные системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Optimal_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations> (Обыкновенные дифференциальные уравнения)
+
+AnnotationAssertion(Annotation(rdfs:label "Ordinary differential equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations> "Обыкновенные дифференциальные уравнения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Organisation_of_research_work> (Организация научно-исследовательских работ)
+
+AnnotationAssertion(Annotation(rdfs:label "Organisation of research work") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Organisation_of_research_work> "Организация научно-исследовательских работ")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Organisation_of_research_work> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations> (Дифференциальные уравнения с частными производными)
+
+AnnotationAssertion(Annotation(rdfs:label "Partial differential equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations> "Дифференциальные уравнения с частными производными")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Pattern_recognition._Image_processing.> (Распознавание образов. Обработка изображений.)
+
+AnnotationAssertion(Annotation(rdfs:label "Pattern recognition. Image processing.") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Pattern_recognition._Image_processing.> "Распознавание образов. Обработка изображений.")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Pattern_recognition._Image_processing.> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Personnel> (Кадры)
+
+AnnotationAssertion(Annotation(rdfs:label "Personnel") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Personnel> "Кадры")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Personnel> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Perturbation_theory_methods> (Методы теории возмущений)
+
+AnnotationAssertion(Annotation(rdfs:label "Perturbation theory methods") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Perturbation_theory_methods> "Методы теории возмущений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Perturbation_theory_methods> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Physical_modelling> (Физическое моделирование)
+
+AnnotationAssertion(Annotation(rdfs:label "Physical modelling") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Physical_modelling> "Физическое моделирование")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Physical_modelling> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_mathematical_statistics> (Теория вероятностей и математическая статистика)
+
+AnnotationAssertion(Annotation(rdfs:label "Probability theory and mathematical statistics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_mathematical_statistics> "Теория вероятностей и математическая статистика")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_mathematical_statistics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_random_processes> (Теория вероятностей и случайные процессы)
+
+AnnotationAssertion(Annotation(rdfs:label "Probability theory and random processes") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_random_processes> "Теория вероятностей и случайные процессы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_random_processes> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_mathematical_statistics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programme_and_target_planning> (Программно-целевое планирование)
+
+AnnotationAssertion(Annotation(rdfs:label "Programme and target planning") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programme_and_target_planning> "Программно-целевое планирование")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programme_and_target_planning> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programmed_learning> (Программированное обучение)
+
+AnnotationAssertion(Annotation(rdfs:label "Programmed learning") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programmed_learning> "Программированное обучение")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programmed_learning> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Proof_theory> (Теория доказательств)
+
+AnnotationAssertion(Annotation(rdfs:label "Proof theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Proof_theory> "Теория доказательств")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Proof_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Qualitative_theory_of_ordinary_differential_equations_and_systems_of_equations> (Качественная теория обыкновенных дифференциальных уравнений и систем уравнений)
+
+AnnotationAssertion(Annotation(rdfs:label "Qualitative theory of ordinary differential equations and systems of equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Qualitative_theory_of_ordinary_differential_equations_and_systems_of_equations> "Качественная теория обыкновенных дифференциальных уравнений и систем уравнений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Qualitative_theory_of_ordinary_differential_equations_and_systems_of_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Quantitative_characteristics> (Количественные характеристики)
+
+AnnotationAssertion(Annotation(rdfs:label "Quantitative characteristics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Quantitative_characteristics> "Количественные характеристики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Quantitative_characteristics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_of_ergatic_systems> (Надежность эргатических систем)
+
+AnnotationAssertion(Annotation(rdfs:label "Reliability of ergatic systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_of_ergatic_systems> "Надежность эргатических систем")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_of_ergatic_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_optimisation> (Оптимизация надежности)
+
+AnnotationAssertion(Annotation(rdfs:label "Reliability optimisation") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_optimisation> "Оптимизация надежности")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_optimisation> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory> (Теория надежности)
+
+AnnotationAssertion(Annotation(rdfs:label "Reliability theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory> "Теория надежности")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Rings_and_modules> (Кольца и модули)
+
+AnnotationAssertion(Annotation(rdfs:label "Rings and modules") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Rings_and_modules> "Кольца и модули")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Rings_and_modules> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Self-organising_systems> (Самоорганизующиеся системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Self-organising systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Self-organising_systems> "Самоорганизующиеся системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Self-organising_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Semigroups> (Полугруппы)
+
+AnnotationAssertion(Annotation(rdfs:label "Semigroups") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Semigroups> "Полугруппы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Semigroups> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Series_and_sequences> (Ряды и последовательности)
+
+AnnotationAssertion(Annotation(rdfs:label "Series and sequences") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Series_and_sequences> "Ряды и последовательности")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Series_and_sequences> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Set_theory> (Теория множеств)
+
+AnnotationAssertion(Annotation(rdfs:label "Set theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Set_theory> "Теория множеств")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Set_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Signalling_theory> (Теория сигналов)
+
+AnnotationAssertion(Annotation(rdfs:label "Signalling theory") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Signalling_theory> "Теория сигналов")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Signalling_theory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Software_implementation_of_intelligent_systems> (Программная реализация интеллектуальных систем)
+
+AnnotationAssertion(Annotation(rdfs:label "Software implementation of intelligent systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Software_implementation_of_intelligent_systems> "Программная реализация интеллектуальных систем")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Software_implementation_of_intelligent_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Soliton_solutions_of_evolution_equations> (Солитонные решения эволюционных уравнений)
+
+AnnotationAssertion(Annotation(rdfs:label "Soliton solutions of evolution equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Soliton_solutions_of_evolution_equations> "Солитонные решения эволюционных уравнений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Soliton_solutions_of_evolution_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Solving_mathematical_problems_using_modelling_systems> (Решение математических задач при помощи моделирующих систем)
+
+AnnotationAssertion(Annotation(rdfs:label "Solving mathematical problems using modelling systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Solving_mathematical_problems_using_modelling_systems> "Решение математических задач при помощи моделирующих систем")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Solving_mathematical_problems_using_modelling_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Special_functions> (Специальные функции)
+
+AnnotationAssertion(Annotation(rdfs:label "Special functions") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Special_functions> "Специальные функции")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Special_functions> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Spectral_theory_of_linear_operators> (Спектральная теория линейных операторов)
+
+AnnotationAssertion(Annotation(rdfs:label "Spectral theory of linear operators") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Spectral_theory_of_linear_operators> "Спектральная теория линейных операторов")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Spectral_theory_of_linear_operators> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structural-functional_redundancy> (Структурно-функциональная избыточность)
+
+AnnotationAssertion(Annotation(rdfs:label "Structural-functional redundancy") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structural-functional_redundancy> "Структурно-функциональная избыточность")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structural-functional_redundancy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures> (Структуры)
+
+AnnotationAssertion(Annotation(rdfs:label "Structures") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures> "Структуры")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures_of_data_transmission_systems> (Структуры систем передачи данных)
+
+AnnotationAssertion(Annotation(rdfs:label "Structures of data transmission systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures_of_data_transmission_systems> "Структуры систем передачи данных")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures_of_data_transmission_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis> (Системный анализ)
+
+AnnotationAssertion(Annotation(rdfs:label "System analysis") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis> "Системный анализ")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_identification> (Идентификация систем)
+
+AnnotationAssertion(Annotation(rdfs:label "System identification") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_identification> "Идентификация систем")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_identification> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Tasks_of_streamline> (Задачи обтекания)
+
+AnnotationAssertion(Annotation(rdfs:label "Tasks of streamline") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Tasks_of_streamline> "Задачи обтекания")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Tasks_of_streamline> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Teaching> (Преподавание)
+
+AnnotationAssertion(Annotation(rdfs:label "Teaching") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Teaching> "Преподавание")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Teaching> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Technical_applications_of_probabilistic-statistical_methods> (Технические приложения вероятностно-статистических методов)
+
+AnnotationAssertion(Annotation(rdfs:label "Technical applications of probabilistic-statistical methods") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Technical_applications_of_probabilistic-statistical_methods> "Технические приложения вероятностно-статистических методов")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Technical_applications_of_probabilistic-statistical_methods> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Terminology._Reference._Educational_literature> (Терминология. Справочная литература. Учебная литература)
+
+AnnotationAssertion(Annotation(rdfs:label "Terminology. Reference. Educational literature") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Terminology._Reference._Educational_literature> "Терминология. Справочная литература. Учебная литература")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Terminology._Reference._Educational_literature> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_complex_variables> (Теория функций комплексных переменных)
+
+AnnotationAssertion(Annotation(rdfs:label "Theory of complex variables") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_complex_variables> "Теория функций комплексных переменных")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_complex_variables> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems> (Теория кибернетических систем управления)
+
+AnnotationAssertion(Annotation(rdfs:label "Theory of cybernetic control systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems> "Теория кибернетических систем управления")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_experiment_planning> (Теория планирования эксперимента)
+
+AnnotationAssertion(Annotation(rdfs:label "Theory of experiment planning") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_experiment_planning> "Теория планирования эксперимента")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_experiment_planning> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_functions_of_real_variable> (Теория функций действительного переменного)
+
+AnnotationAssertion(Annotation(rdfs:label "Theory of functions of real variable") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_functions_of_real_variable> "Теория функций действительного переменного")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_functions_of_real_variable> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_mass_service_and_its_applications> (Теория массового обслуживания и ее приложения)
+
+AnnotationAssertion(Annotation(rdfs:label "Theory of mass service and its applications") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_mass_service_and_its_applications> "Теория массового обслуживания и ее приложения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_mass_service_and_its_applications> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topological_algebras_and_the_theory_of_infinite-dimensional_representations> (Топологические алгебры и теория бесконечномерных представлений)
+
+AnnotationAssertion(Annotation(rdfs:label "Topological algebras and the theory of infinite-dimensional representations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topological_algebras_and_the_theory_of_infinite-dimensional_representations> "Топологические алгебры и теория бесконечномерных представлений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topological_algebras_and_the_theory_of_infinite-dimensional_representations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology> (Топология)
+
+AnnotationAssertion(Annotation(rdfs:label "Topology") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology> "Топология")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology_of_manifolds> (Топология многообразий)
+
+AnnotationAssertion(Annotation(rdfs:label "Topology of manifolds") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology_of_manifolds> "Топология многообразий")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology_of_manifolds> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Transfer_equations> (Уравнения переноса)
+
+AnnotationAssertion(Annotation(rdfs:label "Transfer equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Transfer_equations> "Уравнения переноса")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Transfer_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Universal_algebras> (Универсальные алгебры)
+
+AnnotationAssertion(Annotation(rdfs:label "Universal algebra") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Universal_algebras> "Универсальные алгебры")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Universal_algebras> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Utility_theory_and_decision_making> (Теория полезности и принятия решений)
+
+AnnotationAssertion(Annotation(rdfs:label "Utility theory and decision making") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Utility_theory_and_decision_making> "Теория полезности и принятия решений")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Utility_theory_and_decision_making> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalMaterials_27_01_05> (Материалы общего характера)
+
+AnnotationAssertion(Annotation(rdfs:label "General information") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalMaterials_27_01_05> "Материалы общего характера")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalMaterials_27_01_05> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01> (Общие вопросы математики)
+
+AnnotationAssertion(Annotation(rdfs:label "General questions of mathematics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01> "Общие вопросы математики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidanceMaterials_27_01_01> (Руководящие материалы)
+
+AnnotationAssertion(Annotation(rdfs:label "Guidance Notes") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidanceMaterials_27_01_01> "Руководящие материалы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidanceMaterials_27_01_01> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#historyOfMathematics_27_01_09> (История математики. Персоналия.)
+
+AnnotationAssertion(Annotation(rdfs:label "A history of mathematics. Personalia") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#historyOfMathematics_27_01_09> "История математики. Персоналия.")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#historyOfMathematics_27_01_09> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#informationActivities_27_01_29> (Информационная деятельность)
+
+AnnotationAssertion(Annotation(rdfs:label "Information activities") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#informationActivities_27_01_29> "Информационная деятельность")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#informationActivities_27_01_29> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internationalCooperation_27_01_17> (Международное сотрудничество)
+
+AnnotationAssertion(Annotation(rdfs:label "International cooperation") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internationalCooperation_27_01_17> "Международное сотрудничество")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internationalCooperation_27_01_17> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematicsEducation_27_01_45> (Преподавание математики)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematics teaching") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematicsEducation_27_01_45> "Преподавание математики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematicsEducation_27_01_45> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27> (Математика)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27> "Математика")
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnelInMathematics_27_01_79> (Кадры в математике)
+
+AnnotationAssertion(Annotation(rdfs:label "Personnel in maths") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnelInMathematics_27_01_79> "Кадры в математике")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnelInMathematics_27_01_79> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#researchAndDevelopmentActivities_27_01_21> (Организация научно-исследовательских работ)
+
+AnnotationAssertion(Annotation(rdfs:comment "Research organisation") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#researchAndDevelopmentActivities_27_01_21> "Организация научно-исследовательских работ")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#researchAndDevelopmentActivities_27_01_21> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientificSocieties_27_01_13> (Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары)
+
+AnnotationAssertion(Annotation(rdfs:label "Learned societies, conventions, congresses, conferences, symposiums,  seminars") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientificSocieties_27_01_13> "Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientificSocieties_27_01_13> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#terminology_27_01_33> (Терминология. Справочная литература. Учебная литература.)
+
+AnnotationAssertion(Annotation(rdfs:label "Terminology. Reference. Educational literature") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#terminology_27_01_33> "Терминология. Справочная литература. Учебная литература.")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#terminology_27_01_33> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_number_theory_(algebraic_number_fields)> (Алгебраическая теория чисел (поля алгебраических чисел))
+
+AnnotationAssertion(Annotation(rdfs:label "Algebraic number theory (algebraic number fields)") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_number_theory_(algebraic_number_fields)> "Алгебраическая теория чисел (поля алгебраических чисел)")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_number_theory_(algebraic_number_fields)> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_mechanics_equations,_mathematical_theory_of_motion_control> (Уравнения аналитической механики, математическая теория управления движением)
+
+AnnotationAssertion(Annotation(rdfs:label "Analytical mechanics equations, mathematical theory of motion control") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_mechanics_equations,_mathematical_theory_of_motion_control> "Уравнения аналитической механики, математическая теория управления движением")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_mechanics_equations,_mathematical_theory_of_motion_control> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Economics,_organisation,_management,_planning_and_forecasting> (Экономика, организация, управление, планирование и прогнозирование)
+
+AnnotationAssertion(Annotation(rdfs:label "Economics, organisation, management, planning and forecasting") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Economics,_organisation,_management,_planning_and_forecasting> "Экономика, организация, управление, планирование и прогнозирование")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Economics,_organisation,_management,_planning_and_forecasting> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Formalisation_of_traditional_mathematical_theories_(arithmetic,_analysis,_etc.)> (Формализация традиционных математических теорий (арифметики, анализа и др.))
+
+AnnotationAssertion(Annotation(rdfs:label "Formalisation of traditional mathematical theories (arithmetic, analysis, etc.)") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Formalisation_of_traditional_mathematical_theories_(arithmetic,_analysis,_etc.)> "Формализация традиционных математических теорий (арифметики, анализа и др.)")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Formalisation_of_traditional_mathematical_theories_(arithmetic,_analysis,_etc.)> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_spaces_equipped_with_topology,_order_and_other_structures> (Линейные пространства, снабженные топологией, порядком и другими структурами)
+
+AnnotationAssertion(Annotation(rdfs:label "Linear spaces equipped with topology, order and other structures") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_spaces_equipped_with_topology,_order_and_other_structures> "Линейные пространства, снабженные топологией, порядком и другими структурами")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_spaces_equipped_with_topology,_order_and_other_structures> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Machine,_graphical_and_other_methods_of_computational_mathematics> (Машинные, графические и другие методы вычислительной математики)
+
+AnnotationAssertion(Annotation(rdfs:label "Machine, graphical and other methods of computational mathematics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Machine,_graphical_and_other_methods_of_computational_mathematics> "Машинные, графические и другие методы вычислительной математики")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Machine,_graphical_and_other_methods_of_computational_mathematics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_plasma_physics,_kinetic_equations> (Математические модели физики плазмы, кинетические уравнения)
+
+AnnotationAssertion(Annotation(rdfs:label "Mathematical models of plasma physics, kinetic equations") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_plasma_physics,_kinetic_equations> "Математические модели физики плазмы, кинетические уравнения")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_plasma_physics,_kinetic_equations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Measure_theory,_representations_of_Boolean_algebras,_dynamical_systems> (Теория меры, представления булевых алгебр, динамические системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Measure theory, representations of Boolean algebras, dynamical systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Measure_theory,_representations_of_Boolean_algebras,_dynamical_systems> "Теория меры, представления булевых алгебр, динамические системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Measure_theory,_representations_of_Boolean_algebras,_dynamical_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Scientific_and_technical_societies,_meetings,_congresses,_conferences,_symposiums,_seminars,_exhibitions> (Научные и технические общества, съезды, конгрессы, конференции,симпозиумы, семинары, выставки)
+
+AnnotationAssertion(Annotation(rdfs:label "Scientific and technical societies, meetings, congresses, conferences, symposiums, seminars, exhibitions") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Scientific_and_technical_societies,_meetings,_congresses,_conferences,_symposiums,_seminars,_exhibitions> "Научные и технические общества, съезды, конгрессы, конференции,симпозиумы, семинары, выставки")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Scientific_and_technical_societies,_meetings,_congresses,_conferences,_symposiums,_seminars,_exhibitions> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Stochastic_automatic_control_systems,_tracking_systems> (Стохастические системы автоматического управления, следящие системы)
+
+AnnotationAssertion(Annotation(rdfs:label "Stochastic automatic control systems, tracking systems") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Stochastic_automatic_control_systems,_tracking_systems> "Стохастические системы автоматического управления, следящие системы")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Stochastic_automatic_control_systems,_tracking_systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Automatic_control_system_theory>)
+
+
+)
