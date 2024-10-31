@@ -1,0 +1,10 @@
+
+[submodule "programs/owl2wiki"]
+	path = programs/owl2wiki
+	url = https://github.com/andrecastro0o/ontology2smw.git
+[submodule "programs/RDF-to-SemanticWiki"]
+	path = programs/RDF-to-SemanticWiki
+	url = https://github.com/MfN-Berlin/RDF-to-SemanticWiki.git
+[submodule "programs/ontology2smw"]
+	path = programs/ontology2smw
+	url = https://github.com/andrecastro0o/ontology2smw.git
