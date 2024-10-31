@@ -212,18 +212,107 @@ Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Transfer_equations>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Universal_algebras>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Utility_theory_and_decision_making>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#active-formations-on-the-solar>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#applications-of-quantum-theory-in-astrophysics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-instruments>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-observations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-observatories-astroclimate>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-optics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics-of-cosmic-rays>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#atmospheres-chromospheres-coronas-near-stellar-envelopes-the-problem-of-mass-loss-of-stars-stellar-wind>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#characteristics-of-the-solar-as-a-whole>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#comets>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cosmological-models>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#current-state-and-prospects-of-development>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cyclicity-of-solar-activity>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#double-and-multiple-stars>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#elementary-particles-and-fields-in-astrophysics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#expeditions>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fixed-stars>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fundamental-astrometry>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#galaxies-quasars>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-materials>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrometry>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrophysics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-nebulae-and-interstellar-medium-studies>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-research>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-system-research>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-research>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-systems-research>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-the-observatory>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-theoretical-astronomy>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalMaterials_27_01_05>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#gravitational-stability>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#groups-and-clusters-of-galaxies>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidance-materials>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidanceMaterials_27_01_01>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#history-of-astronomy>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#historyOfMathematics_27_01_09>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#information-activity>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#informationActivities_27_01_29>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-observational-optical-astrophysics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-radio-astronomy>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-for-solar-research>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internal-structure-and-evolution-of-stars>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#international-cooperation>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internationalCooperation_27_01_17>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interplanetary-medium>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interstellar-medium>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#kinematics-and-dynamics-of-stellar-systems>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematicsEducation_27_01_45>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#measurement-of-time-in-astronomy>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#meteorites>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#methods-of-statistical-physics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#moon>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#near-solar-space-and-dynamical-processes>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae-interstellar-medium>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#new-cosmological-theories-and-hypotheses>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observational-cosmology>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#organization-of-scientific-research>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#origin-of-elements>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#other-problems-of-theoretical-astrophysics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnel>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnelInMathematics_27_01_79>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#philosophical-issues-and-methodology>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physical-variable-stars>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physics-of-the-universe>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#planets-and-their-satellites>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-application-of-celestial-mechanics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-astronomy>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#processing-of-observations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#radiation-receivers-and-receiving-apparatus-radiation>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#relativistic-astrophysics>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#rerminology>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#researchAndDevelopmentActivities_27_01_21>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientific-societies>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientificSocieties_27_01_13>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#spherical-astronomy>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#star-shaped-radiation-sources>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars-statistical-studies>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-clusters-and-associations>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-evolution-of-the-galaxy>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-origin-of-the-solar-system>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#teaching-astronomy>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#terminology_27_01_33>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#the-solar-earth-problem>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theoretical-astronomy>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-absorption-and-radiation>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-figures>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-motion-of-solar-system-bodies>))
+Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#tranquil-solar>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_number_theory_(algebraic_number_fields)>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_mechanics_equations,_mathematical_theory_of_motion_control>))
 Declaration(Class(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Economics,_organisation,_management,_planning_and_forecasting>))
@@ -1259,6 +1348,170 @@ SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowle
 AnnotationAssertion(Annotation(rdfs:label "Utility theory and decision making") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Utility_theory_and_decision_making> "Теория полезности и принятия решений")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Utility_theory_and_decision_making> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis>)
 
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#active-formations-on-the-solar> (Активные образования на Солнце)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#active-formations-on-the-solar> "Активные образования на Солнце"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#active-formations-on-the-solar> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#applications-of-quantum-theory-in-astrophysics> (Приложение квантовой теории в астрофизике. Ядерные и атомно-молекулярные процессы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#applications-of-quantum-theory-in-astrophysics> "Приложение квантовой теории в астрофизике. Ядерные и атомно-молекулярные процессы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#applications-of-quantum-theory-in-astrophysics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-instruments> (Астрометрические инструменты. Приборы для измерения времени)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-instruments> "Астрометрические инструменты. Приборы для измерения времени"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-instruments> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-observations> (Астрометрические наблюдения)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-observations> "Астрометрические наблюдения"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-observations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry> (Астрометрия)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry> "Астрометрия"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-observatories-astroclimate> (Астрономические обсерватории. Астроклимат)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-observatories-astroclimate> "Астрономические обсерватории. Астроклимат"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-observatories-astroclimate> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-optics> (Астрономическая оптика. Телескопы оптического диапазона)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-optics> "Астрономическая оптика. Телескопы оптического диапазона"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-optics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy> (Астрономия)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy> "Астрономия"@ru)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics> (Астрофизика)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics> "Астрофизика"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics-of-cosmic-rays> (Астрофизика космических лучей)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics-of-cosmic-rays> "Астрофизика космических лучей"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics-of-cosmic-rays> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae-interstellar-medium>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#atmospheres-chromospheres-coronas-near-stellar-envelopes-the-problem-of-mass-loss-of-stars-stellar-wind> (Атмосферы, хромосферы. Короны. Околозвездные оболочки. Проблема потери массы звездами. Звездный ветер)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#atmospheres-chromospheres-coronas-near-stellar-envelopes-the-problem-of-mass-loss-of-stars-stellar-wind> "Атмосферы, хромосферы. Короны. Околозвездные оболочки. Проблема потери массы звездами. Звездный ветер"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#atmospheres-chromospheres-coronas-near-stellar-envelopes-the-problem-of-mass-loss-of-stars-stellar-wind> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#characteristics-of-the-solar-as-a-whole> (Характеристики Солнца в целом)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#characteristics-of-the-solar-as-a-whole> "Характеристики Солнца в целом"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#characteristics-of-the-solar-as-a-whole> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#comets> (Кометы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#comets> "Кометы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#comets> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cosmological-models> (Космологические модели)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cosmological-models> "Космологические модели"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cosmological-models> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#current-state-and-prospects-of-development> (Современное состояние и перспективы развития)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#current-state-and-prospects-of-development> "Современное состояние и перспективы развития"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#current-state-and-prospects-of-development> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cyclicity-of-solar-activity> (Цикличность солнечной активности. Служба Солнца)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cyclicity-of-solar-activity> "Цикличность солнечной активности. Служба Солнца"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cyclicity-of-solar-activity> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#double-and-multiple-stars> (Двойные и кратные звезды)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#double-and-multiple-stars> "Двойные и кратные звезды"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#double-and-multiple-stars> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#elementary-particles-and-fields-in-astrophysics> (Элементарные частицы и поля в астрофизике)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#elementary-particles-and-fields-in-astrophysics> "Элементарные частицы и поля в астрофизике"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#elementary-particles-and-fields-in-astrophysics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#expeditions> (Экспедиции, связанные с проведением астрономических наблюдений)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#expeditions> "Экспедиции, связанные с проведением астрономических наблюдений"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#expeditions> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fixed-stars> (Стационарные звезды)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fixed-stars> "Стационарные звезды"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fixed-stars> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fundamental-astrometry> (Фундаментальная астрометрия. Каталоги)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fundamental-astrometry> "Фундаментальная астрометрия. Каталоги"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fundamental-astrometry> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#galaxies-quasars> (Галактики. Квазары)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#galaxies-quasars> "Галактики. Квазары"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#galaxies-quasars> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions> (Общие вопросы астрономии)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions> "Общие вопросы астрономии"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-materials> (Материалы общего характера)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-materials> "Материалы общего характера"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-materials> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrometry> (Общие проблемы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrometry> "Общие проблемы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrometry> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrophysics> (Общие проблемы Астрофизика)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrophysics> "Общие проблемы Астрофизика"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrophysics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-nebulae-and-interstellar-medium-studies> (Общие проблемы исследований туманностей и межзвездной среды)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-nebulae-and-interstellar-medium-studies> "Общие проблемы исследований туманностей и межзвездной среды"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-nebulae-and-interstellar-medium-studies> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae-interstellar-medium>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-research> (Общие проблемы исследований Солнца)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-research> "Общие проблемы исследований Солнца"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-research> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-system-research> (Общие проблемы исследований Солнечной системы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-system-research> "Общие проблемы исследований Солнечной системы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-system-research> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-research> (Общие проблемы исследований звезд)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-research> "Общие проблемы исследований звезд"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-research> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-systems-research> (Общие проблемы исследований звездных систем)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-systems-research> "Общие проблемы исследований звездных систем"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-systems-research> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-the-observatory> (Общие проблемы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-the-observatory> "Общие проблемы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-the-observatory> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-theoretical-astronomy> (Общие проблемы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-theoretical-astronomy> "Общие проблемы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-theoretical-astronomy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theoretical-astronomy>)
+
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalMaterials_27_01_05> (Материалы общего характера)
 
 AnnotationAssertion(Annotation(rdfs:label "General information") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalMaterials_27_01_05> "Материалы общего характера")
@@ -1269,25 +1522,90 @@ SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowle
 AnnotationAssertion(Annotation(rdfs:label "General questions of mathematics") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01> "Общие вопросы математики")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27>)
 
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#gravitational-stability> (Гравитационная устойчивость. Космологические аспекты теории образования галактик)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#gravitational-stability> "Гравитационная устойчивость. Космологические аспекты теории образования галактик"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#gravitational-stability> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#groups-and-clusters-of-galaxies> (Группы и скопления галактик. Сверхскопления галактик. Метагалактика)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#groups-and-clusters-of-galaxies> "Группы и скопления галактик. Сверхскопления галактик. Метагалактика"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#groups-and-clusters-of-galaxies> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidance-materials> (Руководящие материалы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidance-materials> "Руководящие материалы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidance-materials> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidanceMaterials_27_01_01> (Руководящие материалы)
 
 AnnotationAssertion(Annotation(rdfs:label "Guidance Notes") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidanceMaterials_27_01_01> "Руководящие материалы")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidanceMaterials_27_01_01> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#history-of-astronomy> (История астрономии. Персоналия)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#history-of-astronomy> "История астрономии. Персоналия"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#history-of-astronomy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
 
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#historyOfMathematics_27_01_09> (История математики. Персоналия.)
 
 AnnotationAssertion(Annotation(rdfs:label "A history of mathematics. Personalia") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#historyOfMathematics_27_01_09> "История математики. Персоналия.")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#historyOfMathematics_27_01_09> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
 
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#information-activity> (Информационная деятельность)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#information-activity> "Информационная деятельность"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#information-activity> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#informationActivities_27_01_29> (Информационная деятельность)
 
 AnnotationAssertion(Annotation(rdfs:label "Information activities") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#informationActivities_27_01_29> "Информационная деятельность")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#informationActivities_27_01_29> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
 
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-observational-optical-astrophysics> (Приборы и методы наблюдательной оптической астрофизики)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-observational-optical-astrophysics> "Приборы и методы наблюдательной оптической астрофизики"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-observational-optical-astrophysics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-radio-astronomy> (Приборы и методы радиоастрономии)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-radio-astronomy> "Приборы и методы радиоастрономии"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-radio-astronomy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-for-solar-research> (Инструменты для исследования Солнца)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-for-solar-research> "Инструменты для исследования Солнца")
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-for-solar-research> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internal-structure-and-evolution-of-stars> (Внутреннее строение и эволюция звезд)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internal-structure-and-evolution-of-stars> "Внутреннее строение и эволюция звезд"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internal-structure-and-evolution-of-stars> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#international-cooperation> (Международное сотрудничество, деятельность международных организаций)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#international-cooperation> "Международное сотрудничество, деятельность международных организаций"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#international-cooperation> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internationalCooperation_27_01_17> (Международное сотрудничество)
 
 AnnotationAssertion(Annotation(rdfs:label "International cooperation") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internationalCooperation_27_01_17> "Международное сотрудничество")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internationalCooperation_27_01_17> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interplanetary-medium> (Метеоры. Зодиакальный свет. Межпланетная среда)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interplanetary-medium> "Метеоры. Зодиакальный свет. Межпланетная среда"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interplanetary-medium> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interstellar-medium> (Межзвездная среда)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interstellar-medium> "Межзвездная среда"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interstellar-medium> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae-interstellar-medium>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#kinematics-and-dynamics-of-stellar-systems> (Кинематика и динамика звездных систем)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#kinematics-and-dynamics-of-stellar-systems> "Кинематика и динамика звездных систем"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#kinematics-and-dynamics-of-stellar-systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems>)
 
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematicsEducation_27_01_45> (Преподавание математики)
 
@@ -1298,25 +1616,240 @@ SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowle
 
 AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27> "Математика")
 
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#measurement-of-time-in-astronomy> (Вращение Земли. Измерение времени в астрономии. Движение земных полюсов)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#measurement-of-time-in-astronomy> "Вращение Земли. Измерение времени в астрономии. Движение земных полюсов"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#measurement-of-time-in-astronomy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#meteorites> (Метеориты)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#meteorites> "Метеориты"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#meteorites> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#methods-of-statistical-physics> (Методы статистической физики. Космическая электродинамика, газо- и магнитогидродинамика)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#methods-of-statistical-physics> "Методы статистической физики. Космическая электродинамика, газо- и магнитогидродинамика"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#methods-of-statistical-physics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#moon> (Луна. Лунные затмения)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#moon> "Луна. Лунные затмения"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#moon> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#near-solar-space-and-dynamical-processes> (Околосолнечное космическое пространство и динамические процессы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#near-solar-space-and-dynamical-processes> "Околосолнечное космическое пространство и динамические процессы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#near-solar-space-and-dynamical-processes> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae> (Туманности)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae> "Туманности"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae-interstellar-medium>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae-interstellar-medium> (Туманности. Межзвездная среда)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae-interstellar-medium> "Туманности. Межзвездная среда"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae-interstellar-medium> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#new-cosmological-theories-and-hypotheses> (Новые космологические теории и гипотезы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#new-cosmological-theories-and-hypotheses> "Новые космологические теории и гипотезы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#new-cosmological-theories-and-hypotheses> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observational-cosmology> (Наблюдательная космология)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observational-cosmology> "Наблюдательная космология"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observational-cosmology> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations> (Обсерватории. Инструменты, приборы и методы астрономических наблюдений)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations> "Обсерватории. Инструменты, приборы и методы астрономических наблюдений"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#organization-of-scientific-research> (Организация научно-исследовательских работ. Деятельность учреждений)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#organization-of-scientific-research> "Организация научно-исследовательских работ. Деятельность учреждений"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#organization-of-scientific-research> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#origin-of-elements> (Происхождение элементов)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#origin-of-elements> "Происхождение элементов"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#origin-of-elements> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#other-problems-of-theoretical-astrophysics> (Прочие проблемы теоретической астрофизики)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#other-problems-of-theoretical-astrophysics> "Прочие проблемы теоретической астрофизики"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#other-problems-of-theoretical-astrophysics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnel> (Кадры)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnel> "Кадры"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnel> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnelInMathematics_27_01_79> (Кадры в математике)
 
 AnnotationAssertion(Annotation(rdfs:label "Personnel in maths") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnelInMathematics_27_01_79> "Кадры в математике")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnelInMathematics_27_01_79> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#philosophical-issues-and-methodology> (Философские вопросы и методология)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#philosophical-issues-and-methodology> "Философские вопросы и методология"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#philosophical-issues-and-methodology> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physical-variable-stars> (Физические переменные звезды)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physical-variable-stars> "Физические переменные звезды"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physical-variable-stars> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physics-of-the-universe> (Физика Вселенной)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physics-of-the-universe> "Физика Вселенной"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physics-of-the-universe> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#planets-and-their-satellites> (Планеты и их спутники)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#planets-and-their-satellites> "Планеты и их спутники"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#planets-and-their-satellites> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-application-of-celestial-mechanics> (Практическое приложение небесной механики. Эфемериды. Ежегодники. Вспомогательные таблицы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-application-of-celestial-mechanics> "Практическое приложение небесной механики. Эфемериды. Ежегодники. Вспомогательные таблицы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-application-of-celestial-mechanics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theoretical-astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-astronomy> (Практическая астрономия)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-astronomy> "Практическая астрономия"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-astronomy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#processing-of-observations> (Обработка наблюдений. Применение вычислительной техники в астрономии)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#processing-of-observations> "Обработка наблюдений. Применение вычислительной техники в астрономии"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#processing-of-observations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#radiation-receivers-and-receiving-apparatus-radiation> (Приемники излучения и приемная аппаратура инфракрасного, ультрафиолетового, рентгеновского, гамма-излучения, гравитации-онных волн и других специальных видов излучения)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#radiation-receivers-and-receiving-apparatus-radiation> "Приемники излучения и приемная аппаратура инфракрасного, ультрафиолетового, рентгеновского, гамма-излучения, гравитации-онных волн и других специальных видов излучения"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#radiation-receivers-and-receiving-apparatus-radiation> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#relativistic-astrophysics> (Релятивистская астрофизика. Приложения общей теории относительности в астрономии)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#relativistic-astrophysics> "Релятивистская астрофизика. Приложения общей теории относительности в астрономии"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#relativistic-astrophysics> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#rerminology> (Терминология. Справочная литература. Учебная литература)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#rerminology> "Терминология. Справочная литература. Учебная литература"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#rerminology> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
 
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#researchAndDevelopmentActivities_27_01_21> (Организация научно-исследовательских работ)
 
 AnnotationAssertion(Annotation(rdfs:comment "Research organisation") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#researchAndDevelopmentActivities_27_01_21> "Организация научно-исследовательских работ")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#researchAndDevelopmentActivities_27_01_21> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
 
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientific-societies> (Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары, выставки)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientific-societies> "Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары, выставки"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientific-societies> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientificSocieties_27_01_13> (Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары)
 
 AnnotationAssertion(Annotation(rdfs:label "Learned societies, conventions, congresses, conferences, symposiums,  seminars") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientificSocieties_27_01_13> "Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientificSocieties_27_01_13> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
 
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar> (Солнце)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar> "Солнце"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system> (Солнечная система)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system> "Солнечная система"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science> (Космология)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science> "Космология"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#spherical-astronomy> (Сферическая астрономия. Астрономические постоянные)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#spherical-astronomy> "Сферическая астрономия. Астрономические постоянные"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#spherical-astronomy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#star-shaped-radiation-sources> (Звездообразные источники излучения)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#star-shaped-radiation-sources> "Звездообразные источники излучения"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#star-shaped-radiation-sources> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars> (Звезды)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars> "Звезды"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars-statistical-studies> (Статистические исследования, диаграммы, зависимости звездных характеристик. Наблюдаемые параметры и характеристики звезд)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars-statistical-studies> "Статистические исследования, диаграммы, зависимости звездных характеристик. Наблюдаемые параметры и характеристики звезд"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars-statistical-studies> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-clusters-and-associations> (Звездные скопления и ассоциации)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-clusters-and-associations> "Звездные скопления и ассоциации"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-clusters-and-associations> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems> (Звездные системы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems> "Звездные системы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-evolution-of-the-galaxy> (Строение и эволюция Галактики)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-evolution-of-the-galaxy> "Строение и эволюция Галактики"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-evolution-of-the-galaxy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-origin-of-the-solar-system> (Строение и происхождение Солнечной системы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-origin-of-the-solar-system> "Строение и происхождение Солнечной системы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-origin-of-the-solar-system> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#teaching-astronomy> (Преподавание астрономии)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#teaching-astronomy> "Преподавание астрономии"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#teaching-astronomy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions>)
+
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#terminology_27_01_33> (Терминология. Справочная литература. Учебная литература.)
 
 AnnotationAssertion(Annotation(rdfs:label "Terminology. Reference. Educational literature") rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#terminology_27_01_33> "Терминология. Справочная литература. Учебная литература.")
 SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#terminology_27_01_33> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#the-solar-earth-problem> (Проблема Солнце-Земля)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#the-solar-earth-problem> "Проблема Солнце-Земля"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#the-solar-earth-problem> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theoretical-astronomy> (Теоретическая астрономия. Небесная механика)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theoretical-astronomy> "Теоретическая астрономия. Небесная механика"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theoretical-astronomy> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-absorption-and-radiation> (Теория поглощения и излучения. Перенос излучения)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-absorption-and-radiation> "Теория поглощения и излучения. Перенос излучения"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-absorption-and-radiation> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-figures> (Теория фигур, вращения и притяжения естественных небесных тел)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-figures> "Теория фигур, вращения и притяжения естественных небесных тел"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-figures> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theoretical-astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-motion-of-solar-system-bodies> (Теория движения тел Солнечной системы)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-motion-of-solar-system-bodies> "Теория движения тел Солнечной системы"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-motion-of-solar-system-bodies> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theoretical-astronomy>)
+
+# Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#tranquil-solar> (Спокойное Солнце)
+
+AnnotationAssertion(rdfs:label <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#tranquil-solar> "Спокойное Солнце"@ru)
+SubClassOf(<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#tranquil-solar> <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar>)
 
 # Class: <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_number_theory_(algebraic_number_fields)> (Алгебраическая теория чисел (поля алгебраических чисел))
 
