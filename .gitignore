@@ -2,3 +2,4 @@
 .vscode
 onto2wiki-pyclient/.venv
 **/__*__
+**/.env
