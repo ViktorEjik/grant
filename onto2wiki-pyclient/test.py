@@ -74,3 +74,5 @@ import Onto2WikiClient
 # R = S.post(URL, data=PARAMS_2, headers=heads)
 # print(R.request.url, R.status_code, R.text, R.request.headers, sep='\n')
 testSess = Onto2WikiClient.Onto2WikiClient()
+testSess.login()
+testSess.daa_new_page({"title": "Test", "text": "Test"})

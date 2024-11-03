@@ -1,0 +1,2350 @@
+@prefix : <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#> .
+
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#A_history_of_cybernetics._Personalities
+:A_history_of_cybernetics._Personalities rdf:type owl:Class ;
+                                         rdfs:subClassOf :General_cybernetics_issues ;
+                                         rdfs:label "История кибернетики. Персоналия" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Abstract_machines
+:Abstract_machines rdf:type owl:Class ;
+                   rdfs:subClassOf :Finite_automata_theory_and_formal_language ;
+                   rdfs:label "Абстрактные машины" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Adaptive_and_learning_systems
+:Adaptive_and_learning_systems rdf:type owl:Class ;
+                               rdfs:subClassOf :Theory_of_cybernetic_control_systems ;
+                               rdfs:label "Адаптивные и обучающие системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Additive_number_theory._Forms
+:Additive_number_theory._Forms rdf:type owl:Class ;
+                               rdfs:subClassOf :Number_theory ;
+                               rdfs:label "Аддитивная теория чисел. Формы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebra
+:Algebra rdf:type owl:Class ;
+         rdfs:subClassOf :mathematics_27 ;
+         rdfs:label "Алгебра" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_and_analytical_methods_in_geometry
+:Algebraic_and_analytical_methods_in_geometry rdf:type owl:Class ;
+                                              rdfs:subClassOf :Geometry ;
+                                              rdfs:label "Алгебраические и аналитические методы в геометрии" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_geometry
+:Algebraic_geometry rdf:type owl:Class ;
+                    rdfs:subClassOf :Algebra ;
+                    rdfs:label "Алгебраическая геометрия" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_topology
+:Algebraic_topology rdf:type owl:Class ;
+                    rdfs:subClassOf :Topology ;
+                    rdfs:label "Алгебраическая топология" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algorithms_for_solving_problems_of_computational_and_discrete_mathematics
+:Algorithms_for_solving_problems_of_computational_and_discrete_mathematics rdf:type owl:Class ;
+                                                                           rdfs:subClassOf :Computational_mathematics ;
+                                                                           rdfs:label "Алгоритмы решения задач вычислительной и дискретной математики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analysis_and_synthesis_of_finite_automats
+:Analysis_and_synthesis_of_finite_automats rdf:type owl:Class ;
+                                           rdfs:subClassOf :Finite_automata_theory_and_formal_language ;
+                                           rdfs:label "Анализ и синтез конечных автоматов" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_number_theory
+:Analytical_number_theory rdf:type owl:Class ;
+                          rdfs:subClassOf :Number_theory ;
+                          rdfs:label "Аналитическая теория чисел" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_space
+:Analytical_space rdf:type owl:Class ;
+                  rdfs:subClassOf :Topology ;
+                  rdfs:label "Аналитические пространства" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_theory_of_ordinary_differential_equations_and_systems_of_equations
+:Analytical_theory_of_ordinary_differential_equations_and_systems_of_equations rdf:type owl:Class ;
+                                                                               rdfs:subClassOf :Ordinary_differential_equations ;
+                                                                               rdfs:label "Аналитическая теория обыкновенных дифференциальных уравнений и систем уравнений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Application_of_probability-theoretic_and_statistical_methods
+:Application_of_probability-theoretic_and_statistical_methods rdf:type owl:Class ;
+                                                              rdfs:subClassOf :Probability_theory_and_mathematical_statistics ;
+                                                              rdfs:label "Применение теоретико-вероятностных и статистических методов" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximate_methods_of_functional_analysis
+:Approximate_methods_of_functional_analysis rdf:type owl:Class ;
+                                            rdfs:subClassOf :Functional_analysis ;
+                                            rdfs:label "Приближенные методы функционального анализа" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Approximation_theory
+:Approximation_theory rdf:type owl:Class ;
+                      rdfs:subClassOf :Theory_of_functions_of_real_variable ;
+                      rdfs:label "Теория приближений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Artificial_intelligence
+:Artificial_intelligence rdf:type owl:Class ;
+                         rdfs:subClassOf :Cybernetics ;
+                         rdfs:label "Искусственный интеллект" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Asymptotic_methods_in_the_theory_of_ordinary_differential_equations_and_systems_of_equations
+:Asymptotic_methods_in_the_theory_of_ordinary_differential_equations_and_systems_of_equations rdf:type owl:Class ;
+                                                                                              rdfs:subClassOf :Ordinary_differential_equations ;
+                                                                                              rdfs:label "Асимптотические методы в теории обыкновенных дифференциальных уравнений и систем уравнений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Automatic_control_system_theory
+:Automatic_control_system_theory rdf:type owl:Class ;
+                                 rdfs:subClassOf :Cybernetics ;
+                                 rdfs:label "Теория систем автоматического управления" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems._General_theory
+:Boundary_value_problems._General_theory rdf:type owl:Class ;
+                                         rdfs:subClassOf :Partial_differential_equations ;
+                                         rdfs:label "Краевые задачи. Общая теория" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Boundary_value_problems_and_eigenvalue_problems_for_ordinary_differential_equations_and_systems_of_equations
+:Boundary_value_problems_and_eigenvalue_problems_for_ordinary_differential_equations_and_systems_of_equations rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf :Ordinary_differential_equations ;
+                                                                                                              rdfs:label "Краевые задачи и задачи на собственные значения для обыкновенных дифференциальных уравнений и систем уравнений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations
+:Calculus_of_variations rdf:type owl:Class ;
+                        rdfs:subClassOf :Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation ;
+                        rdfs:label "Вариационное исчисление" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation
+:Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation rdf:type owl:Class ;
+                                                                        rdfs:subClassOf :mathematics_27 ;
+                                                                        rdfs:label "Вариационное исчисление и математическая теория оптимального уравнения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Categories
+:Categories rdf:type owl:Class ;
+            rdfs:subClassOf :Algebra ;
+            rdfs:label "Категории" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cauchy_problem
+:Cauchy_problem rdf:type owl:Class ;
+                rdfs:subClassOf :Partial_differential_equations ;
+                rdfs:label "Задача Коши" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Coding_theory
+:Coding_theory rdf:type owl:Class ;
+               rdfs:subClassOf :Information_theory ;
+               rdfs:label "Теория кодирования" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cognitive_psychology_models
+:Cognitive_psychology_models rdf:type owl:Class ;
+                             rdfs:subClassOf :Artificial_intelligence ;
+                             rdfs:label "Модели когнитивной психологии" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Combinatorial_analysis._Graph_theory
+:Combinatorial_analysis._Graph_theory rdf:type owl:Class ;
+                                      rdfs:subClassOf :mathematics_27 ;
+                                      rdfs:label "Комбинаторный анализ. Теория графов" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computability_theory
+:Computability_theory rdf:type owl:Class ;
+                      rdfs:subClassOf :Mathematical_logic_and_foundations_of_mathematics ;
+                      rdfs:label "Теория вычислимости" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computational_mathematics
+:Computational_mathematics rdf:type owl:Class ;
+                           rdfs:subClassOf :mathematics_27 ;
+                           rdfs:label "Вычислительная математика" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Computer_modelling_of_reality._Virtual_reality
+:Computer_modelling_of_reality._Virtual_reality rdf:type owl:Class ;
+                                                rdfs:subClassOf :Modelling_theory ;
+                                                rdfs:label "Компьютерное моделирование реальности. Виртуальная реальность" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Conformal_mapping_and_geometric_issues_in_the_theory_of_functions_of_complex_variables._Analytic_functions_and_their_generalisations
+:Conformal_mapping_and_geometric_issues_in_the_theory_of_functions_of_complex_variables._Analytic_functions_and_their_generalisations rdf:type owl:Class ;
+                                                                                                                                      rdfs:subClassOf :Theory_of_complex_variables ;
+                                                                                                                                      rdfs:label "Конформное отображение и геометрические вопросы теории функций комплексных переменных. Аналитические функции и их обобщения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetic_aspects_of_structural-logic_theory_of_algorithms_and_programming
+:Cybernetic_aspects_of_structural-logic_theory_of_algorithms_and_programming rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Finite_automata_theory_and_formal_language ;
+                                                                             rdfs:label "Кибернетические аспекты структурно-логической теории алгоритмов и программирования" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Cybernetics
+:Cybernetics rdf:type owl:Class ;
+             rdfs:label "Кибернетика" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Decision_formation_in_an_intelligent_environment._Reasoning_models
+:Decision_formation_in_an_intelligent_environment._Reasoning_models rdf:type owl:Class ;
+                                                                    rdfs:subClassOf :Artificial_intelligence ;
+                                                                    rdfs:label "Формирование решений в интеллектуальной среде. Модели рассуждений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Descriptive_function_theory
+:Descriptive_function_theory rdf:type owl:Class ;
+                             rdfs:subClassOf :Theory_of_functions_of_real_variable ;
+                             rdfs:label "Дескриптивная теория функций" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential-functional_and_discrete_equations_and_systems_of_equations_with_one_independent_variable
+:Differential-functional_and_discrete_equations_and_systems_of_equations_with_one_independent_variable rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf :Ordinary_differential_equations ;
+                                                                                                       rdfs:label "Дифференциально-функциональные и дискретные уравнения и системы уравнений с одной независимой переменной" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_and_integral_calculus
+:Differential_and_integral_calculus rdf:type owl:Class ;
+                                    rdfs:subClassOf :Mathematical_analysis ;
+                                    rdfs:label "Дифференциальное и интегральное исчисление" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_games
+:Differential_games rdf:type owl:Class ;
+                    rdfs:subClassOf :Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation ;
+                    rdfs:label "Дифференциальные игры" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Differential_geometry
+:Differential_geometry rdf:type owl:Class ;
+                       rdfs:subClassOf :Geometry ;
+                       rdfs:label "Дифференциальная геометрия" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Diophantine_equations
+:Diophantine_equations rdf:type owl:Class ;
+                       rdfs:subClassOf :Number_theory ;
+                       rdfs:label "Диофантовы уравнения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Discourse_models
+:Discourse_models rdf:type owl:Class ;
+                  rdfs:subClassOf :Artificial_intelligence ;
+                  rdfs:label "Модели дискурса" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_arithmetic
+:Elementary_arithmetic rdf:type owl:Class ;
+                       rdfs:subClassOf :Number_theory ;
+                       rdfs:label "Элементарная арифметика" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Elementary_number_theory
+:Elementary_number_theory rdf:type owl:Class ;
+                          rdfs:subClassOf :Number_theory ;
+                          rdfs:label "Элементарная теория чисел" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ergatic_systems
+:Ergatic_systems rdf:type owl:Class ;
+                 rdfs:subClassOf :System_analysis ;
+                 rdfs:label "Эргатические системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Expert_systems
+:Expert_systems rdf:type owl:Class ;
+                rdfs:subClassOf :Artificial_intelligence ;
+                rdfs:label "Экспертные системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Extremal_systems
+:Extremal_systems rdf:type owl:Class ;
+                  rdfs:subClassOf :Theory_of_cybernetic_control_systems ;
+                  rdfs:label "Экстремальные системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Fields_and_polynomials
+:Fields_and_polynomials rdf:type owl:Class ;
+                        rdfs:subClassOf :Algebra ;
+                        rdfs:label "Поля и многочлены" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Finite_automata_theory_and_formal_language
+:Finite_automata_theory_and_formal_language rdf:type owl:Class ;
+                                            rdfs:subClassOf :Cybernetics ;
+                                            rdfs:label "Теория конечных автоматов и формальных языков" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_analysis
+:Functional_analysis rdf:type owl:Class ;
+                     rdfs:subClassOf :mathematics_27 ;
+                     rdfs:label "Функциональный анализ" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functional_equations_and_finite-difference_theory
+:Functional_equations_and_finite-difference_theory rdf:type owl:Class ;
+                                                   rdfs:subClassOf :Mathematical_analysis ;
+                                                   rdfs:label "Функциональные уравнения и теория конечных разностей" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_many_complex_variables
+:Functions_of_many_complex_variables rdf:type owl:Class ;
+                                     rdfs:subClassOf :Theory_of_complex_variables ;
+                                     rdfs:label "Функции многих комплексных переменных" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Functions_of_one_complex_variable
+:Functions_of_one_complex_variable rdf:type owl:Class ;
+                                   rdfs:subClassOf :Theory_of_complex_variables ;
+                                   rdfs:label "Функции одного комплексного переменного" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Game_theory_and_its_application_to_cybernetic_systems
+:Game_theory_and_its_application_to_cybernetic_systems rdf:type owl:Class ;
+                                                       rdfs:subClassOf :System_analysis ;
+                                                       rdfs:label "Теория игр и ее применение в кибернетических системах" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_cybernetics_issues
+:General_cybernetics_issues rdf:type owl:Class ;
+                            rdfs:subClassOf :Cybernetics ;
+                            rdfs:label "Общие вопросы кибернетики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_first_order_equations
+:General_first_order_equations rdf:type owl:Class ;
+                               rdfs:subClassOf :Partial_differential_equations ;
+                               rdfs:label "Общие уравнения первого порядка" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_higher_order_equations
+:General_higher_order_equations rdf:type owl:Class ;
+                                rdfs:subClassOf :Partial_differential_equations ;
+                                rdfs:label "Общие уравнения высших порядков" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_issues_of_artificial_intelligence
+:General_issues_of_artificial_intelligence rdf:type owl:Class ;
+                                           rdfs:subClassOf :Artificial_intelligence ;
+                                           rdfs:label "Общие вопросы искусственного интеллекта" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_material
+:General_material rdf:type owl:Class ;
+                  rdfs:subClassOf :General_cybernetics_issues ;
+                  rdfs:label "Материалы общего характера" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_artificial_intelligence
+:General_problems_of_artificial_intelligence rdf:type owl:Class ;
+                                             rdfs:subClassOf :Artificial_intelligence ;
+                                             rdfs:label "Общие проблемы искусственного интеллекта" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_problems_of_mathematical_logic_and_foundations_of_mathematics
+:General_problems_of_mathematical_logic_and_foundations_of_mathematics rdf:type owl:Class ;
+                                                                       rdfs:subClassOf :Mathematical_logic_and_foundations_of_mathematics ;
+                                                                       rdfs:label "Общие проблемы математической логики и основания математики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_questions
+:General_questions rdf:type owl:Class ;
+                   rdfs:subClassOf :System_analysis ;
+                   rdfs:label "Общие вопросы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_combinatorial_analysis
+:General_theory_of_combinatorial_analysis rdf:type owl:Class ;
+                                          rdfs:subClassOf :Combinatorial_analysis._Graph_theory ;
+                                          rdfs:label "Общая теория комбинаторного анализа" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_differential_equations_and_systems_of_equations_with_partial_derivatives
+:General_theory_of_differential_equations_and_systems_of_equations_with_partial_derivatives rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf :Partial_differential_equations ;
+                                                                                            rdfs:label "Общая теория дифференциальных уравнений и систем уравнений с частными производными" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_theory_of_ordinary_differential_equations_and_systems_of_equations
+:General_theory_of_ordinary_differential_equations_and_systems_of_equations rdf:type owl:Class ;
+                                                                            rdfs:subClassOf :Ordinary_differential_equations ;
+                                                                            rdfs:label "Общая теория обыкновенных дифференциальных уравнений и систем уравнений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#General_topology
+:General_topology rdf:type owl:Class ;
+                  rdfs:subClassOf :Topology ;
+                  rdfs:label "Общая топология" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Generalised_functions
+:Generalised_functions rdf:type owl:Class ;
+                       rdfs:subClassOf :Functional_analysis ;
+                       rdfs:label "Обобщенные функции" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometric_study_of_objects_of_natural_sciences_and_engineering
+:Geometric_study_of_objects_of_natural_sciences_and_engineering rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Geometry ;
+                                                                rdfs:label "Геометрическое исследование объектов естественных наук и техники" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry
+:Geometry rdf:type owl:Class ;
+          rdfs:subClassOf :mathematics_27 ;
+          rdfs:label "Геометрия" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_in_spaces_with_fundamental_groups
+:Geometry_in_spaces_with_fundamental_groups rdf:type owl:Class ;
+                                            rdfs:subClassOf :Geometry ;
+                                            rdfs:label "Геометрия в пространствах с фундаментальными группами" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Geometry_of_numbers
+:Geometry_of_numbers rdf:type owl:Class ;
+                     rdfs:subClassOf :Number_theory ;
+                     rdfs:label "Геометрия чисел" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Graph_theory
+:Graph_theory rdf:type owl:Class ;
+              rdfs:subClassOf :Combinatorial_analysis._Graph_theory ;
+              rdfs:label "Теория графов" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Groups
+:Groups rdf:type owl:Class ;
+        rdfs:subClassOf :Algebra ;
+        rdfs:label "Группы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Guidance_materials
+:Guidance_materials rdf:type owl:Class ;
+                    rdfs:subClassOf :General_cybernetics_issues ;
+                    rdfs:label "Руководящие материалы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Hardware_implementation_of_intelligent_systems
+:Hardware_implementation_of_intelligent_systems rdf:type owl:Class ;
+                                                rdfs:subClassOf :Artificial_intelligence ;
+                                                rdfs:label "Аппаратная реализация интеллектуальных систем" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Harmonic_functions_and_their_generalisations
+:Harmonic_functions_and_their_generalisations rdf:type owl:Class ;
+                                              rdfs:subClassOf :Theory_of_complex_variables ;
+                                              rdfs:label "Гармонические функции и их обобщения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Heuristic_methods
+:Heuristic_methods rdf:type owl:Class ;
+                   rdfs:subClassOf :Artificial_intelligence ;
+                   rdfs:label "Эвристические методы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Homological_algebra
+:Homological_algebra rdf:type owl:Class ;
+                     rdfs:subClassOf :Algebra ;
+                     rdfs:label "Гомологическая алгебра" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_activities
+:Information_activities rdf:type owl:Class ;
+                        rdfs:subClassOf :General_cybernetics_issues ;
+                        rdfs:label "Информационная деятельность" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Information_theory
+:Information_theory rdf:type owl:Class ;
+                    rdfs:subClassOf :Cybernetics ;
+                    rdfs:label "Теория информации" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_equations
+:Integral_equations rdf:type owl:Class ;
+                    rdfs:subClassOf :mathematics_27 ;
+                    rdfs:label "Интегральные уравнения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integral_transformations._Operational_calculus
+:Integral_transformations._Operational_calculus rdf:type owl:Class ;
+                                                rdfs:subClassOf :Mathematical_analysis ;
+                                                rdfs:label "Интегральные преобразования. Операционное исчисление" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Integro-differential_equations
+:Integro-differential_equations rdf:type owl:Class ;
+                                rdfs:subClassOf :Integral_equations ;
+                                rdfs:label "Интегро-дифференциальные уравнения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_knowledge_bases
+:Intelligent_knowledge_bases rdf:type owl:Class ;
+                             rdfs:subClassOf :Artificial_intelligence ;
+                             rdfs:label "Интеллектуальные базы знаний" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Intelligent_robotics_systems
+:Intelligent_robotics_systems rdf:type owl:Class ;
+                              rdfs:subClassOf :Artificial_intelligence ;
+                              rdfs:label "Интеллектуальные робототехнические системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#International_cooperation
+:International_cooperation rdf:type owl:Class ;
+                           rdfs:subClassOf :General_cybernetics_issues ;
+                           rdfs:label "Международное сотрудничество" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Introduction_to_analysis_and_some_special_issues_in_analysis
+:Introduction_to_analysis_and_some_special_issues_in_analysis rdf:type owl:Class ;
+                                                              rdfs:subClassOf :Mathematical_analysis ;
+                                                              rdfs:label "Введение в анализ и некоторые специальные вопросы анализа" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Knowledge_engineering
+:Knowledge_engineering rdf:type owl:Class ;
+                       rdfs:subClassOf :Artificial_intelligence ;
+                       rdfs:label "Инженерия знаний" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Languages_of_representation_and_languages_of_knowledge_manipulation
+:Languages_of_representation_and_languages_of_knowledge_manipulation rdf:type owl:Class ;
+                                                                     rdfs:subClassOf :Artificial_intelligence ;
+                                                                     rdfs:label "Языки представления и языки манипулирования знаниями" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Learning_models_and_systems
+:Learning_models_and_systems rdf:type owl:Class ;
+                             rdfs:subClassOf :Artificial_intelligence ;
+                             rdfs:label "Модели и системы обучения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Legal_issues
+:Legal_issues rdf:type owl:Class ;
+              rdfs:subClassOf :General_cybernetics_issues ;
+              rdfs:label "Правовые вопросы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Lie_groups
+:Lie_groups rdf:type owl:Class ;
+            rdfs:subClassOf :Algebra ;
+            rdfs:label "Группы Ли" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_algebras
+:Linear_algebras rdf:type owl:Class ;
+                 rdfs:subClassOf :Algebra ;
+                 rdfs:label "Линейная алгебра" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_and_quasilinear_equations_and_systems_of_equations
+:Linear_and_quasilinear_equations_and_systems_of_equations rdf:type owl:Class ;
+                                                           rdfs:subClassOf :Partial_differential_equations ;
+                                                           rdfs:label "Линейные и квазилинейные уравнения и системы уравнений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_deterministic_systems
+:Linear_deterministic_systems rdf:type owl:Class ;
+                              rdfs:subClassOf :Automatic_control_system_theory ;
+                              rdfs:label "Линейные детерминированные системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_integral_equations
+:Linear_integral_equations rdf:type owl:Class ;
+                           rdfs:subClassOf :Integral_equations ;
+                           rdfs:label "Линейные интегральные уравнения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_operators_and_operator_equations
+:Linear_operators_and_operator_equations rdf:type owl:Class ;
+                                         rdfs:subClassOf :Functional_analysis ;
+                                         rdfs:label "Линейные операторы и операторные уравнения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Logic_in_artificial_intelligence
+:Logic_in_artificial_intelligence rdf:type owl:Class ;
+                                  rdfs:subClassOf :Artificial_intelligence ;
+                                  rdfs:label "Логика в искусственном интеллекте" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_Structures._Theory_of_models.
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_Structures._Theory_of_models.> rdf:type owl:Class ;
+                                                                                                                     rdfs:subClassOf :Mathematical_logic_and_foundations_of_mathematics ;
+                                                                                                                     rdfs:label "Математические структуры. Теория моделей." .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_analysis
+:Mathematical_analysis rdf:type owl:Class ;
+                       rdfs:subClassOf :mathematics_27 ;
+                       rdfs:label "Математический анализ" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_cybernetics
+:Mathematical_cybernetics rdf:type owl:Class ;
+                          rdfs:subClassOf :mathematics_27 ;
+                          rdfs:label "Математическая кибернетика" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_issues_in_semiotics
+:Mathematical_issues_in_semiotics rdf:type owl:Class ;
+                                  rdfs:subClassOf :Mathematical_cybernetics ;
+                                  rdfs:label "Математические вопросы семиотики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic
+:Mathematical_logic rdf:type owl:Class ;
+                    rdfs:subClassOf :Mathematical_logic_and_foundations_of_mathematics ;
+                    rdfs:label "Математическая логика" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_logic_and_foundations_of_mathematics
+:Mathematical_logic_and_foundations_of_mathematics rdf:type owl:Class ;
+                                                   rdfs:subClassOf :mathematics_27 ;
+                                                   rdfs:label "Математическая логика и основания математики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_modelling
+:Mathematical_modelling rdf:type owl:Class ;
+                        rdfs:subClassOf :Modelling_theory ;
+                        rdfs:label "Математическое моделирование" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models
+:Mathematical_models rdf:type owl:Class ;
+                     rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                     rdfs:label "Математические модели" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_acoustics
+:Mathematical_models_of_acoustics rdf:type owl:Class ;
+                                  rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                  rdfs:label "Математические модели акустики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_aero-_and_hydromechanics
+:Mathematical_models_of_aero-_and_hydromechanics rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                 rdfs:label "Математические модели аэро- и гидромеханики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_biology
+:Mathematical_models_of_biology rdf:type owl:Class ;
+                                rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                rdfs:label "Математические модели биологии" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_boundary_layer_theory
+:Mathematical_models_of_boundary_layer_theory rdf:type owl:Class ;
+                                              rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                              rdfs:label "Математические модели теории пограничного слоя" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_convection
+:Mathematical_models_of_convection rdf:type owl:Class ;
+                                   rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                   rdfs:label "Математические модели конвекции" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_elasticity_and_plasticity
+:Mathematical_models_of_elasticity_and_plasticity rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                  rdfs:label "Математические модели упругости и пластичности" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electrodynamics_of_moving_media
+:Mathematical_models_of_electrodynamics_of_moving_media rdf:type owl:Class ;
+                                                        rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                        rdfs:label "Математические модели электродинамики движущихся сред" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electromagnetic_waves_in_plasma
+:Mathematical_models_of_electromagnetic_waves_in_plasma rdf:type owl:Class ;
+                                                        rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                        rdfs:label "Математические модели электромагнитных волн в плазме" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_electronic_optics
+:Mathematical_models_of_electronic_optics rdf:type owl:Class ;
+                                          rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                          rdfs:label "Математические модели электронной оптики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_filtration
+:Mathematical_models_of_filtration rdf:type owl:Class ;
+                                   rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                   rdfs:label "Математические модели фильтрации" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gas_dynamics
+:Mathematical_models_of_gas_dynamics rdf:type owl:Class ;
+                                     rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                     rdfs:label "Математические модели газовой динамики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_geophysics_and_meteorology
+:Mathematical_models_of_geophysics_and_meteorology rdf:type owl:Class ;
+                                                   rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                   rdfs:label "Математические модели геофизики и метеорологии" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_gravitation_and_cosmology
+:Mathematical_models_of_gravitation_and_cosmology rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                  rdfs:label "Математические модели гравитации и космологии" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_heat_conduction_and_diffusion
+:Mathematical_models_of_heat_conduction_and_diffusion rdf:type owl:Class ;
+                                                      rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                      rdfs:label "Математические модели теплопроводности и диффузии" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_hydrodynamics
+:Mathematical_models_of_hydrodynamics rdf:type owl:Class ;
+                                      rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                      rdfs:label "Математические модели гидродинамики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_laser_physics
+:Mathematical_models_of_laser_physics rdf:type owl:Class ;
+                                      rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                      rdfs:label "Математические модели лазерной физики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_magnetohydrodynamics
+:Mathematical_models_of_magnetohydrodynamics rdf:type owl:Class ;
+                                             rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                             rdfs:label "Математические модели магнитной гидродинамики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics
+:Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf :mathematics_27 ;
+                                                                                                   rdfs:label "Математические модели естественных наук и технических наук. Уравнения математической физики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_particle_and_system_mechanics
+:Mathematical_models_of_particle_and_system_mechanics rdf:type owl:Class ;
+                                                      rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                      rdfs:label "Математические модели механики частиц и систем" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_quantum_physics
+:Mathematical_models_of_quantum_physics rdf:type owl:Class ;
+                                        rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                        rdfs:label "Математические модели квантовой физики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_semiconductor_physics
+:Mathematical_models_of_semiconductor_physics rdf:type owl:Class ;
+                                              rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                              rdfs:label "Математические модели физики полупроводников" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_statistical_physics_and_thermodynamics
+:Mathematical_models_of_statistical_physics_and_thermodynamics rdf:type owl:Class ;
+                                                               rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                               rdfs:label "Математические модели статистической физики и термодинамики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_wave_motions_of_heavy_fluid
+:Mathematical_models_of_wave_motions_of_heavy_fluid rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                    rdfs:label "Математические модели волновых движений тяжелой жидкости" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_waveguides
+:Mathematical_models_of_waveguides rdf:type owl:Class ;
+                                   rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                   rdfs:label "Математические модели волноводов" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_problems_of_artificial_intelligence
+:Mathematical_problems_of_artificial_intelligence rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Mathematical_cybernetics ;
+                                                  rdfs:label "Математические проблемы искусственного интеллекта" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_statistics
+:Mathematical_statistics rdf:type owl:Class ;
+                         rdfs:subClassOf :Probability_theory_and_mathematical_statistics ;
+                         rdfs:label "Математическая статистика" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_tables
+:Mathematical_tables rdf:type owl:Class ;
+                     rdfs:subClassOf :Computational_mathematics ;
+                     rdfs:label "Математические таблицы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theories_of_diffraction
+:Mathematical_theories_of_diffraction rdf:type owl:Class ;
+                                      rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                      rdfs:label "Математические теория дифракции" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control._Optimal_control
+:Mathematical_theory_of_control._Optimal_control rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Calculus_of_variations_and_mathematical_theory_of_the_optimal_equation ;
+                                                 rdfs:label "Математическая теория управления. Оптимальное управление" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_control_systems
+:Mathematical_theory_of_control_systems rdf:type owl:Class ;
+                                        rdfs:subClassOf :Mathematical_cybernetics ;
+                                        rdfs:label "Математическая теория управляющих систем" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_theory_of_information
+:Mathematical_theory_of_information rdf:type owl:Class ;
+                                    rdfs:subClassOf :Mathematical_cybernetics ;
+                                    rdfs:label "Математическая теория информации" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_operations_research
+:Methods_of_operations_research rdf:type owl:Class ;
+                                rdfs:subClassOf :System_analysis ;
+                                rdfs:label "Методы исследования операций" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Methods_of_reliability_assessment
+:Methods_of_reliability_assessment rdf:type owl:Class ;
+                                   rdfs:subClassOf :Reliability_theory ;
+                                   rdfs:label "Методы оценки надежности" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Metric_function_theory
+:Metric_function_theory rdf:type owl:Class ;
+                        rdfs:subClassOf :Theory_of_functions_of_real_variable ;
+                        rdfs:label "Метрическая теория функций" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_control_processes
+:Modelling_control_processes rdf:type owl:Class ;
+                             rdfs:subClassOf :Modelling_theory ;
+                             rdfs:label "Моделирование процессов управления" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_logic_structures
+:Modelling_logic_structures rdf:type owl:Class ;
+                            rdfs:subClassOf :Modelling_theory ;
+                            rdfs:label "Моделирование логических структур" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_physical_processes
+:Modelling_physical_processes rdf:type owl:Class ;
+                              rdfs:subClassOf :Modelling_theory ;
+                              rdfs:label "Моделирование физических процессов" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Modelling_theory
+:Modelling_theory rdf:type owl:Class ;
+                  rdfs:subClassOf :Cybernetics ;
+                  rdfs:label "Теория моделирования" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Models_of_information_perception_in_intelligent_systems
+:Models_of_information_perception_in_intelligent_systems rdf:type owl:Class ;
+                                                         rdfs:subClassOf :Artificial_intelligence ;
+                                                         rdfs:label "Модели восприятия информации в интеллектуальных системах" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Neural_networks
+:Neural_networks rdf:type owl:Class ;
+                 rdfs:subClassOf :Artificial_intelligence ;
+                 rdfs:label "Нейронные сети" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_deterministic_systems
+:Nonlinear_deterministic_systems rdf:type owl:Class ;
+                                 rdfs:subClassOf :Automatic_control_system_theory ;
+                                 rdfs:label "Нелинейные детерминированные системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_equations_and_systems_of_equations
+:Nonlinear_equations_and_systems_of_equations rdf:type owl:Class ;
+                                              rdfs:subClassOf :Partial_differential_equations ;
+                                              rdfs:label "Нелинейные уравнения и системы уравнений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_functional_analysis
+:Nonlinear_functional_analysis rdf:type owl:Class ;
+                               rdfs:subClassOf :Functional_analysis ;
+                               rdfs:label "Нелинейный функциональный анализ" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Nonlinear_integral_equations
+:Nonlinear_integral_equations rdf:type owl:Class ;
+                              rdfs:subClassOf :Integral_equations ;
+                              rdfs:label "Нелинейные интегральные уравнения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Number_theory
+:Number_theory rdf:type owl:Class ;
+               rdfs:subClassOf :mathematics_27 ;
+               rdfs:label "Теория чисел" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_for_solving_differential_and_integral_equations
+:Numerical_methods_for_solving_differential_and_integral_equations rdf:type owl:Class ;
+                                                                   rdfs:subClassOf :Computational_mathematics ;
+                                                                   rdfs:label "Численные методы решения дифференциальных и интегральных уравнений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_algebra
+:Numerical_methods_of_algebra rdf:type owl:Class ;
+                              rdfs:subClassOf :Computational_mathematics ;
+                              rdfs:label "Численные методы алгебры" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Numerical_methods_of_analysis
+:Numerical_methods_of_analysis rdf:type owl:Class ;
+                               rdfs:subClassOf :Computational_mathematics ;
+                               rdfs:label "Численные методы анализа" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Operations_research
+:Operations_research rdf:type owl:Class ;
+                     rdfs:subClassOf :Mathematical_cybernetics ;
+                     rdfs:label "Исследование операций" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Optimal_systems
+:Optimal_systems rdf:type owl:Class ;
+                 rdfs:subClassOf :Theory_of_cybernetic_control_systems ;
+                 rdfs:label "Оптимальные системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Ordinary_differential_equations
+:Ordinary_differential_equations rdf:type owl:Class ;
+                                 rdfs:subClassOf :mathematics_27 ;
+                                 rdfs:label "Обыкновенные дифференциальные уравнения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Organisation_of_research_work
+:Organisation_of_research_work rdf:type owl:Class ;
+                               rdfs:subClassOf :General_cybernetics_issues ;
+                               rdfs:label "Организация научно-исследовательских работ" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Partial_differential_equations
+:Partial_differential_equations rdf:type owl:Class ;
+                                rdfs:subClassOf :mathematics_27 ;
+                                rdfs:label "Дифференциальные уравнения с частными производными" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Pattern_recognition._Image_processing.
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Pattern_recognition._Image_processing.> rdf:type owl:Class ;
+                                                                                                                 rdfs:subClassOf :Artificial_intelligence ;
+                                                                                                                 rdfs:label "Распознавание образов. Обработка изображений." .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Personnel
+:Personnel rdf:type owl:Class ;
+           rdfs:subClassOf :General_cybernetics_issues ;
+           rdfs:label "Кадры" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Perturbation_theory_methods
+:Perturbation_theory_methods rdf:type owl:Class ;
+                             rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                             rdfs:label "Методы теории возмущений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Physical_modelling
+:Physical_modelling rdf:type owl:Class ;
+                    rdfs:subClassOf :Modelling_theory ;
+                    rdfs:label "Физическое моделирование" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_mathematical_statistics
+:Probability_theory_and_mathematical_statistics rdf:type owl:Class ;
+                                                rdfs:subClassOf :mathematics_27 ;
+                                                rdfs:label "Теория вероятностей и математическая статистика" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Probability_theory_and_random_processes
+:Probability_theory_and_random_processes rdf:type owl:Class ;
+                                         rdfs:subClassOf :Probability_theory_and_mathematical_statistics ;
+                                         rdfs:label "Теория вероятностей и случайные процессы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programme_and_target_planning
+:Programme_and_target_planning rdf:type owl:Class ;
+                               rdfs:subClassOf :System_analysis ;
+                               rdfs:label "Программно-целевое планирование" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Programmed_learning
+:Programmed_learning rdf:type owl:Class ;
+                     rdfs:subClassOf :System_analysis ;
+                     rdfs:label "Программированное обучение" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Proof_theory
+:Proof_theory rdf:type owl:Class ;
+              rdfs:subClassOf :Mathematical_logic_and_foundations_of_mathematics ;
+              rdfs:label "Теория доказательств" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Qualitative_theory_of_ordinary_differential_equations_and_systems_of_equations
+:Qualitative_theory_of_ordinary_differential_equations_and_systems_of_equations rdf:type owl:Class ;
+                                                                                rdfs:subClassOf :Ordinary_differential_equations ;
+                                                                                rdfs:label "Качественная теория обыкновенных дифференциальных уравнений и систем уравнений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Quantitative_characteristics
+:Quantitative_characteristics rdf:type owl:Class ;
+                              rdfs:subClassOf :Reliability_theory ;
+                              rdfs:label "Количественные характеристики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_of_ergatic_systems
+:Reliability_of_ergatic_systems rdf:type owl:Class ;
+                                rdfs:subClassOf :Reliability_theory ;
+                                rdfs:label "Надежность эргатических систем" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_optimisation
+:Reliability_optimisation rdf:type owl:Class ;
+                          rdfs:subClassOf :Reliability_theory ;
+                          rdfs:label "Оптимизация надежности" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Reliability_theory
+:Reliability_theory rdf:type owl:Class ;
+                    rdfs:subClassOf :Cybernetics ;
+                    rdfs:label "Теория надежности" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Rings_and_modules
+:Rings_and_modules rdf:type owl:Class ;
+                   rdfs:subClassOf :Algebra ;
+                   rdfs:label "Кольца и модули" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Self-organising_systems
+:Self-organising_systems rdf:type owl:Class ;
+                         rdfs:subClassOf :Theory_of_cybernetic_control_systems ;
+                         rdfs:label "Самоорганизующиеся системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Semigroups
+:Semigroups rdf:type owl:Class ;
+            rdfs:subClassOf :Algebra ;
+            rdfs:label "Полугруппы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Series_and_sequences
+:Series_and_sequences rdf:type owl:Class ;
+                      rdfs:subClassOf :Mathematical_analysis ;
+                      rdfs:label "Ряды и последовательности" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Set_theory
+:Set_theory rdf:type owl:Class ;
+            rdfs:subClassOf :Mathematical_logic_and_foundations_of_mathematics ;
+            rdfs:label "Теория множеств" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Signalling_theory
+:Signalling_theory rdf:type owl:Class ;
+                   rdfs:subClassOf :Information_theory ;
+                   rdfs:label "Теория сигналов" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Software_implementation_of_intelligent_systems
+:Software_implementation_of_intelligent_systems rdf:type owl:Class ;
+                                                rdfs:subClassOf :Artificial_intelligence ;
+                                                rdfs:label "Программная реализация интеллектуальных систем" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Soliton_solutions_of_evolution_equations
+:Soliton_solutions_of_evolution_equations rdf:type owl:Class ;
+                                          rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                          rdfs:label "Солитонные решения эволюционных уравнений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Solving_mathematical_problems_using_modelling_systems
+:Solving_mathematical_problems_using_modelling_systems rdf:type owl:Class ;
+                                                       rdfs:subClassOf :Computational_mathematics ;
+                                                       rdfs:label "Решение математических задач при помощи моделирующих систем" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Special_functions
+:Special_functions rdf:type owl:Class ;
+                   rdfs:subClassOf :Mathematical_analysis ;
+                   rdfs:label "Специальные функции" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Spectral_theory_of_linear_operators
+:Spectral_theory_of_linear_operators rdf:type owl:Class ;
+                                     rdfs:subClassOf :Functional_analysis ;
+                                     rdfs:label "Спектральная теория линейных операторов" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structural-functional_redundancy
+:Structural-functional_redundancy rdf:type owl:Class ;
+                                  rdfs:subClassOf :Reliability_theory ;
+                                  rdfs:label "Структурно-функциональная избыточность" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures
+:Structures rdf:type owl:Class ;
+            rdfs:subClassOf :Algebra ;
+            rdfs:label "Структуры" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Structures_of_data_transmission_systems
+:Structures_of_data_transmission_systems rdf:type owl:Class ;
+                                         rdfs:subClassOf :Information_theory ;
+                                         rdfs:label "Структуры систем передачи данных" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_analysis
+:System_analysis rdf:type owl:Class ;
+                 rdfs:subClassOf :Cybernetics ;
+                 rdfs:label "Системный анализ" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#System_identification
+:System_identification rdf:type owl:Class ;
+                       rdfs:subClassOf :Theory_of_cybernetic_control_systems ;
+                       rdfs:label "Идентификация систем" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Tasks_of_streamline
+:Tasks_of_streamline rdf:type owl:Class ;
+                     rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                     rdfs:label "Задачи обтекания" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Teaching
+:Teaching rdf:type owl:Class ;
+          rdfs:subClassOf :General_cybernetics_issues ;
+          rdfs:label "Преподавание" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Technical_applications_of_probabilistic-statistical_methods
+:Technical_applications_of_probabilistic-statistical_methods rdf:type owl:Class ;
+                                                             rdfs:subClassOf :System_analysis ;
+                                                             rdfs:label "Технические приложения вероятностно-статистических методов" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Terminology._Reference._Educational_literature
+:Terminology._Reference._Educational_literature rdf:type owl:Class ;
+                                                rdfs:subClassOf :General_cybernetics_issues ;
+                                                rdfs:label "Терминология. Справочная литература. Учебная литература" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_complex_variables
+:Theory_of_complex_variables rdf:type owl:Class ;
+                             rdfs:subClassOf :mathematics_27 ;
+                             rdfs:label "Теория функций комплексных переменных" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_cybernetic_control_systems
+:Theory_of_cybernetic_control_systems rdf:type owl:Class ;
+                                      rdfs:subClassOf :Cybernetics ;
+                                      rdfs:label "Теория кибернетических систем управления" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_experiment_planning
+:Theory_of_experiment_planning rdf:type owl:Class ;
+                               rdfs:subClassOf :System_analysis ;
+                               rdfs:label "Теория планирования эксперимента" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_functions_of_real_variable
+:Theory_of_functions_of_real_variable rdf:type owl:Class ;
+                                      rdfs:subClassOf :mathematics_27 ;
+                                      rdfs:label "Теория функций действительного переменного" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Theory_of_mass_service_and_its_applications
+:Theory_of_mass_service_and_its_applications rdf:type owl:Class ;
+                                             rdfs:subClassOf :System_analysis ;
+                                             rdfs:label "Теория массового обслуживания и ее приложения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topological_algebras_and_the_theory_of_infinite-dimensional_representations
+:Topological_algebras_and_the_theory_of_infinite-dimensional_representations rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Functional_analysis ;
+                                                                             rdfs:label "Топологические алгебры и теория бесконечномерных представлений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology
+:Topology rdf:type owl:Class ;
+          rdfs:subClassOf :mathematics_27 ;
+          rdfs:label "Топология" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Topology_of_manifolds
+:Topology_of_manifolds rdf:type owl:Class ;
+                       rdfs:subClassOf :Topology ;
+                       rdfs:label "Топология многообразий" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Transfer_equations
+:Transfer_equations rdf:type owl:Class ;
+                    rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                    rdfs:label "Уравнения переноса" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Universal_algebras
+:Universal_algebras rdf:type owl:Class ;
+                    rdfs:subClassOf :Algebra ;
+                    rdfs:label "Универсальные алгебры" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Utility_theory_and_decision_making
+:Utility_theory_and_decision_making rdf:type owl:Class ;
+                                    rdfs:subClassOf :System_analysis ;
+                                    rdfs:label "Теория полезности и принятия решений" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#active-formations-on-the-solar
+:active-formations-on-the-solar rdf:type owl:Class ;
+                                rdfs:subClassOf :solar ;
+                                rdfs:label "Активные образования на Солнце"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#applications-of-quantum-theory-in-astrophysics
+:applications-of-quantum-theory-in-astrophysics rdf:type owl:Class ;
+                                                rdfs:subClassOf :astrophysics ;
+                                                rdfs:label "Приложение квантовой теории в астрофизике. Ядерные и атомно-молекулярные процессы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-instruments
+:astrometric-instruments rdf:type owl:Class ;
+                         rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
+                         rdfs:label "Астрометрические инструменты. Приборы для измерения времени"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometric-observations
+:astrometric-observations rdf:type owl:Class ;
+                          rdfs:subClassOf :astrometry ;
+                          rdfs:label "Астрометрические наблюдения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrometry
+:astrometry rdf:type owl:Class ;
+            rdfs:subClassOf :astronomy ;
+            rdfs:label "Астрометрия"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-observatories-astroclimate
+:astronomical-observatories-astroclimate rdf:type owl:Class ;
+                                         rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
+                                         rdfs:label "Астрономические обсерватории. Астроклимат"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomical-optics
+:astronomical-optics rdf:type owl:Class ;
+                     rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
+                     rdfs:label "Астрономическая оптика. Телескопы оптического диапазона"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astronomy
+:astronomy rdf:type owl:Class ;
+           rdfs:label "Астрономия"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics
+:astrophysics rdf:type owl:Class ;
+              rdfs:subClassOf :astronomy ;
+              rdfs:label "Астрофизика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#astrophysics-of-cosmic-rays
+:astrophysics-of-cosmic-rays rdf:type owl:Class ;
+                             rdfs:subClassOf :nebulae-interstellar-medium ;
+                             rdfs:label "Астрофизика космических лучей"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#atmospheres-chromospheres-coronas-near-stellar-envelopes-the-problem-of-mass-loss-of-stars-stellar-wind
+:atmospheres-chromospheres-coronas-near-stellar-envelopes-the-problem-of-mass-loss-of-stars-stellar-wind rdf:type owl:Class ;
+                                                                                                         rdfs:subClassOf :stars ;
+                                                                                                         rdfs:label "Атмосферы, хромосферы. Короны. Околозвездные оболочки. Проблема потери массы звездами. Звездный ветер"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#characteristics-of-the-solar-as-a-whole
+:characteristics-of-the-solar-as-a-whole rdf:type owl:Class ;
+                                         rdfs:subClassOf :solar ;
+                                         rdfs:label "Характеристики Солнца в целом"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#comets
+:comets rdf:type owl:Class ;
+        rdfs:subClassOf :solar-system ;
+        rdfs:label "Кометы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cosmological-models
+:cosmological-models rdf:type owl:Class ;
+                     rdfs:subClassOf :space-science ;
+                     rdfs:label "Космологические модели"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#current-state-and-prospects-of-development
+:current-state-and-prospects-of-development rdf:type owl:Class ;
+                                            rdfs:subClassOf :general-astronomy-questions ;
+                                            rdfs:label "Современное состояние и перспективы развития"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#cyclicity-of-solar-activity
+:cyclicity-of-solar-activity rdf:type owl:Class ;
+                             rdfs:subClassOf :solar ;
+                             rdfs:label "Цикличность солнечной активности. Служба Солнца"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#double-and-multiple-stars
+:double-and-multiple-stars rdf:type owl:Class ;
+                           rdfs:subClassOf :stars ;
+                           rdfs:label "Двойные и кратные звезды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#elementary-particles-and-fields-in-astrophysics
+:elementary-particles-and-fields-in-astrophysics rdf:type owl:Class ;
+                                                 rdfs:subClassOf :astrophysics ;
+                                                 rdfs:label "Элементарные частицы и поля в астрофизике"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#expeditions
+:expeditions rdf:type owl:Class ;
+             rdfs:subClassOf :general-astronomy-questions ;
+             rdfs:label "Экспедиции, связанные с проведением астрономических наблюдений"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fixed-stars
+:fixed-stars rdf:type owl:Class ;
+             rdfs:subClassOf :stars ;
+             rdfs:label "Стационарные звезды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#fundamental-astrometry
+:fundamental-astrometry rdf:type owl:Class ;
+                        rdfs:subClassOf :astrometry ;
+                        rdfs:label "Фундаментальная астрометрия. Каталоги"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#galaxies-quasars
+:galaxies-quasars rdf:type owl:Class ;
+                  rdfs:subClassOf :stellar-systems ;
+                  rdfs:label "Галактики. Квазары"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-astronomy-questions
+:general-astronomy-questions rdf:type owl:Class ;
+                             rdfs:subClassOf :astronomy ;
+                             rdfs:label "Общие вопросы астрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-materials
+:general-materials rdf:type owl:Class ;
+                   rdfs:subClassOf :general-astronomy-questions ;
+                   rdfs:label "Материалы общего характера"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrometry
+:general-problems-astrometry rdf:type owl:Class ;
+                             rdfs:subClassOf :astrometry ;
+                             rdfs:label "Общие проблемы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-astrophysics
+:general-problems-astrophysics rdf:type owl:Class ;
+                               rdfs:subClassOf :astrophysics ;
+                               rdfs:label "Общие проблемы Астрофизика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-nebulae-and-interstellar-medium-studies
+:general-problems-of-nebulae-and-interstellar-medium-studies rdf:type owl:Class ;
+                                                             rdfs:subClassOf :nebulae-interstellar-medium ;
+                                                             rdfs:label "Общие проблемы исследований туманностей и межзвездной среды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-research
+:general-problems-of-solar-research rdf:type owl:Class ;
+                                    rdfs:subClassOf :solar ;
+                                    rdfs:label "Общие проблемы исследований Солнца"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-solar-system-research
+:general-problems-of-solar-system-research rdf:type owl:Class ;
+                                           rdfs:subClassOf :solar-system ;
+                                           rdfs:label "Общие проблемы исследований Солнечной системы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-research
+:general-problems-of-stellar-research rdf:type owl:Class ;
+                                      rdfs:subClassOf :stars ;
+                                      rdfs:label "Общие проблемы исследований звезд"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-stellar-systems-research
+:general-problems-of-stellar-systems-research rdf:type owl:Class ;
+                                              rdfs:subClassOf :stellar-systems ;
+                                              rdfs:label "Общие проблемы исследований звездных систем"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-the-observatory
+:general-problems-of-the-observatory rdf:type owl:Class ;
+                                     rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
+                                     rdfs:label "Общие проблемы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#general-problems-of-theoretical-astronomy
+:general-problems-of-theoretical-astronomy rdf:type owl:Class ;
+                                           rdfs:subClassOf :theoretical-astronomy ;
+                                           rdfs:label "Общие проблемы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalMaterials_27_01_05
+:generalMaterials_27_01_05 rdf:type owl:Class ;
+                           rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                           rdfs:label "Материалы общего характера" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#generalQuestionsOfMathematics_27_01
+:generalQuestionsOfMathematics_27_01 rdf:type owl:Class ;
+                                     rdfs:subClassOf :mathematics_27 ;
+                                     rdfs:label "Общие вопросы математики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#gravitational-stability
+:gravitational-stability rdf:type owl:Class ;
+                         rdfs:subClassOf :space-science ;
+                         rdfs:label "Гравитационная устойчивость. Космологические аспекты теории образования галактик"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#groups-and-clusters-of-galaxies
+:groups-and-clusters-of-galaxies rdf:type owl:Class ;
+                                 rdfs:subClassOf :stellar-systems ;
+                                 rdfs:label "Группы и скопления галактик. Сверхскопления галактик. Метагалактика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidance-materials
+:guidance-materials rdf:type owl:Class ;
+                    rdfs:subClassOf :general-astronomy-questions ;
+                    rdfs:label "Руководящие материалы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#guidanceMaterials_27_01_01
+:guidanceMaterials_27_01_01 rdf:type owl:Class ;
+                            rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                            rdfs:label "Руководящие материалы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#history-of-astronomy
+:history-of-astronomy rdf:type owl:Class ;
+                      rdfs:subClassOf :general-astronomy-questions ;
+                      rdfs:label "История астрономии. Персоналия"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#historyOfMathematics_27_01_09
+:historyOfMathematics_27_01_09 rdf:type owl:Class ;
+                               rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                               rdfs:label "История математики. Персоналия." .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#information-activity
+:information-activity rdf:type owl:Class ;
+                      rdfs:subClassOf :general-astronomy-questions ;
+                      rdfs:label "Информационная деятельность"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#informationActivities_27_01_29
+:informationActivities_27_01_29 rdf:type owl:Class ;
+                                rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                                rdfs:label "Информационная деятельность" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-observational-optical-astrophysics
+:instruments-and-methods-of-observational-optical-astrophysics rdf:type owl:Class ;
+                                                               rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
+                                                               rdfs:label "Приборы и методы наблюдательной оптической астрофизики"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-and-methods-of-radio-astronomy
+:instruments-and-methods-of-radio-astronomy rdf:type owl:Class ;
+                                            rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
+                                            rdfs:label "Приборы и методы радиоастрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-for-solar-research
+:instruments-for-solar-research rdf:type owl:Class ;
+                                rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
+                                rdfs:label "Инструменты для исследования Солнца" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internal-structure-and-evolution-of-stars
+:internal-structure-and-evolution-of-stars rdf:type owl:Class ;
+                                           rdfs:subClassOf :stars ;
+                                           rdfs:label "Внутреннее строение и эволюция звезд"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#international-cooperation
+:international-cooperation rdf:type owl:Class ;
+                           rdfs:subClassOf :general-astronomy-questions ;
+                           rdfs:label "Международное сотрудничество, деятельность международных организаций"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internationalCooperation_27_01_17
+:internationalCooperation_27_01_17 rdf:type owl:Class ;
+                                   rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                                   rdfs:label "Международное сотрудничество" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interplanetary-medium
+:interplanetary-medium rdf:type owl:Class ;
+                       rdfs:subClassOf :solar-system ;
+                       rdfs:label "Метеоры. Зодиакальный свет. Межпланетная среда"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#interstellar-medium
+:interstellar-medium rdf:type owl:Class ;
+                     rdfs:subClassOf :nebulae-interstellar-medium ;
+                     rdfs:label "Межзвездная среда"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#kinematics-and-dynamics-of-stellar-systems
+:kinematics-and-dynamics-of-stellar-systems rdf:type owl:Class ;
+                                            rdfs:subClassOf :stellar-systems ;
+                                            rdfs:label "Кинематика и динамика звездных систем"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematicsEducation_27_01_45
+:mathematicsEducation_27_01_45 rdf:type owl:Class ;
+                               rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                               rdfs:label "Преподавание математики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#mathematics_27
+:mathematics_27 rdf:type owl:Class ;
+                rdfs:label "Математика" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#measurement-of-time-in-astronomy
+:measurement-of-time-in-astronomy rdf:type owl:Class ;
+                                  rdfs:subClassOf :astrometry ;
+                                  rdfs:label "Вращение Земли. Измерение времени в астрономии. Движение земных полюсов"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#meteorites
+:meteorites rdf:type owl:Class ;
+            rdfs:subClassOf :solar-system ;
+            rdfs:label "Метеориты"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#methods-of-statistical-physics
+:methods-of-statistical-physics rdf:type owl:Class ;
+                                rdfs:subClassOf :astrophysics ;
+                                rdfs:label "Методы статистической физики. Космическая электродинамика, газо- и магнитогидродинамика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#moon
+:moon rdf:type owl:Class ;
+      rdfs:subClassOf :solar-system ;
+      rdfs:label "Луна. Лунные затмения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#near-solar-space-and-dynamical-processes
+:near-solar-space-and-dynamical-processes rdf:type owl:Class ;
+                                          rdfs:subClassOf :solar ;
+                                          rdfs:label "Околосолнечное космическое пространство и динамические процессы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae
+:nebulae rdf:type owl:Class ;
+         rdfs:subClassOf :nebulae-interstellar-medium ;
+         rdfs:label "Туманности"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#nebulae-interstellar-medium
+:nebulae-interstellar-medium rdf:type owl:Class ;
+                             rdfs:subClassOf :astronomy ;
+                             rdfs:label "Туманности. Межзвездная среда"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#new-cosmological-theories-and-hypotheses
+:new-cosmological-theories-and-hypotheses rdf:type owl:Class ;
+                                          rdfs:subClassOf :space-science ;
+                                          rdfs:label "Новые космологические теории и гипотезы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observational-cosmology
+:observational-cosmology rdf:type owl:Class ;
+                         rdfs:subClassOf :space-science ;
+                         rdfs:label "Наблюдательная космология"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#observatories-instruments-apparatus-and-methods-of-astronomical-observations
+:observatories-instruments-apparatus-and-methods-of-astronomical-observations rdf:type owl:Class ;
+                                                                              rdfs:subClassOf :astronomy ;
+                                                                              rdfs:label "Обсерватории. Инструменты, приборы и методы астрономических наблюдений"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#organization-of-scientific-research
+:organization-of-scientific-research rdf:type owl:Class ;
+                                     rdfs:subClassOf :general-astronomy-questions ;
+                                     rdfs:label "Организация научно-исследовательских работ. Деятельность учреждений"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#origin-of-elements
+:origin-of-elements rdf:type owl:Class ;
+                    rdfs:subClassOf :astrophysics ;
+                    rdfs:label "Происхождение элементов"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#other-problems-of-theoretical-astrophysics
+:other-problems-of-theoretical-astrophysics rdf:type owl:Class ;
+                                            rdfs:subClassOf :astrophysics ;
+                                            rdfs:label "Прочие проблемы теоретической астрофизики"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnel
+:personnel rdf:type owl:Class ;
+           rdfs:subClassOf :general-astronomy-questions ;
+           rdfs:label "Кадры"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#personnelInMathematics_27_01_79
+:personnelInMathematics_27_01_79 rdf:type owl:Class ;
+                                 rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                                 rdfs:label "Кадры в математике" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#philosophical-issues-and-methodology
+:philosophical-issues-and-methodology rdf:type owl:Class ;
+                                      rdfs:subClassOf :general-astronomy-questions ;
+                                      rdfs:label "Философские вопросы и методология"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physical-variable-stars
+:physical-variable-stars rdf:type owl:Class ;
+                         rdfs:subClassOf :stars ;
+                         rdfs:label "Физические переменные звезды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#physics-of-the-universe
+:physics-of-the-universe rdf:type owl:Class ;
+                         rdfs:subClassOf :space-science ;
+                         rdfs:label "Физика Вселенной"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#planets-and-their-satellites
+:planets-and-their-satellites rdf:type owl:Class ;
+                              rdfs:subClassOf :solar-system ;
+                              rdfs:label "Планеты и их спутники"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-application-of-celestial-mechanics
+:practical-application-of-celestial-mechanics rdf:type owl:Class ;
+                                              rdfs:subClassOf :theoretical-astronomy ;
+                                              rdfs:label "Практическое приложение небесной механики. Эфемериды. Ежегодники. Вспомогательные таблицы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#practical-astronomy
+:practical-astronomy rdf:type owl:Class ;
+                     rdfs:subClassOf :astrometry ;
+                     rdfs:label "Практическая астрономия"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#processing-of-observations
+:processing-of-observations rdf:type owl:Class ;
+                            rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
+                            rdfs:label "Обработка наблюдений. Применение вычислительной техники в астрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#radiation-receivers-and-receiving-apparatus-radiation
+:radiation-receivers-and-receiving-apparatus-radiation rdf:type owl:Class ;
+                                                       rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
+                                                       rdfs:label "Приемники излучения и приемная аппаратура инфракрасного, ультрафиолетового, рентгеновского, гамма-излучения, гравитации-онных волн и других специальных видов излучения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#relativistic-astrophysics
+:relativistic-astrophysics rdf:type owl:Class ;
+                           rdfs:subClassOf :astrophysics ;
+                           rdfs:label "Релятивистская астрофизика. Приложения общей теории относительности в астрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#rerminology
+:rerminology rdf:type owl:Class ;
+             rdfs:subClassOf :general-astronomy-questions ;
+             rdfs:label "Терминология. Справочная литература. Учебная литература"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#researchAndDevelopmentActivities_27_01_21
+:researchAndDevelopmentActivities_27_01_21 rdf:type owl:Class ;
+                                           rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                                           rdfs:label "Организация научно-исследовательских работ" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientific-societies
+:scientific-societies rdf:type owl:Class ;
+                      rdfs:subClassOf :general-astronomy-questions ;
+                      rdfs:label "Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары, выставки"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#scientificSocieties_27_01_13
+:scientificSocieties_27_01_13 rdf:type owl:Class ;
+                              rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                              rdfs:label "Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar
+:solar rdf:type owl:Class ;
+       rdfs:subClassOf :astronomy ;
+       rdfs:label "Солнце"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#solar-system
+:solar-system rdf:type owl:Class ;
+              rdfs:subClassOf :astronomy ;
+              rdfs:label "Солнечная система"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#space-science
+:space-science rdf:type owl:Class ;
+               rdfs:subClassOf :astronomy ;
+               rdfs:label "Космология"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#spherical-astronomy
+:spherical-astronomy rdf:type owl:Class ;
+                     rdfs:subClassOf :astrometry ;
+                     rdfs:label "Сферическая астрономия. Астрономические постоянные"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#star-shaped-radiation-sources
+:star-shaped-radiation-sources rdf:type owl:Class ;
+                               rdfs:subClassOf :stars ;
+                               rdfs:label "Звездообразные источники излучения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars
+:stars rdf:type owl:Class ;
+       rdfs:subClassOf :astronomy ;
+       rdfs:label "Звезды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stars-statistical-studies
+:stars-statistical-studies rdf:type owl:Class ;
+                           rdfs:subClassOf :stars ;
+                           rdfs:label "Статистические исследования, диаграммы, зависимости звездных характеристик. Наблюдаемые параметры и характеристики звезд"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-clusters-and-associations
+:stellar-clusters-and-associations rdf:type owl:Class ;
+                                   rdfs:subClassOf :stellar-systems ;
+                                   rdfs:label "Звездные скопления и ассоциации"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#stellar-systems
+:stellar-systems rdf:type owl:Class ;
+                 rdfs:subClassOf :astronomy ;
+                 rdfs:label "Звездные системы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-evolution-of-the-galaxy
+:structure-and-evolution-of-the-galaxy rdf:type owl:Class ;
+                                       rdfs:subClassOf :stellar-systems ;
+                                       rdfs:label "Строение и эволюция Галактики"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#structure-and-origin-of-the-solar-system
+:structure-and-origin-of-the-solar-system rdf:type owl:Class ;
+                                          rdfs:subClassOf :solar-system ;
+                                          rdfs:label "Строение и происхождение Солнечной системы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#teaching-astronomy
+:teaching-astronomy rdf:type owl:Class ;
+                    rdfs:subClassOf :general-astronomy-questions ;
+                    rdfs:label "Преподавание астрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#terminology_27_01_33
+:terminology_27_01_33 rdf:type owl:Class ;
+                      rdfs:subClassOf :generalQuestionsOfMathematics_27_01 ;
+                      rdfs:label "Терминология. Справочная литература. Учебная литература." .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#the-solar-earth-problem
+:the-solar-earth-problem rdf:type owl:Class ;
+                         rdfs:subClassOf :solar ;
+                         rdfs:label "Проблема Солнце-Земля"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theoretical-astronomy
+:theoretical-astronomy rdf:type owl:Class ;
+                       rdfs:subClassOf :astronomy ;
+                       rdfs:label "Теоретическая астрономия. Небесная механика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-absorption-and-radiation
+:theory-of-absorption-and-radiation rdf:type owl:Class ;
+                                    rdfs:subClassOf :astrophysics ;
+                                    rdfs:label "Теория поглощения и излучения. Перенос излучения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-figures
+:theory-of-figures rdf:type owl:Class ;
+                   rdfs:subClassOf :theoretical-astronomy ;
+                   rdfs:label "Теория фигур, вращения и притяжения естественных небесных тел"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#theory-of-motion-of-solar-system-bodies
+:theory-of-motion-of-solar-system-bodies rdf:type owl:Class ;
+                                         rdfs:subClassOf :theoretical-astronomy ;
+                                         rdfs:label "Теория движения тел Солнечной системы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#tranquil-solar
+:tranquil-solar rdf:type owl:Class ;
+                rdfs:subClassOf :solar ;
+                rdfs:label "Спокойное Солнце"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_number_theory_(algebraic_number_fields)
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Algebraic_number_theory_(algebraic_number_fields)> rdf:type owl:Class ;
+                                                                                                                            rdfs:subClassOf :Number_theory ;
+                                                                                                                            rdfs:label "Алгебраическая теория чисел (поля алгебраических чисел)" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_mechanics_equations,_mathematical_theory_of_motion_control
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Analytical_mechanics_equations,_mathematical_theory_of_motion_control> rdf:type owl:Class ;
+                                                                                                                                                rdfs:subClassOf :Ordinary_differential_equations ;
+                                                                                                                                                rdfs:label "Уравнения аналитической механики, математическая теория управления движением" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Economics,_organisation,_management,_planning_and_forecasting
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Economics,_organisation,_management,_planning_and_forecasting> rdf:type owl:Class ;
+                                                                                                                                        rdfs:subClassOf :General_cybernetics_issues ;
+                                                                                                                                        rdfs:label "Экономика, организация, управление, планирование и прогнозирование" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Formalisation_of_traditional_mathematical_theories_(arithmetic,_analysis,_etc.)
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Formalisation_of_traditional_mathematical_theories_(arithmetic,_analysis,_etc.)> rdf:type owl:Class ;
+                                                                                                                                                          rdfs:subClassOf :Mathematical_logic_and_foundations_of_mathematics ;
+                                                                                                                                                          rdfs:label "Формализация традиционных математических теорий (арифметики, анализа и др.)" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_spaces_equipped_with_topology,_order_and_other_structures
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Linear_spaces_equipped_with_topology,_order_and_other_structures> rdf:type owl:Class ;
+                                                                                                                                           rdfs:subClassOf :Functional_analysis ;
+                                                                                                                                           rdfs:label "Линейные пространства, снабженные топологией, порядком и другими структурами" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Machine,_graphical_and_other_methods_of_computational_mathematics
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Machine,_graphical_and_other_methods_of_computational_mathematics> rdf:type owl:Class ;
+                                                                                                                                            rdfs:subClassOf :Computational_mathematics ;
+                                                                                                                                            rdfs:label "Машинные, графические и другие методы вычислительной математики" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_plasma_physics,_kinetic_equations
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Mathematical_models_of_plasma_physics,_kinetic_equations> rdf:type owl:Class ;
+                                                                                                                                   rdfs:subClassOf :Mathematical_models_of_natural_sciences_and_technical_sciences._Equations_of_mathematical_physics ;
+                                                                                                                                   rdfs:label "Математические модели физики плазмы, кинетические уравнения" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Measure_theory,_representations_of_Boolean_algebras,_dynamical_systems
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Measure_theory,_representations_of_Boolean_algebras,_dynamical_systems> rdf:type owl:Class ;
+                                                                                                                                                 rdfs:subClassOf :Functional_analysis ;
+                                                                                                                                                 rdfs:label "Теория меры, представления булевых алгебр, динамические системы" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Scientific_and_technical_societies,_meetings,_congresses,_conferences,_symposiums,_seminars,_exhibitions
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Scientific_and_technical_societies,_meetings,_congresses,_conferences,_symposiums,_seminars,_exhibitions> rdf:type owl:Class ;
+                                                                                                                                                                                   rdfs:subClassOf :General_cybernetics_issues ;
+                                                                                                                                                                                   rdfs:label "Научные и технические общества, съезды, конгрессы, конференции,симпозиумы, семинары, выставки" .
+
+
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Stochastic_automatic_control_systems,_tracking_systems
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Stochastic_automatic_control_systems,_tracking_systems> rdf:type owl:Class ;
+                                                                                                                                 rdfs:subClassOf :Automatic_control_system_theory ;
+                                                                                                                                 rdfs:label "Стохастические системы автоматического управления, следящие системы" .
+
+
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
