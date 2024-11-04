@@ -1,0 +1,362 @@
+@prefix : <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/> .
+
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Авиационная_и_космическая_психология
+:Авиационная_и_космическая_психология rdf:type owl:Class ;
+                                      rdfs:subClassOf :Прикладная_психология ;
+                                      rdfs:label "Авиационная и космическая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Биологическое_и_социальное_в_психике
+:Биологическое_и_социальное_в_психике rdf:type owl:Class ;
+                                      rdfs:subClassOf :Общая_психология ;
+                                      rdfs:label "Биологическое и социальное в психике"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Военная_психология
+:Военная_психология rdf:type owl:Class ;
+                    rdfs:subClassOf :Прикладная_психология ;
+                    rdfs:label "Военная психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Детская_и_юношеская_психология
+:Детская_и_юношеская_психология rdf:type owl:Class ;
+                                rdfs:subClassOf :Психология_развития._Возрастная_психология._Сравнительная_психология ;
+                                rdfs:label "Детская и юношеская психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Дифференциальная_психология
+:Дифференциальная_психология rdf:type owl:Class ;
+                             rdfs:subClassOf :Общая_психология ;
+                             rdfs:label "Дифференциальная психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Другие_виды_прикладной_психологии
+:Другие_виды_прикладной_психологии rdf:type owl:Class ;
+                                   rdfs:subClassOf :Прикладная_психология ;
+                                   rdfs:label "Другие виды прикладной психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Инженерная_психология
+:Инженерная_психология rdf:type owl:Class ;
+                       rdfs:subClassOf :Прикладная_психология ;
+                       rdfs:label "Инженерная психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Информационная_деятельность_в_области_психологии
+:Информационная_деятельность_в_области_психологии rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Общие_вопросы_психологии ;
+                                                  rdfs:label "Информационная деятельность в области психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Историческая_психология
+:Историческая_психология rdf:type owl:Class ;
+                         rdfs:subClassOf :Социальная_психология ;
+                         rdfs:label "Историческая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_психологии._Персоналия
+:История_психологии._Персоналия rdf:type owl:Class ;
+                                rdfs:subClassOf :Общие_вопросы_психологии ;
+                                rdfs:label "История психологии. Персоналия"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Кадры_психологов
+:Кадры_психологов rdf:type owl:Class ;
+                  rdfs:subClassOf :Общие_вопросы_психологии ;
+                  rdfs:label "Кадры психологов"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Массовые_формы_внеколлективного_поведения
+:Массовые_формы_внеколлективного_поведения rdf:type owl:Class ;
+                                           rdfs:subClassOf :Социальная_психология ;
+                                           rdfs:label "Массовые формы внеколлективного поведения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Медицинская_психология
+:Медицинская_психология rdf:type owl:Class ;
+                        rdfs:subClassOf :Прикладная_психология ;
+                        rdfs:label "Медицинская психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Международное_сотрудничество_в_области_психологии
+:Международное_сотрудничество_в_области_психологии rdf:type owl:Class ;
+                                                   rdfs:subClassOf :Общие_вопросы_психологии ;
+                                                   rdfs:label "Международное сотрудничество в области психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Методы_исследования_и_моделирования_в_области_психологии._Математические_и_кибернетические_методы
+:Методы_исследования_и_моделирования_в_области_психологии._Математические_и_кибернетические_методы rdf:type owl:Class ;
+                                                                                                   rdfs:subClassOf :Общие_вопросы_психологии ;
+                                                                                                   rdfs:label "Методы исследования и моделирования в области психологии. Математические и кибернетические методы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Методы_психологического_исследования._Математическая_психология
+:Методы_психологического_исследования._Математическая_психология rdf:type owl:Class ;
+                                                                 rdfs:subClassOf :Общая_психология ;
+                                                                 rdfs:label "Методы психологического исследования. Математическая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общая_психология
+:Общая_психология rdf:type owl:Class ;
+                  rdfs:subClassOf :Психология ;
+                  rdfs:label "Общая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_психологии
+:Общие_вопросы_психологии rdf:type owl:Class ;
+                          rdfs:subClassOf :Психология ;
+                          rdfs:label "Общие вопросы психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Организация_научно-исследовательской_работы_в_области_психологии
+:Организация_научно-исследовательской_работы_в_области_психологии rdf:type owl:Class ;
+                                                                  rdfs:subClassOf :Общие_вопросы_психологии ;
+                                                                  rdfs:label "Организация научно-исследовательской работы в области психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Особые_состояния_и_явления_психики
+:Особые_состояния_и_явления_психики rdf:type owl:Class ;
+                                    rdfs:subClassOf :Общая_психология ;
+                                    rdfs:label "Особые состояния и явления психики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Отклоняющееся_поведение
+:Отклоняющееся_поведение rdf:type owl:Class ;
+                         rdfs:subClassOf :Социальная_психология ;
+                         rdfs:label "Отклоняющееся поведение"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Патопсихология
+:Патопсихология rdf:type owl:Class ;
+                rdfs:subClassOf :Общая_психология ;
+                rdfs:label "Патопсихология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Педагогическая_психология
+:Педагогическая_психология rdf:type owl:Class ;
+                           rdfs:subClassOf :Прикладная_психология ;
+                           rdfs:label "Педагогическая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Практическая_психология
+:Практическая_психология rdf:type owl:Class ;
+                         rdfs:subClassOf :Прикладная_психология ;
+                         rdfs:label "Практическая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Прикладная_психология
+:Прикладная_психология rdf:type owl:Class ;
+                       rdfs:subClassOf :Психология ;
+                       rdfs:label "Прикладная психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Процессы_социализации
+:Процессы_социализации rdf:type owl:Class ;
+                       rdfs:subClassOf :Социальная_психология ;
+                       rdfs:label "Процессы социализации"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психика_и_сознание
+:Психика_и_сознание rdf:type owl:Class ;
+                    rdfs:subClassOf :Общая_психология ;
+                    rdfs:label "Психика и сознание"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психические_процессы_и_состояния
+:Психические_процессы_и_состояния rdf:type owl:Class ;
+                                  rdfs:subClassOf :Общая_психология ;
+                                  rdfs:label "Психические процессы и состояния"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология
+:Психология rdf:type owl:Class ;
+            rdfs:label "Психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_деятельности_и_поведения._Психология_мотивации
+:Психология_деятельности_и_поведения._Психология_мотивации rdf:type owl:Class ;
+                                                           rdfs:subClassOf :Общая_психология ;
+                                                           rdfs:label "Психология деятельности и поведения. Психология мотивации"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_зрелости
+:Психология_зрелости rdf:type owl:Class ;
+                     rdfs:subClassOf :Психология_развития._Возрастная_психология._Сравнительная_психология ;
+                     rdfs:label "Психология зрелости"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_классов_и_крупных_социальных_общностей
+:Психология_классов_и_крупных_социальных_общностей rdf:type owl:Class ;
+                                                   rdfs:subClassOf :Социальная_психология ;
+                                                   rdfs:label "Психология классов и крупных социальных общностей"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_личности
+:Психология_личности rdf:type owl:Class ;
+                     rdfs:subClassOf :Общая_психология ;
+                     rdfs:label "Психология личности"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_малых_групп_и_коллективов
+:Психология_малых_групп_и_коллективов rdf:type owl:Class ;
+                                      rdfs:subClassOf :Социальная_психология ;
+                                      rdfs:label "Психология малых групп и коллективов"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_межличностных_отношений
+:Психология_межличностных_отношений rdf:type owl:Class ;
+                                    rdfs:subClassOf :Социальная_психология ;
+                                    rdfs:label "Психология межличностных отношений"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_общения._Процессы_коммуникации
+:Психология_общения._Процессы_коммуникации rdf:type owl:Class ;
+                                           rdfs:subClassOf :Социальная_психология ;
+                                           rdfs:label "Психология общения. Процессы коммуникации"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_пола
+:Психология_пола rdf:type owl:Class ;
+                 rdfs:subClassOf :Общая_психология ;
+                 rdfs:label "Психология пола"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_развития._Возрастная_психология._Сравнительная_психология
+:Психология_развития._Возрастная_психология._Сравнительная_психология rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Психология ;
+                                                                      rdfs:label "Психология развития. Возрастная психология. Сравнительная психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_семьи_и_быта
+:Психология_семьи_и_быта rdf:type owl:Class ;
+                         rdfs:subClassOf :Социальная_психология ;
+                         rdfs:label "Психология семьи и быта"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_спорта
+:Психология_спорта rdf:type owl:Class ;
+                   rdfs:subClassOf :Прикладная_психология ;
+                   rdfs:label "Психология спорта"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_старения
+:Психология_старения rdf:type owl:Class ;
+                     rdfs:subClassOf :Психология_развития._Возрастная_психология._Сравнительная_психология ;
+                     rdfs:label "Психология старения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_творчества
+:Психология_творчества rdf:type owl:Class ;
+                       rdfs:subClassOf :Прикладная_психология ;
+                       rdfs:label "Психология творчества"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_труда
+:Психология_труда rdf:type owl:Class ;
+                  rdfs:subClassOf :Прикладная_психология ;
+                  rdfs:label "Психология труда"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_управления
+:Психология_управления rdf:type owl:Class ;
+                       rdfs:subClassOf :Прикладная_психология ;
+                       rdfs:label "Психология управления"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психология_чтения_и_библиотечной_работы
+:Психология_чтения_и_библиотечной_работы rdf:type owl:Class ;
+                                         rdfs:subClassOf :Прикладная_психология ;
+                                         rdfs:label "Психология чтения и библиотечной работы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психофизиология
+:Психофизиология rdf:type owl:Class ;
+                 rdfs:subClassOf :Общая_психология ;
+                 rdfs:label "Психофизиология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Развитие_психики
+:Развитие_психики rdf:type owl:Class ;
+                  rdfs:subClassOf :Общая_психология ;
+                  rdfs:label "Развитие психики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Современное_состояние_и_перспективы_развития_психологии
+:Современное_состояние_и_перспективы_развития_психологии rdf:type owl:Class ;
+                                                         rdfs:subClassOf :Общие_вопросы_психологии ;
+                                                         rdfs:label "Современное состояние и перспективы развития психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Социальная_психология
+:Социальная_психология rdf:type owl:Class ;
+                       rdfs:subClassOf :Психология ;
+                       rdfs:label "Социальная психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Социальная_психология_личности._Личность_и_общество._Психология_жизненной_сферы
+:Социальная_психология_личности._Личность_и_общество._Психология_жизненной_сферы rdf:type owl:Class ;
+                                                                                 rdfs:subClassOf :Социальная_психология ;
+                                                                                 rdfs:label "Социальная психология личности. Личность и общество. Психология жизненной сферы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Социальные_нормы_и_ценности
+:Социальные_нормы_и_ценности rdf:type owl:Class ;
+                             rdfs:subClassOf :Социальная_психология ;
+                             rdfs:label "Социальные нормы и ценности"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Терминология._Справочная_литература._Учебная_литература
+:Терминология._Справочная_литература._Учебная_литература rdf:type owl:Class ;
+                                                         rdfs:subClassOf :Общие_вопросы_психологии ;
+                                                         rdfs:label "Терминология. Справочная литература. Учебная литература"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Философские_вопросы_и_методология_психологии
+:Философские_вопросы_и_методология_психологии rdf:type owl:Class ;
+                                              rdfs:subClassOf :Общие_вопросы_психологии ;
+                                              rdfs:label "Философские вопросы и методология психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Экономическая_психология
+:Экономическая_психология rdf:type owl:Class ;
+                          rdfs:subClassOf :Прикладная_психология ;
+                          rdfs:label "Экономическая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Этнопсихология
+:Этнопсихология rdf:type owl:Class ;
+                rdfs:subClassOf :Социальная_психология ;
+                rdfs:label "Этнопсихология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Юридическая_психология
+:Юридическая_психология rdf:type owl:Class ;
+                        rdfs:subClassOf :Прикладная_психология ;
+                        rdfs:label "Юридическая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы_по_психологии
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы_по_психологии> rdf:type owl:Class ;
+                                                                                                                                                         rdfs:subClassOf :Общие_вопросы_психологии ;
+                                                                                                                                                         rdfs:label "Научные общества, съезды, конгрессы, конференции, симпозиумы по психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Сравнительная_психология._Зоопсихология,_этология
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Сравнительная_психология._Зоопсихология,_этология> rdf:type owl:Class ;
+                                                                                                                                rdfs:subClassOf :Психология_развития._Возрастная_психология._Сравнительная_психология ;
+                                                                                                                                rdfs:label "Сравнительная психология. Зоопсихология, этология"@ru .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
