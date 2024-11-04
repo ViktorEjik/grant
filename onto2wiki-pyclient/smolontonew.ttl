@@ -1,0 +1,540 @@
+@prefix : <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#> .
+
+<http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Активные_образования_на_Солнце
+:Активные_образования_на_Солнце rdf:type owl:Class ;
+                                rdfs:subClassOf :Солнце ;
+                                rdfs:label "Активные образования на Солнце"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Приложение_квантовой_теории_в_астрофизике._Ядерные_и_атомно-молекулярные_процессы
+:Приложение_квантовой_теории_в_астрофизике._Ядерные_и_атомно-молекулярные_процессы rdf:type owl:Class ;
+                                                                                   rdfs:subClassOf :Астрофизика ;
+                                                                                   rdfs:label "Приложение квантовой теории в астрофизике. Ядерные и атомно-молекулярные процессы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Астрометрические_инструменты._Приборы_для_измерения_времени
+:Астрометрические_инструменты._Приборы_для_измерения_времени rdf:type owl:Class ;
+                                                             rdfs:subClassOf :Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений ;
+                                                             rdfs:label "Астрометрические инструменты. Приборы для измерения времени"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Астрометрические_наблюдения
+:Астрометрические_наблюдения rdf:type owl:Class ;
+                             rdfs:subClassOf :Астрометрия ;
+                             rdfs:label "Астрометрические наблюдения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Астрометрия
+:Астрометрия rdf:type owl:Class ;
+             rdfs:subClassOf :Астрономия ;
+             rdfs:label "Астрометрия"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Астрономические_обсерватории._Астроклимат
+:Астрономические_обсерватории._Астроклимат rdf:type owl:Class ;
+                                           rdfs:subClassOf :Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений ;
+                                           rdfs:label "Астрономические обсерватории. Астроклимат"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Астрономическая_оптика._Телескопы_оптического_диапазона
+:Астрономическая_оптика._Телескопы_оптического_диапазона rdf:type owl:Class ;
+                                                         rdfs:subClassOf :Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений ;
+                                                         rdfs:label "Астрономическая оптика. Телескопы оптического диапазона"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Астрономия
+:Астрономия rdf:type owl:Class ;
+            rdfs:label "Астрономия"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Астрофизика
+:Астрофизика rdf:type owl:Class ;
+             rdfs:subClassOf :Астрономия ;
+             rdfs:label "Астрофизика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Астрофизика_космических_лучей
+:Астрофизика_космических_лучей rdf:type owl:Class ;
+                               rdfs:subClassOf :Туманности._Межзвездная_среда ;
+                               rdfs:label "Астрофизика космических лучей"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Атмосферы,_хромосферы._Короны._Околозвездные_оболочки._Проблема_потери_массы_звездами._Звездный_ветер
+:Атмосферы,_хромосферы._Короны._Околозвездные_оболочки._Проблема_потери_массы_звездами._Звездный_ветер rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf :Звезды ;
+                                                                                                       rdfs:label "Атмосферы, хромосферы. Короны. Околозвездные оболочки. Проблема потери массы звездами. Звездный ветер"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Характеристики_Солнца_в_целом
+:Характеристики_Солнца_в_целом rdf:type owl:Class ;
+                               rdfs:subClassOf :Солнце ;
+                               rdfs:label "Характеристики Солнца в целом"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Кометы
+:Кометы rdf:type owl:Class ;
+        rdfs:subClassOf :Солнечная_система ;
+        rdfs:label "Кометы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Космологические_модели
+:Космологические_модели rdf:type owl:Class ;
+                        rdfs:subClassOf :Космология ;
+                        rdfs:label "Космологические модели"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Современное_состояние_и_перспективы_развития
+:Современное_состояние_и_перспективы_развития rdf:type owl:Class ;
+                                              rdfs:subClassOf :Общие_вопросы_астрономии ;
+                                              rdfs:label "Современное состояние и перспективы развития"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Цикличность_солнечной_активности._Служба_Солнца
+:Цикличность_солнечной_активности._Служба_Солнца rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Солнце ;
+                                                 rdfs:label "Цикличность солнечной активности. Служба Солнца"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Двойные_и_кратные_звезды
+:Двойные_и_кратные_звезды rdf:type owl:Class ;
+                          rdfs:subClassOf :Звезды ;
+                          rdfs:label "Двойные и кратные звезды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Элементарные_частицы_и_поля_в_астрофизике
+:Элементарные_частицы_и_поля_в_астрофизике rdf:type owl:Class ;
+                                           rdfs:subClassOf :Астрофизика ;
+                                           rdfs:label "Элементарные частицы и поля в астрофизике"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Экспедиции,_связанные_с_проведением_астрономических_наблюдений
+:Экспедиции,_связанные_с_проведением_астрономических_наблюдений rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Общие_вопросы_астрономии ;
+                                                                rdfs:label "Экспедиции, связанные с проведением астрономических наблюдений"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Стационарные_звезды
+:Стационарные_звезды rdf:type owl:Class ;
+                     rdfs:subClassOf :Звезды ;
+                     rdfs:label "Стационарные звезды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Фундаментальная_астрометрия._Каталоги
+:Фундаментальная_астрометрия._Каталоги rdf:type owl:Class ;
+                                       rdfs:subClassOf :Астрометрия ;
+                                       rdfs:label "Фундаментальная астрометрия. Каталоги"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Галактики._Квазары
+:Галактики._Квазары rdf:type owl:Class ;
+                    rdfs:subClassOf :Звездные_системы ;
+                    rdfs:label "Галактики. Квазары"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_вопросы_астрономии
+:Общие_вопросы_астрономии rdf:type owl:Class ;
+                          rdfs:subClassOf :Астрономия ;
+                          rdfs:label "Общие вопросы астрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Материалы_общего_характера
+:Материалы_общего_характера rdf:type owl:Class ;
+                            rdfs:subClassOf :Общие_вопросы_астрономии ;
+                            rdfs:label "Материалы общего характера"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_проблемы
+:Общие_проблемы rdf:type owl:Class ;
+                rdfs:subClassOf :Астрометрия ;
+                rdfs:label "Общие проблемы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_проблемы_Астрофизика
+:Общие_проблемы_Астрофизика rdf:type owl:Class ;
+                            rdfs:subClassOf :Астрофизика ;
+                            rdfs:label "Общие проблемы Астрофизика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_проблемы_исследований_туманностей_и_межзвездной_среды
+:Общие_проблемы_исследований_туманностей_и_межзвездной_среды rdf:type owl:Class ;
+                                                             rdfs:subClassOf :Туманности._Межзвездная_среда ;
+                                                             rdfs:label "Общие проблемы исследований туманностей и межзвездной среды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_проблемы_исследований_Солнца
+:Общие_проблемы_исследований_Солнца rdf:type owl:Class ;
+                                    rdfs:subClassOf :Солнце ;
+                                    rdfs:label "Общие проблемы исследований Солнца"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_проблемы_исследований_Солнечной_системы
+:Общие_проблемы_исследований_Солнечной_системы rdf:type owl:Class ;
+                                               rdfs:subClassOf :Солнечная_система ;
+                                               rdfs:label "Общие проблемы исследований Солнечной системы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_проблемы_исследований_звезд
+:Общие_проблемы_исследований_звезд rdf:type owl:Class ;
+                                   rdfs:subClassOf :Звезды ;
+                                   rdfs:label "Общие проблемы исследований звезд"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_проблемы_исследований_звездных_систем
+:Общие_проблемы_исследований_звездных_систем rdf:type owl:Class ;
+                                             rdfs:subClassOf :Звездные_системы ;
+                                             rdfs:label "Общие проблемы исследований звездных систем"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_проблемы
+:Общие_проблемы rdf:type owl:Class ;
+                rdfs:subClassOf :Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений ;
+                rdfs:label "Общие проблемы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Общие_проблемы
+:Общие_проблемы rdf:type owl:Class ;
+                rdfs:subClassOf :Теоретическая_астрономия._Небесная_механика ;
+                rdfs:label "Общие проблемы"@ru .
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Гравитационная_устойчивость._Космологические_аспекты_теории_образования_галактик
+:Гравитационная_устойчивость._Космологические_аспекты_теории_образования_галактик rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf :Космология ;
+                                                                                  rdfs:label "Гравитационная устойчивость. Космологические аспекты теории образования галактик"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Группы_и_скопления_галактик._Сверхскопления_галактик._Метагалактика
+:Группы_и_скопления_галактик._Сверхскопления_галактик._Метагалактика rdf:type owl:Class ;
+                                                                     rdfs:subClassOf :Звездные_системы ;
+                                                                     rdfs:label "Группы и скопления галактик. Сверхскопления галактик. Метагалактика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Руководящие_материалы
+:Руководящие_материалы rdf:type owl:Class ;
+                       rdfs:subClassOf :Общие_вопросы_астрономии ;
+                       rdfs:label "Руководящие материалы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#История_астрономии._Персоналия
+:История_астрономии._Персоналия rdf:type owl:Class ;
+                                rdfs:subClassOf :Общие_вопросы_астрономии ;
+                                rdfs:label "История астрономии. Персоналия"@ru .
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Информационная_деятельность
+:Информационная_деятельность rdf:type owl:Class ;
+                             rdfs:subClassOf :Общие_вопросы_астрономии ;
+                             rdfs:label "Информационная деятельность"@ru .
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Приборы_и_методы_наблюдательной_оптической_астрофизики
+:Приборы_и_методы_наблюдательной_оптической_астрофизики rdf:type owl:Class ;
+                                                        rdfs:subClassOf :Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений ;
+                                                        rdfs:label "Приборы и методы наблюдательной оптической астрофизики"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Приборы_и_методы_радиоастрономии
+:Приборы_и_методы_радиоастрономии rdf:type owl:Class ;
+                                  rdfs:subClassOf :Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений ;
+                                  rdfs:label "Приборы и методы радиоастрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Инструменты_для_исследования_Солнца
+:Инструменты_для_исследования_Солнца rdf:type owl:Class ;
+                                     rdfs:subClassOf :Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений ;
+                                     rdfs:label "Инструменты для исследования Солнца"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Внутреннее_строение_и_эволюция_звезд
+:Внутреннее_строение_и_эволюция_звезд rdf:type owl:Class ;
+                                      rdfs:subClassOf :Звезды ;
+                                      rdfs:label "Внутреннее строение и эволюция звезд"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Международное_сотрудничество,_деятельность_международных_организаций
+:Международное_сотрудничество,_деятельность_международных_организаций rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Общие_вопросы_астрономии ;
+                                                                      rdfs:label "Международное сотрудничество, деятельность международных организаций"@ru .
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Метеоры._Зодиакальный_свет._Межпланетная_среда
+:Метеоры._Зодиакальный_свет._Межпланетная_среда rdf:type owl:Class ;
+                                                rdfs:subClassOf :Солнечная_система ;
+                                                rdfs:label "Метеоры. Зодиакальный свет. Межпланетная среда"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Межзвездная_среда
+:Межзвездная_среда rdf:type owl:Class ;
+                   rdfs:subClassOf :Туманности._Межзвездная_среда ;
+                   rdfs:label "Межзвездная среда"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Кинематика_и_динамика_звездных_систем
+:Кинематика_и_динамика_звездных_систем rdf:type owl:Class ;
+                                       rdfs:subClassOf :Звездные_системы ;
+                                       rdfs:label "Кинематика и динамика звездных систем"@ru .
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Вращение_Земли._Измерение_времени_в_астрономии._Движение_земных_полюсов
+:Вращение_Земли._Измерение_времени_в_астрономии._Движение_земных_полюсов rdf:type owl:Class ;
+                                                                         rdfs:subClassOf :Астрометрия ;
+                                                                         rdfs:label "Вращение Земли. Измерение времени в астрономии. Движение земных полюсов"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Метеориты
+:Метеориты rdf:type owl:Class ;
+           rdfs:subClassOf :Солнечная_система ;
+           rdfs:label "Метеориты"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Методы_статистической_физики._Космическая_электродинамика,_газо-_и_магнитогидродинамика
+:Методы_статистической_физики._Космическая_электродинамика,_газо-_и_магнитогидродинамика rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf :Астрофизика ;
+                                                                                         rdfs:label "Методы статистической физики. Космическая электродинамика, газо- и магнитогидродинамика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Луна._Лунные_затмения
+:Луна._Лунные_затмения rdf:type owl:Class ;
+                       rdfs:subClassOf :Солнечная_система ;
+                       rdfs:label "Луна. Лунные затмения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Околосолнечное_космическое_пространство_и_динамические_процессы
+:Околосолнечное_космическое_пространство_и_динамические_процессы rdf:type owl:Class ;
+                                                                 rdfs:subClassOf :Солнце ;
+                                                                 rdfs:label "Околосолнечное космическое пространство и динамические процессы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Туманности
+:Туманности rdf:type owl:Class ;
+            rdfs:subClassOf :Туманности._Межзвездная_среда ;
+            rdfs:label "Туманности"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Туманности._Межзвездная_среда
+:Туманности._Межзвездная_среда rdf:type owl:Class ;
+                               rdfs:subClassOf :Астрономия ;
+                               rdfs:label "Туманности. Межзвездная среда"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Новые_космологические_теории_и_гипотезы
+:Новые_космологические_теории_и_гипотезы rdf:type owl:Class ;
+                                         rdfs:subClassOf :Космология ;
+                                         rdfs:label "Новые космологические теории и гипотезы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Наблюдательная_космология
+:Наблюдательная_космология rdf:type owl:Class ;
+                           rdfs:subClassOf :Космология ;
+                           rdfs:label "Наблюдательная космология"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений
+:Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений rdf:type owl:Class ;
+                                                                        rdfs:subClassOf :Астрономия ;
+                                                                        rdfs:label "Обсерватории. Инструменты, приборы и методы астрономических наблюдений"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Организация_научно-исследовательских_работ._Деятельность_учреждений
+:Организация_научно-исследовательских_работ._Деятельность_учреждений rdf:type owl:Class ;
+                                                                     rdfs:subClassOf :Общие_вопросы_астрономии ;
+                                                                     rdfs:label "Организация научно-исследовательских работ. Деятельность учреждений"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Происхождение_элементов
+:Происхождение_элементов rdf:type owl:Class ;
+                         rdfs:subClassOf :Астрофизика ;
+                         rdfs:label "Происхождение элементов"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Прочие_проблемы_теоретической_астрофизики
+:Прочие_проблемы_теоретической_астрофизики rdf:type owl:Class ;
+                                           rdfs:subClassOf :Астрофизика ;
+                                           rdfs:label "Прочие проблемы теоретической астрофизики"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Кадры
+:Кадры rdf:type owl:Class ;
+       rdfs:subClassOf :Общие_вопросы_астрономии ;
+       rdfs:label "Кадры"@ru .
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Философские_вопросы_и_методология
+:Философские_вопросы_и_методология rdf:type owl:Class ;
+                                   rdfs:subClassOf :Общие_вопросы_астрономии ;
+                                   rdfs:label "Философские вопросы и методология"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Физические_переменные_звезды
+:Физические_переменные_звезды rdf:type owl:Class ;
+                              rdfs:subClassOf :Звезды ;
+                              rdfs:label "Физические переменные звезды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Физика_Вселенной
+:Физика_Вселенной rdf:type owl:Class ;
+                  rdfs:subClassOf :Космология ;
+                  rdfs:label "Физика Вселенной"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Планеты_и_их_спутники
+:Планеты_и_их_спутники rdf:type owl:Class ;
+                       rdfs:subClassOf :Солнечная_система ;
+                       rdfs:label "Планеты и их спутники"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Практическое_приложение_небесной_механики._Эфемериды._Ежегодники._Вспомогательные_таблицы
+:Практическое_приложение_небесной_механики._Эфемериды._Ежегодники._Вспомогательные_таблицы rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf :Теоретическая_астрономия._Небесная_механика ;
+                                                                                           rdfs:label "Практическое приложение небесной механики. Эфемериды. Ежегодники. Вспомогательные таблицы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Практическая_астрономия
+:Практическая_астрономия rdf:type owl:Class ;
+                         rdfs:subClassOf :Астрометрия ;
+                         rdfs:label "Практическая астрономия"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Обработка_наблюдений._Применение_вычислительной_техники_в_астрономии
+:Обработка_наблюдений._Применение_вычислительной_техники_в_астрономии rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений ;
+                                                                      rdfs:label "Обработка наблюдений. Применение вычислительной техники в астрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Приемники_излучения_и_приемная_аппаратура_инфракрасного,_ультрафиолетового,_рентгеновского,_гамма-излучения,_гравитации-онных_волн_и_других_специальных_видов_излучения
+:Приемники_излучения_и_приемная_аппаратура_инфракрасного,_ультрафиолетового,_рентгеновского,_гамма-излучения,_гравитации-онных_волн_и_других_специальных_видов_излучения rdf:type owl:Class ;
+                                                                                                                                                                         rdfs:subClassOf :Обсерватории._Инструменты,_приборы_и_методы_астрономических_наблюдений ;
+                                                                                                                                                                         rdfs:label "Приемники излучения и приемная аппаратура инфракрасного, ультрафиолетового, рентгеновского, гамма-излучения, гравитации-онных волн и других специальных видов излучения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Релятивистская_астрофизика._Приложения_общей_теории_относительности_в_астрономии
+:Релятивистская_астрофизика._Приложения_общей_теории_относительности_в_астрономии rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf :Астрофизика ;
+                                                                                  rdfs:label "Релятивистская астрофизика. Приложения общей теории относительности в астрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Терминология._Справочная_литература._Учебная_литература
+:Терминология._Справочная_литература._Учебная_литература rdf:type owl:Class ;
+                                                         rdfs:subClassOf :Общие_вопросы_астрономии ;
+                                                         rdfs:label "Терминология. Справочная литература. Учебная литература"@ru .
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы,_семинары,_выставки
+:Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы,_семинары,_выставки rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf :Общие_вопросы_астрономии ;
+                                                                                  rdfs:label "Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары, выставки"@ru .
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Солнце
+:Солнце rdf:type owl:Class ;
+        rdfs:subClassOf :Астрономия ;
+        rdfs:label "Солнце"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Солнечная_система
+:Солнечная_система rdf:type owl:Class ;
+                   rdfs:subClassOf :Астрономия ;
+                   rdfs:label "Солнечная система"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Космология
+:Космология rdf:type owl:Class ;
+            rdfs:subClassOf :Астрономия ;
+            rdfs:label "Космология"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Сферическая_астрономия._Астрономические_постоянные
+:Сферическая_астрономия._Астрономические_постоянные rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Астрометрия ;
+                                                    rdfs:label "Сферическая астрономия. Астрономические постоянные"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Звездообразные_источники_излучения
+:Звездообразные_источники_излучения rdf:type owl:Class ;
+                                    rdfs:subClassOf :Звезды ;
+                                    rdfs:label "Звездообразные источники излучения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Звезды
+:Звезды rdf:type owl:Class ;
+        rdfs:subClassOf :Астрономия ;
+        rdfs:label "Звезды"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Статистические_исследования,_диаграммы,_зависимости_звездных_характеристик._Наблюдаемые_параметры_и_характеристики_звезд
+:Статистические_исследования,_диаграммы,_зависимости_звездных_характеристик._Наблюдаемые_параметры_и_характеристики_звезд rdf:type owl:Class ;
+                                                                                                                          rdfs:subClassOf :Звезды ;
+                                                                                                                          rdfs:label "Статистические исследования, диаграммы, зависимости звездных характеристик. Наблюдаемые параметры и характеристики звезд"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Звездные_скопления_и_ассоциации
+:Звездные_скопления_и_ассоциации rdf:type owl:Class ;
+                                 rdfs:subClassOf :Звездные_системы ;
+                                 rdfs:label "Звездные скопления и ассоциации"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Звездные_системы
+:Звездные_системы rdf:type owl:Class ;
+                  rdfs:subClassOf :Астрономия ;
+                  rdfs:label "Звездные системы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Строение_и_эволюция_Галактики
+:Строение_и_эволюция_Галактики rdf:type owl:Class ;
+                               rdfs:subClassOf :Звездные_системы ;
+                               rdfs:label "Строение и эволюция Галактики"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Строение_и_происхождение_Солнечной_системы
+:Строение_и_происхождение_Солнечной_системы rdf:type owl:Class ;
+                                            rdfs:subClassOf :Солнечная_система ;
+                                            rdfs:label "Строение и происхождение Солнечной системы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Преподавание_астрономии
+:Преподавание_астрономии rdf:type owl:Class ;
+                         rdfs:subClassOf :Общие_вопросы_астрономии ;
+                         rdfs:label "Преподавание астрономии"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Проблема_Солнце-Земля
+:Проблема_Солнце-Земля rdf:type owl:Class ;
+                       rdfs:subClassOf :Солнце ;
+                       rdfs:label "Проблема Солнце-Земля"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Теоретическая_астрономия._Небесная_механика
+:Теоретическая_астрономия._Небесная_механика rdf:type owl:Class ;
+                                             rdfs:subClassOf :Астрономия ;
+                                             rdfs:label "Теоретическая астрономия. Небесная механика"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Теория_поглощения_и_излучения._Перенос_излучения
+:Теория_поглощения_и_излучения._Перенос_излучения rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Астрофизика ;
+                                                  rdfs:label "Теория поглощения и излучения. Перенос излучения"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Теория_фигур,_вращения_и_притяжения_естественных_небесных_тел
+:Теория_фигур,_вращения_и_притяжения_естественных_небесных_тел rdf:type owl:Class ;
+                                                               rdfs:subClassOf :Теоретическая_астрономия._Небесная_механика ;
+                                                               rdfs:label "Теория фигур, вращения и притяжения естественных небесных тел"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Теория_движения_тел_Солнечной_системы
+:Теория_движения_тел_Солнечной_системы rdf:type owl:Class ;
+                                       rdfs:subClassOf :Теоретическая_астрономия._Небесная_механика ;
+                                       rdfs:label "Теория движения тел Солнечной системы"@ru .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#Спокойное_Солнце
+:Спокойное_Солнце rdf:type owl:Class ;
+                  rdfs:subClassOf :Солнце ;
+                  rdfs:label "Спокойное Солнце"@ru .
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
+
