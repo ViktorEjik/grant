@@ -1,11 +1,19 @@
-from os.path import split
+from parser import parser_ttl
+from pprint import pprint
 
 import requests
 from dotenv import dotenv_values
 
 
+def find_roots(pages):
+    roots = []
+    for page in pages:
+        if pages[page].get('parent', None) is None:
+            roots.append(pages[page]['label@ru'])
+    return roots
+
 class Onto2WikiClient(requests.Session):
-    def __init__(self, dotenvPath='.env'):
+    def __init__(self, dotenvPath='.env', parser=parser_ttl):
         super(Onto2WikiClient, self).__init__()
         self.headers = {
             'User-Agent': 'Onto2WikiClient',
@@ -13,13 +21,14 @@ class Onto2WikiClient(requests.Session):
             'Accept': '*/*',
             'Connection': 'keep-alive',
         }
+        self.parser = parser
         self.config = dotenv_values(dotenvPath)
 
     def login(self):
         params = {
             'action':"query",
             'meta':"tokens",
-            "type": "login|csrf",
+            "type": "login",
             'format':"json"
         }
         req = self.get(url=self.config['URL_API'], params=params, headers=self.headers)
@@ -38,7 +47,6 @@ class Onto2WikiClient(requests.Session):
             self.config.update({'lgusername': req['login']['lgusername']})
             req = self.get(url=self.config['URL_API'], params=params, headers=self.headers)
             self.config.update(req.json()['query']['tokens'])
-            print(self.config)
 
     def get_hierarchy_page(self, pages, me, visited, i):
         text = f'{"*" * i} [[{' '.join(me.split('_'))}]]\n'
@@ -50,7 +58,6 @@ class Onto2WikiClient(requests.Session):
         return text
 
     def add_hierarchy_page(self, page_name: str, pages, roots):
-        text = 'lkuj'
         for root in roots:
             me = root
             visited = ['']
@@ -60,7 +67,7 @@ class Onto2WikiClient(requests.Session):
             "action": "edit",
             "format": "json",
             "title": page_name,
-            "text": "Данная страница сгенерирована ботом, её необходимо заполнить.<br>" + text,
+            "text": "Данная страница сгенерирована ботом, её необходимо заполнить.\n" + text,
             "bot": 1,
             "token": self.config['csrftoken'],
             "formatversion": "2"
@@ -69,6 +76,7 @@ class Onto2WikiClient(requests.Session):
         print(req)
 
     def add_new_page(self, page):
+
         text = page.get('text', '')
         params = {
             "action": "edit",
@@ -81,6 +89,7 @@ class Onto2WikiClient(requests.Session):
         }
         req = self.post(url=self.config['URL_API'], data=params, headers=self.headers).json()
         print(req)
+
         if 'children' in page:
             childrens = ''
             for children in page['children']:
@@ -98,6 +107,7 @@ class Onto2WikiClient(requests.Session):
             }
             req = self.post(url=self.config['URL_API'], data=params, headers=self.headers).json()
             print(req)
+
         if 'parent' in page:
             params = {
                 "action": "edit",
@@ -122,3 +132,53 @@ class Onto2WikiClient(requests.Session):
         }
         req = self.post(url=self.config['URL_API'], data=params, headers=self.headers).json()
         print(req)
+
+    def modify_main_page(self, main_page, roots):
+        parse_params = {
+            "action": "parse",
+            "format": "json",
+            "page": main_page,
+            "formatversion": "2"
+        }
+
+        req = self.post(url=self.config['URL_API'], data=parse_params, headers=self.headers).json()
+        # pprint(req)
+        if 'error' in req:
+            raise Exception(f'Can`t parse {main_page}: {req["error"]["info"]}')
+        sections = req['parse']['sections']
+        pprint(sections)
+        params = {
+            "action": "edit",
+            "format": "json",
+            "title": main_page,
+            "section": "new",
+            "formatversion": "2"
+        }
+
+        for root in roots:
+            root_section = list(filter(lambda x: root + " иерархия тем" == x['line'], sections))
+            if len(root_section) == 0:
+                req = self.post(url=self.config['URL_API'],
+                                data=params|{"text": f"== [[{root} иерархия тем]] ==",
+                                             "bot": 1,
+                                             "token": self.config['csrftoken']},
+                                headers=self.headers).json()
+                print(req)
+            elif len(root_section) == 1:
+                print('Section exists')
+            else:
+                raise Exception("Find more then 1 section named " + root + " иерархия тем")
+        # req = self.post(url=self.config['URL_API'], data=params, headers=self.headers).json()
+        # print(req)
+
+
+    def __call__(self, ontologyPath, main_page):
+        self.login()
+        pages = self.parser(ontologyPath)
+        for page in pages.values():
+            self.dell_page(page)
+            self.add_new_page(page)
+        roots = find_roots(pages)
+        for root in roots:
+            self.add_hierarchy_page(root + " иерархия тем", pages, roots)
+        self.modify_main_page(main_page, roots)

@@ -205,9 +205,9 @@
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Авторские_договоры
-:Авторские_договоры rdf:type owl:Class ;
-                    rdfs:subClassOf :Авторское_право_и_смежные_права ;
-                    rdfs:label "Авторские договоры"@ru .
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Авторские_договоры> rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf :Авторское_право_и_смежные_права ;
+                                                                                                 rdfs:label "Авторские договоры"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Авторское_право
