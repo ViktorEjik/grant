@@ -12,126 +12,6 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Брак._Семья
-:Брак._Семья rdf:type owl:Class ;
-             rdfs:subClassOf :Семейное_право ;
-             rdfs:label "Брак. Семья"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Наследование_по_завещанию
-:Наследование_по_завещанию rdf:type owl:Class ;
-                           rdfs:subClassOf :Наследственное_право ;
-                           rdfs:label "Наследование по завещанию"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Наследование_по_закону
-:Наследование_по_закону rdf:type owl:Class ;
-                        rdfs:subClassOf :Наследственное_право ;
-                        rdfs:label "Наследование по закону"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Наследственное_право
-:Наследственное_право rdf:type owl:Class ;
-                      rdfs:subClassOf :Государство_и_право._Юридические_науки ;
-                      rdfs:label "Наследственное право"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Наследственное_право_в_международном_частном_праве
-:Наследственное_право_в_международном_частном_праве rdf:type owl:Class ;
-                                                    rdfs:subClassOf :Международное_частное_право ;
-                                                    rdfs:label "Наследственное право в международном частном праве"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Наследственное_право_отдельных_стран
-:Наследственное_право_отдельных_стран rdf:type owl:Class ;
-                                      rdfs:subClassOf :Наследственное_право ;
-                                      rdfs:label "Наследственное право отдельных стран"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_наследственного_права
-:Общие_вопросы_наследственного_права rdf:type owl:Class ;
-                                     rdfs:subClassOf :Наследственное_право ;
-                                     rdfs:label "Общие вопросы наследственного права"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_семейного_права
-:Общие_вопросы_семейного_права rdf:type owl:Class ;
-                               rdfs:subClassOf :Семейное_право ;
-                               rdfs:label "Общие вопросы семейного права"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Ответственность_в_семейном_праве
-:Ответственность_в_семейном_праве rdf:type owl:Class ;
-                                  rdfs:subClassOf :Семейное_право ;
-                                  rdfs:label "Ответственность в семейном праве"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Ответственность_за_нарушение_законодательства_о_наследовании
-:Ответственность_за_нарушение_законодательства_о_наследовании rdf:type owl:Class ;
-                                                              rdfs:subClassOf :Наследственное_право ;
-                                                              rdfs:label "Ответственность за нарушение законодательства о наследовании"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Открытие_наследства_и_меры_его_охраны
-:Открытие_наследства_и_меры_его_охраны rdf:type owl:Class ;
-                                       rdfs:subClassOf :Наследственное_право ;
-                                       rdfs:label "Открытие наследства и меры его охраны"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Переход_наследства_к_государству
-:Переход_наследства_к_государству rdf:type owl:Class ;
-                                  rdfs:subClassOf :Наследственное_право ;
-                                  rdfs:label "Переход наследства к государству"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Понятие_наследства
-:Понятие_наследства rdf:type owl:Class ;
-                    rdfs:subClassOf :Наследственное_право ;
-                    rdfs:label "Понятие наследства"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Правовое_оформление_права_наследования
-:Правовое_оформление_права_наследования rdf:type owl:Class ;
-                                        rdfs:subClassOf :Наследственное_право ;
-                                        rdfs:label "Правовое оформление права наследования"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Принятие_наследства_и_отказ_от_наследства
-:Принятие_наследства_и_отказ_от_наследства rdf:type owl:Class ;
-                                           rdfs:subClassOf :Наследственное_право ;
-                                           rdfs:label "Принятие наследства и отказ от наследства"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Родство_по_семейному_праву
-:Родство_по_семейному_праву rdf:type owl:Class ;
-                            rdfs:subClassOf :Семейное_право ;
-                            rdfs:label "Родство по семейному праву"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Семейное_право
-:Семейное_право rdf:type owl:Class ;
-                rdfs:subClassOf :Государство_и_право._Юридические_науки ;
-                rdfs:label "Семейное право"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Семейное_право_в_международном_частном_праве
-:Семейное_право_в_международном_частном_праве rdf:type owl:Class ;
-                                              rdfs:subClassOf :Международное_частное_право ;
-                                              rdfs:label "Семейное право в международном частном праве"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Семейное_право_отдельных_стран
-:Семейное_право_отдельных_стран rdf:type owl:Class ;
-                                rdfs:subClassOf :Семейное_право ;
-                                rdfs:label "Семейное право отдельных стран"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Усыновление
-:Усыновление rdf:type owl:Class ;
-             rdfs:subClassOf :Семейное_право ;
-             rdfs:label "Усыновление"@ru .
-
-
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Административное_производство_(административный_процесс)
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Административное_производство_(административный_процесс)> rdf:type owl:Class ;
                                                                                                                                        rdfs:subClassOf :Административное_право ;
@@ -412,6 +292,12 @@
 :Биологическое_и_социальное_в_психике rdf:type owl:Class ;
                                       rdfs:subClassOf :Общая_психология ;
                                       rdfs:label "Биологическое и социальное в психике"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Брак._Семья
+:Брак._Семья rdf:type owl:Class ;
+             rdfs:subClassOf :Семейное_право ;
+             rdfs:label "Брак. Семья"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Бюджетное_право
@@ -1092,6 +978,36 @@
                  rdfs:label "Налоговое право"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Наследование_по_завещанию
+:Наследование_по_завещанию rdf:type owl:Class ;
+                           rdfs:subClassOf :Наследственное_право ;
+                           rdfs:label "Наследование по завещанию"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Наследование_по_закону
+:Наследование_по_закону rdf:type owl:Class ;
+                        rdfs:subClassOf :Наследственное_право ;
+                        rdfs:label "Наследование по закону"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Наследственное_право
+:Наследственное_право rdf:type owl:Class ;
+                      rdfs:subClassOf :Государство_и_право._Юридические_науки ;
+                      rdfs:label "Наследственное право"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Наследственное_право_в_международном_частном_праве
+:Наследственное_право_в_международном_частном_праве rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Международное_частное_право ;
+                                                    rdfs:label "Наследственное право в международном частном праве"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Наследственное_право_отдельных_стран
+:Наследственное_право_отдельных_стран rdf:type owl:Class ;
+                                      rdfs:subClassOf :Наследственное_право ;
+                                      rdfs:label "Наследственное право отдельных стран"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Нормирование_труда
 :Нормирование_труда rdf:type owl:Class ;
                     rdfs:subClassOf :Трудовое_право ;
@@ -1254,6 +1170,12 @@
                                              rdfs:label "Общие вопросы международного частного права"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_наследственного_права
+:Общие_вопросы_наследственного_права rdf:type owl:Class ;
+                                     rdfs:subClassOf :Наследственное_право ;
+                                     rdfs:label "Общие вопросы наследственного права"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_патентного_права
 :Общие_вопросы_патентного_права rdf:type owl:Class ;
                                 rdfs:subClassOf :Патентное_право._Право_промышленной_собственности ;
@@ -1270,6 +1192,12 @@
 :Общие_вопросы_психологии rdf:type owl:Class ;
                           rdfs:subClassOf :Психология ;
                           rdfs:label "Общие вопросы психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_семейного_права
+:Общие_вопросы_семейного_права rdf:type owl:Class ;
+                               rdfs:subClassOf :Семейное_право ;
+                               rdfs:label "Общие вопросы семейного права"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_судебной_статистики
@@ -1453,6 +1381,12 @@
                                                                                                                rdfs:label "Ответственность в предпринимательском праве. Споры в предпринимательской деятельности и порядок их разрешения"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Ответственность_в_семейном_праве
+:Ответственность_в_семейном_праве rdf:type owl:Class ;
+                                  rdfs:subClassOf :Семейное_право ;
+                                  rdfs:label "Ответственность в семейном праве"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Ответственность_в_системе_муниципального_права
 :Ответственность_в_системе_муниципального_права rdf:type owl:Class ;
                                                 rdfs:subClassOf :Муниципальное_право ;
@@ -1475,6 +1409,12 @@
 :Ответственность_за_нарушение_законодательства_о_животном_мире rdf:type owl:Class ;
                                                                rdfs:subClassOf :Законодательство_о_животном_мире ;
                                                                rdfs:label "Ответственность за нарушение законодательства о животном мире"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Ответственность_за_нарушение_законодательства_о_наследовании
+:Ответственность_за_нарушение_законодательства_о_наследовании rdf:type owl:Class ;
+                                                              rdfs:subClassOf :Наследственное_право ;
+                                                              rdfs:label "Ответственность за нарушение законодательства о наследовании"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Ответственность_за_нарушение_законодательства_о_недрах
@@ -1517,6 +1457,12 @@
 :Отклоняющееся_поведение rdf:type owl:Class ;
                          rdfs:subClassOf :Социальная_психология ;
                          rdfs:label "Отклоняющееся поведение"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Открытие_наследства_и_меры_его_охраны
+:Открытие_наследства_и_меры_его_охраны rdf:type owl:Class ;
+                                       rdfs:subClassOf :Наследственное_право ;
+                                       rdfs:label "Открытие наследства и меры его охраны"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Отраслевые_и_межотраслевые_органы_исполнительной_власти
@@ -1609,6 +1555,12 @@
         rdfs:label "Пенсии"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Переход_наследства_к_государству
+:Переход_наследства_к_государству rdf:type owl:Class ;
+                                  rdfs:subClassOf :Наследственное_право ;
+                                  rdfs:label "Переход наследства к государству"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Планирование_и_прогнозирование_в_праве
 :Планирование_и_прогнозирование_в_праве rdf:type owl:Class ;
                                         rdfs:subClassOf :Теория_государства_и_права ;
@@ -1655,6 +1607,12 @@
 :Политический_режим rdf:type owl:Class ;
                     rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Конституционное_(государственное)_право> ;
                     rdfs:label "Политический режим"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Понятие_наследства
+:Понятие_наследства rdf:type owl:Class ;
+                    rdfs:subClassOf :Наследственное_право ;
+                    rdfs:label "Понятие наследства"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Пособия
@@ -1837,6 +1795,12 @@
 :Правовая_работа_и_правовое_обслуживание rdf:type owl:Class ;
                                          rdfs:subClassOf :Предпринимательское_право ;
                                          rdfs:label "Правовая работа и правовое обслуживание"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Правовое_оформление_права_наследования
+:Правовое_оформление_права_наследования rdf:type owl:Class ;
+                                        rdfs:subClassOf :Наследственное_право ;
+                                        rdfs:label "Правовое оформление права наследования"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Правовое_положение_сельскохозяйственных_организаций
@@ -2127,6 +2091,12 @@
                                rdfs:label "Принципы международного права"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Принятие_наследства_и_отказ_от_наследства
+:Принятие_наследства_и_отказ_от_наследства rdf:type owl:Class ;
+                                           rdfs:subClassOf :Наследственное_право ;
+                                           rdfs:label "Принятие наследства и отказ от наследства"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Прогнозирование_преступности
 :Прогнозирование_преступности rdf:type owl:Class ;
                               rdfs:subClassOf :Криминология ;
@@ -2314,6 +2284,12 @@
                   rdfs:label "Развитие психики"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Родство_по_семейному_праву
+:Родство_по_семейному_праву rdf:type owl:Class ;
+                            rdfs:subClassOf :Семейное_право ;
+                            rdfs:label "Родство по семейному праву"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Розыск
 :Розыск rdf:type owl:Class ;
         rdfs:subClassOf :Криминалистика ;
@@ -2330,6 +2306,24 @@
 :Сделки rdf:type owl:Class ;
         rdfs:subClassOf :Гражданское_право ;
         rdfs:label "Сделки"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Семейное_право
+:Семейное_право rdf:type owl:Class ;
+                rdfs:subClassOf :Государство_и_право._Юридические_науки ;
+                rdfs:label "Семейное право"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Семейное_право_в_международном_частном_праве
+:Семейное_право_в_международном_частном_праве rdf:type owl:Class ;
+                                              rdfs:subClassOf :Международное_частное_право ;
+                                              rdfs:label "Семейное право в международном частном праве"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Семейное_право_отдельных_стран
+:Семейное_право_отдельных_стран rdf:type owl:Class ;
+                                rdfs:subClassOf :Семейное_право ;
+                                rdfs:label "Семейное право отдельных стран"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Символы_государства
@@ -2624,6 +2618,12 @@
 :Управление_охраной_атмосферного_воздуха rdf:type owl:Class ;
                                          rdfs:subClassOf :Воздухоохранное_право ;
                                          rdfs:label "Управление охраной атмосферного воздуха"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Усыновление
+:Усыновление rdf:type owl:Class ;
+             rdfs:subClassOf :Семейное_право ;
+             rdfs:label "Усыновление"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Участие_общественности_в_деятельности_правоохранительных_органов
