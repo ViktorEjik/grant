@@ -1,3 +1,5 @@
+from shutil import posix
+
 from parser import parser_ttl
 from pprint import pprint
 
@@ -9,7 +11,7 @@ def find_roots(pages):
     roots = []
     for page in pages:
         if pages[page].get('parent', None) is None:
-            roots.append(pages[page]['label@ru'])
+            roots.append(page)
     return roots
 
 class Onto2WikiClient(requests.Session):
@@ -28,11 +30,14 @@ class Onto2WikiClient(requests.Session):
         params = {
             'action':"query",
             'meta':"tokens",
-            "type": "login",
+            "type": "login|csrf",
             'format':"json"
         }
         req = self.get(url=self.config['URL_API'], params=params, headers=self.headers)
         self.config.update(req.json()['query']['tokens'])
+
+
+
         if "LOGIN" in self.config and "PASSWORD" in self.config:
             log_params = {
                 "action": "login",
@@ -46,34 +51,49 @@ class Onto2WikiClient(requests.Session):
                 raise Exception("Login failed: " + req['login']['reason'])
             self.config.update({'lgusername': req['login']['lgusername']})
             req = self.get(url=self.config['URL_API'], params=params, headers=self.headers)
+            print(req.text)
             self.config.update(req.json()['query']['tokens'])
+            print(self.config)
+        else: raise Exception("Login failed")
 
     def get_hierarchy_page(self, pages, me, visited, i):
         text = f'{"*" * i} [[{' '.join(me.split('_'))}]]\n'
         visited.append(me)
-
         for children in pages[me].get('children', ''):
             if children not in visited:
                 text += self.get_hierarchy_page(pages, children, visited, i + 1)
         return text
 
-    def add_hierarchy_page(self, page_name: str, pages, roots):
+    def add_hierarchy_page(self, postfix: str, pages, roots):
         for root in roots:
             me = root
             visited = ['']
             i = 1
             text = self.get_hierarchy_page(pages, me, visited, i)
-        params = {
-            "action": "edit",
-            "format": "json",
-            "title": page_name,
-            "text": "Данная страница сгенерирована ботом, её необходимо заполнить.\n" + text,
-            "bot": 1,
-            "token": self.config['csrftoken'],
-            "formatversion": "2"
-        }
-        req = self.post(url=self.config['URL_API'], data=params, headers=self.headers).json()
-        print(req)
+            params = {
+                "action": "edit",
+                "format": "json",
+                "title": ' '.join(root.split('_')) + postfix,
+                "text": "Данная страница сгенерирована ботом, её необходимо заполнить.\n" + text,
+                "bot": 1,
+                "token": self.config['csrftoken'],
+                "formatversion": "2"
+            }
+            req = self.post(url=self.config['URL_API'], data=params, headers=self.headers).json()
+            print(req)
+
+    def delete_hierarchy_page(self, postfix: str, pages, roots):
+        for root in roots:
+            params = {
+                "action": "delete",
+                "format": "json",
+                "title": ' '.join(root.split('_')) + postfix,
+                "bot": 1,
+                "token": self.config['csrftoken'],
+                "formatversion": "2"
+            }
+            req = self.post(url=self.config['URL_API'], data=params, headers=self.headers).json()
+            print(req)
 
     def add_new_page(self, page):
 
@@ -133,7 +153,7 @@ class Onto2WikiClient(requests.Session):
         req = self.post(url=self.config['URL_API'], data=params, headers=self.headers).json()
         print(req)
 
-    def modify_main_page(self, main_page, roots):
+    def modify_main_page(self, main_page, roots, postfix):
         parse_params = {
             "action": "parse",
             "format": "json",
@@ -154,12 +174,12 @@ class Onto2WikiClient(requests.Session):
             "section": "new",
             "formatversion": "2"
         }
-
+        roots = sorted(roots)
         for root in roots:
-            root_section = list(filter(lambda x: root + " иерархия тем" == x['line'], sections))
+            root_section = list(filter(lambda x: ' '.join(root.split('_')) + postfix == x['line'], sections))
             if len(root_section) == 0:
                 req = self.post(url=self.config['URL_API'],
-                                data=params|{"text": f"== [[{root} иерархия тем]] ==",
+                                data=params|{"text": f"== [[{' '.join(root.split('_'))}{postfix}]] ==",
                                              "bot": 1,
                                              "token": self.config['csrftoken']},
                                 headers=self.headers).json()
@@ -179,6 +199,5 @@ class Onto2WikiClient(requests.Session):
             self.dell_page(page)
             self.add_new_page(page)
         roots = find_roots(pages)
-        for root in roots:
-            self.add_hierarchy_page(root + " иерархия тем", pages, roots)
-        self.modify_main_page(main_page, roots)
+        self.add_hierarchy_page('. Иерархия тем', pages, roots)
+        self.modify_main_page(main_page, roots, '. Иерархия тем')
