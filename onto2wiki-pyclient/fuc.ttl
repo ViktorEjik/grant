@@ -12,10 +12,243 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Уголовно-процессуальное_право_отдельных_стран
-:Уголовно-процессуальное_право_отдельных_стран rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Уголовно-процессуальное_право_(уголовный_процесс)> ;
-                                               rdfs:label "Уголовно-процессуальное право отдельных стран"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Вспомогательные_литературоведческие_дисциплины
+:Вспомогательные_литературоведческие_дисциплины rdf:type owl:Class ;
+                                                rdfs:subClassOf :Литература._Литературоведение.Устное_народное_творчество ;
+                                                rdfs:label "Вспомогательные литературоведческие дисциплины"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Драматургия
+:Драматургия rdf:type owl:Class ;
+             rdfs:subClassOf :Произведения_художественной_литературы ;
+             rdfs:label "Драматургия"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Другие_вспомогательные_литературоведческие_дисциплины
+:Другие_вспомогательные_литературоведческие_дисциплины rdf:type owl:Class ;
+                                                       rdfs:subClassOf :Вспомогательные_литературоведческие_дисциплины ;
+                                                       rdfs:label "Другие вспомогательные литературоведческие дисциплины"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Информационная_деятельность_в_области_литературоведения
+:Информационная_деятельность_в_области_литературоведения rdf:type owl:Class ;
+                                                         rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                                         rdfs:label "Информационная деятельность в области литературоведения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_всемирной_литературы
+:История_всемирной_литературы rdf:type owl:Class ;
+                              rdfs:subClassOf :История_литературы ;
+                              rdfs:label "История всемирной литературы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_литературоведения_и_литературной_критики._Персоналия
+:История_литературоведения_и_литературной_критики._Персоналия rdf:type owl:Class ;
+                                                              rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                                              rdfs:label "История литературоведения и литературной критики. Персоналия"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_литературы
+:История_литературы rdf:type owl:Class ;
+                    rdfs:subClassOf :Литература._Литературоведение.Устное_народное_творчество ;
+                    rdfs:label "История литературы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_литературы_отдельных_стран_и_народов
+:История_литературы_отдельных_стран_и_народов rdf:type owl:Class ;
+                                              rdfs:subClassOf :История_литературы ;
+                                              rdfs:label "История литературы отдельных стран и народов"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Кадры_литературоведов
+:Кадры_литературоведов rdf:type owl:Class ;
+                       rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                       rdfs:label "Кадры литературоведов"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Литература._Литературоведение.Устное_народное_творчество
+:Литература._Литературоведение.Устное_народное_творчество rdf:type owl:Class ;
+                                                          rdfs:label "Литература. Литературоведение. Устное народное творчество"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Литература_и_другие_виды_искусства
+:Литература_и_другие_виды_искусства rdf:type owl:Class ;
+                                    rdfs:subClassOf :Теория_литературы ;
+                                    rdfs:label "Литература и другие виды искусства"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Литература_и_общество
+:Литература_и_общество rdf:type owl:Class ;
+                       rdfs:subClassOf :Теория_литературы ;
+                       rdfs:label "Литература и общество"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Литературные_обзоры._Критика
+:Литературные_обзоры._Критика rdf:type owl:Class ;
+                              rdfs:subClassOf :Произведения_художественной_литературы ;
+                              rdfs:label "Литературные обзоры. Критика"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Литературный_процесс
+:Литературный_процесс rdf:type owl:Class ;
+                      rdfs:subClassOf :Теория_литературы ;
+                      rdfs:label "Литературный процесс"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Литературоведческая_библиография
+:Литературоведческая_библиография rdf:type owl:Class ;
+                                  rdfs:subClassOf :Вспомогательные_литературоведческие_дисциплины ;
+                                  rdfs:label "Литературоведческая библиография"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Международное_сотрудничество_в_области_литературоведения
+:Международное_сотрудничество_в_области_литературоведения rdf:type owl:Class ;
+                                                          rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                                          rdfs:label "Международное сотрудничество в области литературоведения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Народное_творчество
+:Народное_творчество rdf:type owl:Class ;
+                     rdfs:subClassOf :Литература._Литературоведение.Устное_народное_творчество ;
+                     rdfs:label "Народное творчество"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы
+:Общие_вопросы rdf:type owl:Class ;
+               rdfs:subClassOf :Народное_творчество ;
+               rdfs:label "Общие вопросы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_литературоведения
+:Общие_вопросы_литературоведения rdf:type owl:Class ;
+                                 rdfs:subClassOf :Литература._Литературоведение.Устное_народное_творчество ;
+                                 rdfs:label "Общие вопросы литературоведения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Организация_научно-исследовательской_работы_в_области_литературоведения
+:Организация_научно-исследовательской_работы_в_области_литературоведения rdf:type owl:Class ;
+                                                                         rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                                                         rdfs:label "Организация научно-исследовательской работы в области литературоведения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Поэзия
+:Поэзия rdf:type owl:Class ;
+        rdfs:subClassOf :Произведения_художественной_литературы ;
+        rdfs:label "Поэзия"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Поэтика_художественной_литературы._Виды_и_жанры
+:Поэтика_художественной_литературы._Виды_и_жанры rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Теория_литературы ;
+                                                 rdfs:label "Поэтика художественной литературы. Виды и жанры"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Преподавание_литературоведения_и_литературы
+:Преподавание_литературоведения_и_литературы rdf:type owl:Class ;
+                                             rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                             rdfs:label "Преподавание литературоведения и литературы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Произведения_художественной_литературы
+:Произведения_художественной_литературы rdf:type owl:Class ;
+                                        rdfs:subClassOf :Литература._Литературоведение.Устное_народное_творчество ;
+                                        rdfs:label "Произведения художественной литературы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Пропаганда_художественной_литературы
+:Пропаганда_художественной_литературы rdf:type owl:Class ;
+                                      rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                      rdfs:label "Пропаганда художественной литературы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Прочие_литературные_жанры
+:Прочие_литературные_жанры rdf:type owl:Class ;
+                           rdfs:subClassOf :Произведения_художественной_литературы ;
+                           rdfs:label "Прочие литературные жанры"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Сборники_различных_произведений
+:Сборники_различных_произведений rdf:type owl:Class ;
+                                 rdfs:subClassOf :Произведения_художественной_литературы ;
+                                 rdfs:label "Сборники различных произведений"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Современное_состояние_и_перспективы_развития_литературоведения
+:Современное_состояние_и_перспективы_развития_литературоведения rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                                                rdfs:label "Современное состояние и перспективы развития литературоведения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Текстология
+:Текстология rdf:type owl:Class ;
+             rdfs:subClassOf :Вспомогательные_литературоведческие_дисциплины ;
+             rdfs:label "Текстология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Теоретические_вопросы._Поэтика_и_жанры_устного_народного_творчества
+:Теоретические_вопросы._Поэтика_и_жанры_устного_народного_творчества rdf:type owl:Class ;
+                                                                     rdfs:subClassOf :Народное_творчество ;
+                                                                     rdfs:label "Теоретические вопросы. Поэтика и жанры устного народного творчества"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Теория_и_методология_литературоведения_и_литературной_критики
+:Теория_и_методология_литературоведения_и_литературной_критики rdf:type owl:Class ;
+                                                               rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                                               rdfs:label "Теория и методология литературоведения и литературной критики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Теория_и_психология_литературного_творчества
+:Теория_и_психология_литературного_творчества rdf:type owl:Class ;
+                                              rdfs:subClassOf :Теория_литературы ;
+                                              rdfs:label "Теория и психология литературного творчества"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Теория_литературы
+:Теория_литературы rdf:type owl:Class ;
+                   rdfs:subClassOf :Литература._Литературоведение.Устное_народное_творчество ;
+                   rdfs:label "Теория литературы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Терминология_литературоведения
+:Терминология_литературоведения rdf:type owl:Class ;
+                                rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                rdfs:label "Терминология литературоведения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Устное_народное_творчество_отдельных_стран_и_народов_мира
+:Устное_народное_творчество_отдельных_стран_и_народов_мира rdf:type owl:Class ;
+                                                           rdfs:subClassOf :Народное_творчество ;
+                                                           rdfs:label "Устное народное творчество отдельных стран и народов мира"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Художественная_литература_для_детей
+:Художественная_литература_для_детей rdf:type owl:Class ;
+                                     rdfs:subClassOf :Произведения_художественной_литературы ;
+                                     rdfs:label "Художественная литература для детей"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Художественная_проза_в_целом
+:Художественная_проза_в_целом rdf:type owl:Class ;
+                              rdfs:subClassOf :Произведения_художественной_литературы ;
+                              rdfs:label "Художественная проза в целом"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Художественный_перевод
+:Художественный_перевод rdf:type owl:Class ;
+                        rdfs:subClassOf :Теория_литературы ;
+                        rdfs:label "Художественный перевод"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Эпистолярные_произведения
+:Эпистолярные_произведения rdf:type owl:Class ;
+                           rdfs:subClassOf :Произведения_художественной_литературы ;
+                           rdfs:label "Эпистолярные произведения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Язык_и_стиль_художественных_произведений
+:Язык_и_стиль_художественных_произведений rdf:type owl:Class ;
+                                          rdfs:subClassOf :Теория_литературы ;
+                                          rdfs:label "Язык и стиль художественных произведений"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Административное_производство_(административный_процесс)
@@ -90,6 +323,12 @@
                                                                                                                               rdfs:label "Международные конгрессы, конференции, совещания"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Мемуары,_биографии,_дневники._Исторические_описания
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Мемуары,_биографии,_дневники._Исторические_описания> rdf:type owl:Class ;
+                                                                                                                                  rdfs:subClassOf :Произведения_художественной_литературы ;
+                                                                                                                                  rdfs:label "Мемуары, биографии, дневники. Исторические описания"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_конгрессы,_конференции,_симпозиумы_юристов
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_конгрессы,_конференции,_симпозиумы_юристов> rdf:type owl:Class ;
                                                                                                                                            rdfs:subClassOf :Общие_вопросы ;
@@ -100,6 +339,12 @@
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы_по_психологии> rdf:type owl:Class ;
                                                                                                                                                          rdfs:subClassOf :Общие_вопросы_психологии ;
                                                                                                                                                          rdfs:label "Научные общества, съезды, конгрессы, конференции, симпозиумы по психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы,_выставки_по_литературоведению
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы,_выставки_по_литературоведению> rdf:type owl:Class ;
+                                                                                                                                                                          rdfs:subClassOf :Общие_вопросы_литературоведения ;
+                                                                                                                                                                          rdfs:label "Научные общества, съезды, конгрессы, конференции, симпозиумы, выставки по литературоведению"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_конституционного_(государственного)_права
@@ -124,6 +369,12 @@
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Охрана_секретов_производства_(ноу-хау)> rdf:type owl:Class ;
                                                                                                                      rdfs:subClassOf :Патентное_право._Право_промышленной_собственности ;
                                                                                                                      rdfs:label "Охрана секретов производства (ноу-хау)"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Очерки,_эссе
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Очерки,_эссе> rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf :Произведения_художественной_литературы ;
+                                                                                           rdfs:label "Очерки, эссе"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Правово__режим_информации,_информационных_систем_и_сетей
@@ -168,6 +419,24 @@
                                                                                                                                                        rdfs:label "Происхождение, сущность, исторические типы и функции государства и права"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Рассказы,_новеллы_(малые_формы)
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Рассказы,_новеллы_(малые_формы)> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf :Произведения_художественной_литературы ;
+                                                                                                              rdfs:label "Рассказы, новеллы (малые формы)"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Речи,_выступления,_лекции
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Речи,_выступления,_лекции> rdf:type owl:Class ;
+                                                                                                        rdfs:subClassOf :Произведения_художественной_литературы ;
+                                                                                                        rdfs:label "Речи, выступления, лекции"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Романы,_повести_(крупные_формы)
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Романы,_повести_(крупные_формы)> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf :Произведения_художественной_литературы ;
+                                                                                                              rdfs:label "Романы, повести (крупные формы)"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Сравнительная_психология._Зоопсихология,_этология
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Сравнительная_психология._Зоопсихология,_этология> rdf:type owl:Class ;
                                                                                                                                 rdfs:subClassOf :Психология_развития._Возрастная_психология._Сравнительная_психология ;
@@ -196,6 +465,18 @@
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Участники_процесса_(субъекта)> rdf:type owl:Class ;
                                                                                                             rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Уголовно-процессуальное_право_(уголовный_процесс)> ;
                                                                                                             rdfs:label "Участники процесса (субъекта)"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Художественные_методы,_литературные_стили_и_направления
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Художественные_методы,_литературные_стили_и_направления> rdf:type owl:Class ;
+                                                                                                                                      rdfs:subClassOf :Теория_литературы ;
+                                                                                                                                      rdfs:label "Художественные методы, литературные стили и направления"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Юмор,_сатира,_пародия
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Юмор,_сатира,_пародия> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf :Произведения_художественной_литературы ;
+                                                                                                    rdfs:label "Юмор, сатира, пародия"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Авиационная_и_космическая_психология
@@ -2612,6 +2893,12 @@
 :Уголовно-исполнительное_право._Пенитенциария rdf:type owl:Class ;
                                               rdfs:subClassOf :Государство_и_право._Юридические_науки ;
                                               rdfs:label "Уголовно-исполнительное право. Пенитенциария"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Уголовно-процессуальное_право_отдельных_стран
+:Уголовно-процессуальное_право_отдельных_стран rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Уголовно-процессуальное_право_(уголовный_процесс)> ;
+                                               rdfs:label "Уголовно-процессуальное право отдельных стран"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Уголовное_право
