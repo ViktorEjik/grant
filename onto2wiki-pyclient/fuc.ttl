@@ -12,338 +12,190 @@
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Австралийские_языки
-:Австралийские_языки rdf:type owl:Class ;
-                     rdfs:subClassOf :Языки_мира ;
-                     rdfs:label "Австралийские языки"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Воспитание_в_семье
+:Воспитание_в_семье rdf:type owl:Class ;
+                    rdfs:subClassOf :Семейное_воспитание._Семейная_педагогика ;
+                    rdfs:label "Воспитание в семье"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Автоматическая_обработка_текста._Автоматический_перевод._Автоматическое_распознавание_речи
-:Автоматическая_обработка_текста._Автоматический_перевод._Автоматическое_распознавание_речи rdf:type owl:Class ;
-                                                                                            rdfs:subClassOf :Прикладное_языкознание ;
-                                                                                            rdfs:label "Автоматическая обработка текста. Автоматический перевод. Автоматическое распознавание речи"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Геронтогогика
+:Геронтогогика rdf:type owl:Class ;
+               rdfs:subClassOf :Образование_взрослых._Повышение_квалификации._Самообразование ;
+               rdfs:label "Геронтогогика"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Диалектология_и_лингвистическая_география
-:Диалектология_и_лингвистическая_география rdf:type owl:Class ;
-                                           rdfs:subClassOf :Общее_языкознание ;
-                                           rdfs:label "Диалектология и лингвистическая география"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Методика_обучения_взрослых
+:Методика_обучения_взрослых rdf:type owl:Class ;
+                            rdfs:subClassOf :Образование_взрослых._Повышение_квалификации._Самообразование ;
+                            rdfs:label "Методика обучения взрослых"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Дравидские_языки
-:Дравидские_языки rdf:type owl:Class ;
-                  rdfs:subClassOf :Языки_мира ;
-                  rdfs:label "Дравидские языки"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Методика_применения_технических_средств_и_учебного_оборудования
+:Методика_применения_технических_средств_и_учебного_оборудования rdf:type owl:Class ;
+                                                                 rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                                 rdfs:label "Методика применения технических средств и учебного оборудования"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Древние_языки_Передней_и_Малой_Азии
-:Древние_языки_Передней_и_Малой_Азии rdf:type owl:Class ;
-                                     rdfs:subClassOf :Языки_мира ;
-                                     rdfs:label "Древние языки Передней и Малой Азии"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Методика_семейного_обучения_и_воспитания
+:Методика_семейного_обучения_и_воспитания rdf:type owl:Class ;
+                                          rdfs:subClassOf :Семейное_воспитание._Семейная_педагогика ;
+                                          rdfs:label "Методика семейного обучения и воспитания"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Древние_языки_Средиземноморья
-:Древние_языки_Средиземноморья rdf:type owl:Class ;
-                               rdfs:subClassOf :Языки_мира ;
-                               rdfs:label "Древние языки Средиземноморья"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Народное_образование_и_педагогика_в_отдельных_странах
+:Народное_образование_и_педагогика_в_отдельных_странах rdf:type owl:Class ;
+                                                       rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                       rdfs:label "Народное образование и педагогика в отдельных странах"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Индоевропейские_языки
-:Индоевропейские_языки rdf:type owl:Class ;
-                       rdfs:subClassOf :Языки_мира ;
-                       rdfs:label "Индоевропейские языки"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Образование_взрослых._Повышение_квалификации._Самообразование
+:Образование_взрослых._Повышение_квалификации._Самообразование rdf:type owl:Class ;
+                                                               rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                               rdfs:label "Образование взрослых. Повышение квалификации. Самообразование"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Информационная_деятельность_в_области_языкознания
-:Информационная_деятельность_в_области_языкознания rdf:type owl:Class ;
-                                                   rdfs:subClassOf :Общие_вопросы_языкознания ;
-                                                   rdfs:label "Информационная деятельность в области языкознания"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Образование_и_обучение_в_семье
+:Образование_и_обучение_в_семье rdf:type owl:Class ;
+                                rdfs:subClassOf :Семейное_воспитание._Семейная_педагогика ;
+                                rdfs:label "Образование и обучение в семье"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Информационные_и_формализованные_языки
-:Информационные_и_формализованные_языки rdf:type owl:Class ;
-                                        rdfs:subClassOf :Прикладное_языкознание ;
-                                        rdfs:label "Информационные и формализованные языки"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общеобразовательная_школа_взрослых
+:Общеобразовательная_школа_взрослых rdf:type owl:Class ;
+                                    rdfs:subClassOf :Образование_взрослых._Повышение_квалификации._Самообразование ;
+                                    rdfs:label "Общеобразовательная школа взрослых"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_языкознания._Персоналия
-:История_языкознания._Персоналия rdf:type owl:Class ;
-                                 rdfs:subClassOf :Общие_вопросы_языкознания ;
-                                 rdfs:label "История языкознания. Персоналия"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_в_образовании_взрослых
+:Общие_вопросы_в_образовании_взрослых rdf:type owl:Class ;
+                                      rdfs:subClassOf :Образование_взрослых._Повышение_квалификации._Самообразование ;
+                                      rdfs:label "Общие вопросы в образовании взрослых"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Кавказские_языки
-:Кавказские_языки rdf:type owl:Class ;
-                  rdfs:subClassOf :Языки_мира ;
-                  rdfs:label "Кавказские языки"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_семейного_воспитания
+:Общие_вопросы_семейного_воспитания rdf:type owl:Class ;
+                                    rdfs:subClassOf :Семейное_воспитание._Семейная_педагогика ;
+                                    rdfs:label "Общие вопросы семейного воспитания"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Китайско-тибетские_языки
-:Китайско-тибетские_языки rdf:type owl:Class ;
-                          rdfs:subClassOf :Языки_мира ;
-                          rdfs:label "Китайско-тибетские языки"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_технического_средства_обучения
+:Общие_вопросы_технического_средства_обучения rdf:type owl:Class ;
+                                              rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                              rdfs:label "Общие вопросы технического средства обучения"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Классификация_языков
-:Классификация_языков rdf:type owl:Class ;
-                      rdfs:subClassOf :Общее_языкознание ;
-                      rdfs:label "Классификация языков"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Отдельные_виды_технических_средств_и_учебное_оборудование
+:Отдельные_виды_технических_средств_и_учебное_оборудование rdf:type owl:Class ;
+                                                           rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                           rdfs:label "Отдельные виды технических средств и учебное оборудование"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Креольские_языки._Пиджин-языки
-:Креольские_языки._Пиджин-языки rdf:type owl:Class ;
-                                rdfs:subClassOf :Языки_мира ;
-                                rdfs:label "Креольские языки. Пиджин-языки"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Педагогика_социальной_работы
+:Педагогика_социальной_работы rdf:type owl:Class ;
+                              rdfs:subClassOf :Специализированные_отрасли_педагогики ;
+                              rdfs:label "Педагогика социальной работы"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Культура_речи_и_языковая_норма
-:Культура_речи_и_языковая_норма rdf:type owl:Class ;
-                                rdfs:subClassOf :Общее_языкознание ;
-                                rdfs:label "Культура речи и языковая норма"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Повышение_квалификации_взрослых
+:Повышение_квалификации_взрослых rdf:type owl:Class ;
+                                 rdfs:subClassOf :Образование_взрослых._Повышение_квалификации._Самообразование ;
+                                 rdfs:label "Повышение квалификации взрослых"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Лексикография
-:Лексикография rdf:type owl:Class ;
-               rdfs:subClassOf :Общее_языкознание ;
-               rdfs:label "Лексикография"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Подготовка_детей_к_школе
+:Подготовка_детей_к_школе rdf:type owl:Class ;
+                          rdfs:subClassOf :Семейное_воспитание._Семейная_педагогика ;
+                          rdfs:label "Подготовка детей к школе"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Лексикология._Терминоведение
-:Лексикология._Терминоведение rdf:type owl:Class ;
-                              rdfs:subClassOf :Общее_языкознание ;
-                              rdfs:label "Лексикология. Терминоведение"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Производственная_педагогика
+:Производственная_педагогика rdf:type owl:Class ;
+                             rdfs:subClassOf :Специализированные_отрасли_педагогики ;
+                             rdfs:label "Производственная педагогика"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Лингвистика_текста
-:Лингвистика_текста rdf:type owl:Class ;
-                    rdfs:subClassOf :Общее_языкознание ;
-                    rdfs:label "Лингвистика текста"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Самообразование_взрослых
+:Самообразование_взрослых rdf:type owl:Class ;
+                          rdfs:subClassOf :Образование_взрослых._Повышение_квалификации._Самообразование ;
+                          rdfs:label "Самообразование взрослых"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Лингвистические_вопросы_перевода
-:Лингвистические_вопросы_перевода rdf:type owl:Class ;
-                                  rdfs:subClassOf :Прикладное_языкознание ;
-                                  rdfs:label "Лингвистические вопросы перевода"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Семейное_воспитание._Семейная_педагогика
+:Семейное_воспитание._Семейная_педагогика rdf:type owl:Class ;
+                                          rdfs:subClassOf :Народное_образование._Педагогика ;
+                                          rdfs:label "Семейное воспитание. Семейная педагогика"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Лингвистические_вопросы_преподавания_языков
-:Лингвистические_вопросы_преподавания_языков rdf:type owl:Class ;
-                                             rdfs:subClassOf :Прикладное_языкознание ;
-                                             rdfs:label "Лингвистические вопросы преподавания языков"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специализированные_отрасли_педагогики
+:Специализированные_отрасли_педагогики rdf:type owl:Class ;
+                                       rdfs:subClassOf :Народное_образование._Педагогика ;
+                                       rdfs:label "Специализированные отрасли педагогики"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Малайско-полинезийские_языки
-:Малайско-полинезийские_языки rdf:type owl:Class ;
-                              rdfs:subClassOf :Языки_мира ;
-                              rdfs:label "Малайско-полинезийские языки"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Сравнительная_педагогика
+:Сравнительная_педагогика rdf:type owl:Class ;
+                          rdfs:subClassOf :Специализированные_отрасли_педагогики ;
+                          rdfs:label "Сравнительная педагогика"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Международное_сотрудничество_в_области_языкознания
-:Международное_сотрудничество_в_области_языкознания rdf:type owl:Class ;
-                                                    rdfs:subClassOf :Общие_вопросы_языкознания ;
-                                                    rdfs:label "Международное сотрудничество в области языкознания"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_и_оборудование_в_дошкольных_учреждениях
+:Технические_средства_и_оборудование_в_дошкольных_учреждениях rdf:type owl:Class ;
+                                                              rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                              rdfs:label "Технические средства и оборудование в дошкольных учреждениях"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Методы_лингвистических_исследований
-:Методы_лингвистических_исследований rdf:type owl:Class ;
-                                     rdfs:subClassOf :Общее_языкознание ;
-                                     rdfs:label "Методы лингвистических исследований"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_и_оборудование_во_внешкольных_учреждениях
+:Технические_средства_и_оборудование_во_внешкольных_учреждениях rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                                rdfs:label "Технические средства и оборудование во внешкольных учреждениях"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Морфология
-:Морфология rdf:type owl:Class ;
-            rdfs:subClassOf :Общее_языкознание ;
-            rdfs:label "Морфология"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_и_учебное_оборудование_в_высшей_профессиональной_школе
+:Технические_средства_и_учебное_оборудование_в_высшей_профессиональной_школе rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                                             rdfs:label "Технические средства и учебное оборудование в высшей профессиональной школе"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Образование_и_развитие_языков
-:Образование_и_развитие_языков rdf:type owl:Class ;
-                               rdfs:subClassOf :Общее_языкознание ;
-                               rdfs:label "Образование и развитие языков"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_и_учебное_оборудование_в_семейном_воспитании
+:Технические_средства_и_учебное_оборудование_в_семейном_воспитании rdf:type owl:Class ;
+                                                                   rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                                   rdfs:label "Технические средства и учебное оборудование в семейном воспитании"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общее_языкознание
-:Общее_языкознание rdf:type owl:Class ;
-                   rdfs:subClassOf :Языкознание ;
-                   rdfs:label "Общее языкознание"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_и_учебное_оборудование_в_средних_профессиональных_учебных_заведениях
+:Технические_средства_и_учебное_оборудование_в_средних_профессиональных_учебных_заведениях rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                                                           rdfs:label "Технические средства и учебное оборудование в средних профессиональных учебных заведениях"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общетеоретические_проблемы_языкознания
-:Общетеоретические_проблемы_языкознания rdf:type owl:Class ;
-                                        rdfs:subClassOf :Общее_языкознание ;
-                                        rdfs:label "Общетеоретические проблемы языкознания"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_обучения_и_учебное_оборудование
+:Технические_средства_обучения_и_учебное_оборудование rdf:type owl:Class ;
+                                                      rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                      rdfs:label "Технические средства обучения и учебное оборудование"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_языкознания
-:Общие_вопросы_языкознания rdf:type owl:Class ;
-                           rdfs:subClassOf :Языкознание ;
-                           rdfs:label "Общие вопросы языкознания"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_обучения_и_учебное_оборудование_в_общеобразовательной_школе
+:Технические_средства_обучения_и_учебное_оборудование_в_общеобразовательной_школе rdf:type owl:Class ;
+                                                                                  rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                                                  rdfs:label "Технические средства обучения и учебное оборудование в общеобразовательной школе"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_проблемы_грамматики
-:Общие_проблемы_грамматики rdf:type owl:Class ;
-                           rdfs:subClassOf :Общее_языкознание ;
-                           rdfs:label "Общие проблемы грамматики"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_обучения_и_учебное_оборудование_в_общеобразовательной_школе_взрослых
+:Технические_средства_обучения_и_учебное_оборудование_в_общеобразовательной_школе_взрослых rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                                                           rdfs:label "Технические средства обучения и учебное оборудование в общеобразовательной школе взрослых"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_проблемы_прикладного_языкознания
-:Общие_проблемы_прикладного_языкознания rdf:type owl:Class ;
-                                        rdfs:subClassOf :Прикладное_языкознание ;
-                                        rdfs:label "Общие проблемы прикладного языкознания"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_обучения_и_учебное_оборудование_в_профессионально-технической_школе
+:Технические_средства_обучения_и_учебное_оборудование_в_профессионально-технической_школе rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                                                          rdfs:label "Технические средства обучения и учебное оборудование в профессионально-технической школе"@ru .
 
 
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Организация_научно-исследовательской_работы_в_языкознании
-:Организация_научно-исследовательской_работы_в_языкознании rdf:type owl:Class ;
-                                                           rdfs:subClassOf :Общие_вопросы_языкознания ;
-                                                           rdfs:label "Организация научно-исследовательской работы в языкознании"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Палеоазиатские_языки
-:Палеоазиатские_языки rdf:type owl:Class ;
-                      rdfs:subClassOf :Языки_мира ;
-                      rdfs:label "Палеоазиатские языки"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Преподавание_языкознания
-:Преподавание_языкознания rdf:type owl:Class ;
-                          rdfs:subClassOf :Общие_вопросы_языкознания .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Прикладное_языкознание
-:Прикладное_языкознание rdf:type owl:Class ;
-                        rdfs:subClassOf :Языкознание ;
-                        rdfs:label "Прикладное языкознание"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Приложение_языкознания__к_другим_наукам
-:Приложение_языкознания__к_другим_наукам rdf:type owl:Class ;
-                                         rdfs:subClassOf :Прикладное_языкознание ;
-                                         rdfs:label "Приложение языкознания к другим наукам"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Прочие_языки_мира
-:Прочие_языки_мира rdf:type owl:Class ;
-                   rdfs:subClassOf :Языки_мира ;
-                   rdfs:label "Прочие языки мира"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Психолингвистика
-:Психолингвистика rdf:type owl:Class ;
-                  rdfs:subClassOf :Общее_языкознание ;
-                  rdfs:label "Психолингвистика"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Семантика
-:Семантика rdf:type owl:Class ;
-           rdfs:subClassOf :Общее_языкознание ;
-           rdfs:label "Семантика"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Семито-хамитские_языки
-:Семито-хамитские_языки rdf:type owl:Class ;
-                        rdfs:subClassOf :Языки_мира ;
-                        rdfs:label "Семито-хамитские языки"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Синтаксис
-:Синтаксис rdf:type owl:Class ;
-           rdfs:subClassOf :Общее_языкознание ;
-           rdfs:label "Синтаксис" .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Словообразование
-:Словообразование rdf:type owl:Class ;
-                  rdfs:subClassOf :Общее_языкознание ;
-                  rdfs:label "Словообразование"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Современное_состояние_и_перспективы_развития_языкознания
-:Современное_состояние_и_перспективы_развития_языкознания rdf:type owl:Class ;
-                                                          rdfs:subClassOf :Общие_вопросы_языкознания ;
-                                                          rdfs:label "Современное состояние и перспективы развития языкознания"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Социолингвистика
-:Социолингвистика rdf:type owl:Class ;
-                  rdfs:subClassOf :Общее_языкознание ;
-                  rdfs:label "Социолингвистика"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Стилистика._Лингвистическая_поэтика._Риторика
-:Стилистика._Лингвистическая_поэтика._Риторика rdf:type owl:Class ;
-                                               rdfs:subClassOf :Общее_языкознание ;
-                                               rdfs:label "Стилистика. Лингвистическая поэтика. Риторика"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Терминология_языкознания
-:Терминология_языкознания rdf:type owl:Class ;
-                          rdfs:subClassOf :Общие_вопросы_языкознания ;
-                          rdfs:label "Терминология языкознания"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Урало-алтайские_языки
-:Урало-алтайские_языки rdf:type owl:Class ;
-                       rdfs:subClassOf :Языки_мира ;
-                       rdfs:label "Урало-алтайские языки"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Уровни_языка._Язык_как_система
-:Уровни_языка._Язык_как_система rdf:type owl:Class ;
-                                rdfs:subClassOf :Общее_языкознание ;
-                                rdfs:label "Уровни языка. Язык как система"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Фонология._Фонетика._Акцентология
-:Фонология._Фонетика._Акцентология rdf:type owl:Class ;
-                                   rdfs:subClassOf :Общее_языкознание ;
-                                   rdfs:label "Фонология. Фонетика. Акцентология"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Фразеология
-:Фразеология rdf:type owl:Class ;
-             rdfs:subClassOf :Общее_языкознание ;
-             rdfs:label "Фразеология"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Язык_и_письмо
-:Язык_и_письмо rdf:type owl:Class ;
-               rdfs:subClassOf :Общее_языкознание ;
-               rdfs:label "Язык и письмо"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Языки_Юго-Восточной_Азии
-:Языки_Юго-Восточной_Азии rdf:type owl:Class ;
-                          rdfs:subClassOf :Языки_мира ;
-                          rdfs:label "Языки Юго-Восточной Азии"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Языки_американских_индейцев
-:Языки_американских_индейцев rdf:type owl:Class ;
-                             rdfs:subClassOf :Языки_мира ;
-                             rdfs:label "Языки американских индейцев"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Языки_мира
-:Языки_мира rdf:type owl:Class ;
-            rdfs:subClassOf :Языкознание ;
-            rdfs:label "Языки мира"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Языки_народов_Центральной_и_Южной_Африки
-:Языки_народов_Центральной_и_Южной_Африки rdf:type owl:Class ;
-                                          rdfs:subClassOf :Языки_мира ;
-                                          rdfs:label "Языки народов Центральной и Южной Африки"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Языки_папуа
-:Языки_папуа rdf:type owl:Class ;
-             rdfs:subClassOf :Языки_мира ;
-             rdfs:label "Языки папуа"@ru .
-
-
-###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Языкознание
-:Языкознание rdf:type owl:Class ;
-             rdfs:label "Языкознание"@ru .
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Этнопедагогика
+:Этнопедагогика rdf:type owl:Class ;
+                rdfs:subClassOf :Специализированные_отрасли_педагогики ;
+                rdfs:label "Этнопедагогика"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Административное_производство_(административный_процесс)
@@ -356,6 +208,12 @@
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Арбитражно-процессуальное_право_(арбитражный_процесс)> rdf:type owl:Class ;
                                                                                                                                     rdfs:subClassOf :Государство_и_право._Юридические_науки ;
                                                                                                                                     rdfs:label "Арбитражно-процессуальное право (арбитражный процесс)"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Внешкольное_(дополнительное)_образование_и_воспитание._Внешкольная_педагогика
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Внешкольное_(дополнительное)_образование_и_воспитание._Внешкольная_педагогика> rdf:type owl:Class ;
+                                                                                                                                                            rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                                                                                                                            rdfs:label "Внешкольное (дополнительное) образование и воспитание. Внешкольная педагогика"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Государственное_управление_в_области_использования,_охраны,_защиты_лесного_фонда_и_воспроизводства_лесов
@@ -374,6 +232,42 @@
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Имущественные_и_неимущественные_права_авторов_открытий,_изобретений_и_рационализаторских_предложений_и_их_охрана> rdf:type owl:Class ;
                                                                                                                                                                                                rdfs:subClassOf :Патентное_право._Право_промышленной_собственности ;
                                                                                                                                                                                                rdfs:label "Имущественные и неимущественные права авторов открытий, изобретений и рационализаторских предложений и их охрана"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Исправительно-трудовая_(пенитенциарная)_педагогика
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Исправительно-трудовая_(пенитенциарная)_педагогика> rdf:type owl:Class ;
+                                                                                                                                 rdfs:subClassOf :Специализированные_отрасли_педагогики ;
+                                                                                                                                 rdfs:label "Исправительно-трудовая (пенитенциарная) педагогика"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_внешкольного_(дополнительного)_образования_и_воспитания,_внешкольной_педагогики
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_внешкольного_(дополнительного)_образования_и_воспитания,_внешкольной_педагогики> rdf:type owl:Class ;
+                                                                                                                                                                      rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                                                                                                                                      rdfs:label "История внешкольного (дополнительного) образования и воспитания, внешкольной педагогики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_высшего_профессионального_образования,_педагогики_высшей_профессиональной_школы
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_высшего_профессионального_образования,_педагогики_высшей_профессиональной_школы> rdf:type owl:Class ;
+                                                                                                                                                                      rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                                                                                                                                      rdfs:label "История высшего профессионального образования, педагогики высшей профессиональной школы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_дошкольного_воспитания,_дошкольной_педагогики
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_дошкольного_воспитания,_дошкольной_педагогики> rdf:type owl:Class ;
+                                                                                                                                    rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                                                                                                    rdfs:label "История дошкольного воспитания, дошкольной педагогики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_начального_профессионально-технического_образования,_педагогики_профессиональной_школы
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_начального_профессионально-технического_образования,_педагогики_профессиональной_школы> rdf:type owl:Class ;
+                                                                                                                                                                             rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                                                                                                                                             rdfs:label "История начального профессионально-технического образования, педагогики профессиональной школы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_среднего_профессионального_образования,_педагогики_среднего_профессионального_образования
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#История_среднего_профессионального_образования,_педагогики_среднего_профессионального_образования> rdf:type owl:Class ;
+                                                                                                                                                                                rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                                                                                                                                                rdfs:label "История среднего профессионального образования, педагогики среднего профессионального образования"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Конституционное_(государственное)_право
@@ -424,6 +318,12 @@
                                                                                                                                   rdfs:label "Мемуары, биографии, дневники. Исторические описания"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Методика_дополнительного_(внешкольного)_образования_и_воспитания
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Методика_дополнительного_(внешкольного)_образования_и_воспитания> rdf:type owl:Class ;
+                                                                                                                                               rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Внешкольное_(дополнительное)_образование_и_воспитание._Внешкольная_педагогика> ;
+                                                                                                                                               rdfs:label "Методика дополнительного (внешкольного) образования и воспитания"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы_по_психологии
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы_по_психологии> rdf:type owl:Class ;
                                                                                                                                                          rdfs:subClassOf :Общие_вопросы_психологии ;
@@ -442,6 +342,18 @@
                                                                                                                                                                           rdfs:label "Научные общества, съезды, конгрессы, конференции, симпозиумы, выставки по литературоведению"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы,_семинары_в_области_образования_и_педагогики
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Научные_общества,_съезды,_конгрессы,_конференции,_симпозиумы,_семинары_в_области_образования_и_педагогики> rdf:type owl:Class ;
+                                                                                                                                                                                        rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                                                                                                                                        rdfs:label "Научные общества, съезды, конгрессы, конференции, симпозиумы, семинары в области образования и педагогики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Непрерывное_(перманентное)_образование
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Непрерывное_(перманентное)_образование> rdf:type owl:Class ;
+                                                                                                                     rdfs:subClassOf :Система_образования ;
+                                                                                                                     rdfs:label "Непрерывное (перманентное) образование"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_конституционного_(государственного)_права
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Общие_вопросы_конституционного_(государственного)_права> rdf:type owl:Class ;
                                                                                                                                       rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Конституционное_(государственное)_право> ;
@@ -452,6 +364,12 @@
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Опека,_попечительство_и_патронат> rdf:type owl:Class ;
                                                                                                                rdfs:subClassOf :Семейное_право ;
                                                                                                                rdfs:label "Опека, попечительство и патронат"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Организация_досуга,_игры,_развлечения_в_семье
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Организация_досуга,_игры,_развлечения_в_семье> rdf:type owl:Class ;
+                                                                                                                            rdfs:subClassOf :Семейное_воспитание._Семейная_педагогика ;
+                                                                                                                            rdfs:label "Организация досуга, игры, развлечения в семье"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Органы,_осуществляющие_оперативно-розыскную_деятельность
@@ -488,6 +406,12 @@
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Правовое_регулирование_лесопользования,_воспроизводства_лесов,_лесоразведения,_охраны_и_защиты_лесов> rdf:type owl:Class ;
                                                                                                                                                                                    rdfs:subClassOf :Лесное_право ;
                                                                                                                                                                                    rdfs:label "Правовое регулирование лесопользования, воспроизводства лесов, лесоразведения, охраны и защиты лесов"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Преподавание_педагогики,_обучение,_повышение_квалификации
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Преподавание_педагогики,_обучение,_повышение_квалификации> rdf:type owl:Class ;
+                                                                                                                                        rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                                                                                        rdfs:label "Преподавание педагогики, обучение, повышение квалификации"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Причины_и_условия,_порождающие_преступления
@@ -532,6 +456,12 @@
                                                                                                               rdfs:label "Романы, повести (крупные формы)"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> rdf:type owl:Class ;
+                                                                                                                              rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                                                                                              rdfs:label "Специальные (коррекционные) школы. Дефектология"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Сравнительная_психология._Зоопсихология,_этология
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Сравнительная_психология._Зоопсихология,_этология> rdf:type owl:Class ;
                                                                                                                                 rdfs:subClassOf :Психология_развития._Возрастная_психология._Сравнительная_психология ;
@@ -544,16 +474,46 @@
                                                                                                                rdfs:label "Субъекты гражданских прав (лица)"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Теория_дополнительного_(внешкольного)_образования_и_воспитания
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Теория_дополнительного_(внешкольного)_образования_и_воспитания> rdf:type owl:Class ;
+                                                                                                                                             rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Внешкольное_(дополнительное)_образование_и_воспитание._Внешкольная_педагогика> ;
+                                                                                                                                             rdfs:label "Теория дополнительного (внешкольного) образования и воспитания"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Теория_образования_и_обучения_(дидактика)_в_общеобразовательной_школе
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Теория_образования_и_обучения_(дидактика)_в_общеобразовательной_школе> rdf:type owl:Class ;
+                                                                                                                                                    rdfs:subClassOf :Общеобразовательная_школа._Педагогика_общеобразовательной_школы ;
+                                                                                                                                                    rdfs:label "Теория образования и обучения (дидактика) в общеобразовательной школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Терминология,_справочная_литература,_учебная_литература_по_образованию_и_педагогике
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Терминология,_справочная_литература,_учебная_литература_по_образованию_и_педагогике> rdf:type owl:Class ;
+                                                                                                                                                                  rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                                                                                                                  rdfs:label "Терминология, справочная литература, учебная литература по образованию и педагогике"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Территориальные_(региональные)_органы_исполнительной_власти
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Территориальные_(региональные)_органы_исполнительной_власти> rdf:type owl:Class ;
                                                                                                                                           rdfs:subClassOf :Административное_право ;
                                                                                                                                           rdfs:label "Территориальные (региональные) органы исполнительной власти"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_и_учебное_оборудование_в_специальных_(коррекционных)_школах
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Технические_средства_и_учебное_оборудование_в_специальных_(коррекционных)_школах> rdf:type owl:Class ;
+                                                                                                                                                               rdfs:subClassOf :Технические_средства_обучения_и_учебное_оборудование ;
+                                                                                                                                                               rdfs:label "Технические средства и учебное оборудование в специальных (коррекционных) школах"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Уголовно-процессуальное_право_(уголовный_процесс)
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Уголовно-процессуальное_право_(уголовный_процесс)> rdf:type owl:Class ;
                                                                                                                                 rdfs:subClassOf :Государство_и_право._Юридические_науки ;
                                                                                                                                 rdfs:label "Уголовно-процессуальное право (уголовный процесс)"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Условия_труда,_социально-бытовые_мероприятия_(услуги),_охрана_труда,_техника_безопасности_в_образовании
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Условия_труда,_социально-бытовые_мероприятия_(услуги),_охрана_труда,_техника_безопасности_в_образовании> rdf:type owl:Class ;
+                                                                                                                                                                                      rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                                                                                                                                      rdfs:label "Условия труда, социально-бытовые мероприятия (услуги), охрана труда, техника безопасности в образовании"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Участники_процесса_(субъекта)
@@ -574,6 +534,12 @@
                                                                                                                                       rdfs:label "Художественные методы, литературные стили и направления"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Экономика,_организация,_управление,_планирование_и_прогнозирование_образования
+<http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Экономика,_организация,_управление,_планирование_и_прогнозирование_образования> rdf:type owl:Class ;
+                                                                                                                                                             rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                                                                                                             rdfs:label "Экономика, организация, управление, планирование и прогнозирование образования"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Юмор,_сатира,_пародия
 <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Юмор,_сатира,_пародия> rdf:type owl:Class ;
                                                                                                     rdfs:subClassOf :Произведения_художественной_литературы ;
@@ -584,6 +550,24 @@
 :Авиационная_и_космическая_психология rdf:type owl:Class ;
                                       rdfs:subClassOf :Прикладная_психология ;
                                       rdfs:label "Авиационная и космическая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Австралийские_языки
+:Австралийские_языки rdf:type owl:Class ;
+                     rdfs:subClassOf :Языки_мира ;
+                     rdfs:label "Австралийские языки"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Автоматизация_и_автоматизированные_системы_в_образовании
+:Автоматизация_и_автоматизированные_системы_в_образовании rdf:type owl:Class ;
+                                                          rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                          rdfs:label "Автоматизация и автоматизированные системы в образовании"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Автоматическая_обработка_текста._Автоматический_перевод._Автоматическое_распознавание_речи
+:Автоматическая_обработка_текста._Автоматический_перевод._Автоматическое_распознавание_речи rdf:type owl:Class ;
+                                                                                            rdfs:subClassOf :Прикладное_языкознание ;
+                                                                                            rdfs:label "Автоматическая обработка текста. Автоматический перевод. Автоматическое распознавание речи"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Авторские_договоры
@@ -658,6 +642,12 @@
                                                  rdfs:label "Арбитражно-процессуальное право отдельных стран"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Аттестация_и_аккредитация_образовательных_учреждений
+:Аттестация_и_аккредитация_образовательных_учреждений rdf:type owl:Class ;
+                                                      rdfs:subClassOf :Система_образования ;
+                                                      rdfs:label "Аттестация и аккредитация образовательных учреждений"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Банковское_законодательство
 :Банковское_законодательство rdf:type owl:Class ;
                              rdfs:subClassOf :Финансовое_право ;
@@ -698,6 +688,36 @@
 :Виктимология rdf:type owl:Class ;
               rdfs:subClassOf :Криминология ;
               rdfs:label "Виктимология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Внеучебная_работа_в_высшей_школе
+:Внеучебная_работа_в_высшей_школе rdf:type owl:Class ;
+                                  rdfs:subClassOf :Высшее_профессиональное_образование._Педагогика_высшей_профессиональной_школы ;
+                                  rdfs:label "Внеучебная работа в высшей школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Внеучебная_работа_в_общеобразовательных_учреждениях
+:Внеучебная_работа_в_общеобразовательных_учреждениях rdf:type owl:Class ;
+                                                     rdfs:subClassOf :Общеобразовательная_школа._Педагогика_общеобразовательной_школы ;
+                                                     rdfs:label "Внеучебная работа в общеобразовательных учреждениях"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Внеучебная_работа_в_профессионально-технической_школе
+:Внеучебная_работа_в_профессионально-технической_школе rdf:type owl:Class ;
+                                                       rdfs:subClassOf :Начальное_профессионально-техническое_образование._Педагогика_профессиональной_школы ;
+                                                       rdfs:label "Внеучебная работа в профессионально-технической школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Внеучебная_работа_в_средних_профессиональных_учебных_заведениях
+:Внеучебная_работа_в_средних_профессиональных_учебных_заведениях rdf:type owl:Class ;
+                                                                 rdfs:subClassOf :Среднее_профессиональное_образование._Педагогика_среднего_профессионального_образования ;
+                                                                 rdfs:label "Внеучебная работа в средних профессиональных учебных заведениях"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Внешкольные_учреждения
+:Внешкольные_учреждения rdf:type owl:Class ;
+                        rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Внешкольное_(дополнительное)_образование_и_воспитание._Внешкольная_педагогика> ;
+                        rdfs:label "Внешкольные учреждения"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Внешняя_политика_и_дипломатия
@@ -742,10 +762,46 @@
                                  rdfs:label "Вопросы трудовых правоотношений"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Воспитание_в_высшей_профессиональной_школе
+:Воспитание_в_высшей_профессиональной_школе rdf:type owl:Class ;
+                                            rdfs:subClassOf :Высшее_профессиональное_образование._Педагогика_высшей_профессиональной_школы ;
+                                            rdfs:label "Воспитание в высшей профессиональной школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Воспитание_в_общеобразовательной_школе
+:Воспитание_в_общеобразовательной_школе rdf:type owl:Class ;
+                                        rdfs:subClassOf :Общеобразовательная_школа._Педагогика_общеобразовательной_школы ;
+                                        rdfs:label "Воспитание в общеобразовательной школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Воспитание_в_профессиональной_школе
+:Воспитание_в_профессиональной_школе rdf:type owl:Class ;
+                                     rdfs:subClassOf :Начальное_профессионально-техническое_образование._Педагогика_профессиональной_школы ;
+                                     rdfs:label "Воспитание в профессиональной школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Воспитание_в_специальных_школах_и_дошкольных_учреждениях_детей_с_отклонениями_в_развитии
+:Воспитание_в_специальных_школах_и_дошкольных_учреждениях_детей_с_отклонениями_в_развитии rdf:type owl:Class ;
+                                                                                          rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                                                                          rdfs:label "Воспитание в специальных школах и дошкольных учреждениях детей с отклонениями в развитии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Воспитание_в_средних_профессиональных_учебных_заведениях
+:Воспитание_в_средних_профессиональных_учебных_заведениях rdf:type owl:Class ;
+                                                          rdfs:subClassOf :Среднее_профессиональное_образование._Педагогика_среднего_профессионального_образования ;
+                                                          rdfs:label "Воспитание в средних профессиональных учебных заведениях"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Всеобщая_история_государства_и_права
 :Всеобщая_история_государства_и_права rdf:type owl:Class ;
                                       rdfs:subClassOf :История_государства_и_права ;
                                       rdfs:label "Всеобщая история государства и права"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Всеобщая_история_образования_и_педагогической_мысли
+:Всеобщая_история_образования_и_педагогической_мысли rdf:type owl:Class ;
+                                                     rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                     rdfs:label "Всеобщая история образования и педагогической мысли"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Всеобщая_история_политических_и_правовых_учений
@@ -754,10 +810,28 @@
                                                  rdfs:label "Всеобщая история политических и правовых учений"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Всеобщее_обязательное_обучение
+:Всеобщее_обязательное_обучение rdf:type owl:Class ;
+                                rdfs:subClassOf :Система_образования ;
+                                rdfs:label "Всеобщее обязательное обучение"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Вспомогательные_литературоведческие_дисциплины
 :Вспомогательные_литературоведческие_дисциплины rdf:type owl:Class ;
                                                 rdfs:subClassOf :Литература._Литературоведение.Устное_народное_творчество ;
                                                 rdfs:label "Вспомогательные литературоведческие дисциплины"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Вспомогательные_школы_и_дошкольные_учреждения_для_умственно_отсталых_детей._Олигофренопедагогика
+:Вспомогательные_школы_и_дошкольные_учреждения_для_умственно_отсталых_детей._Олигофренопедагогика rdf:type owl:Class ;
+                                                                                                  rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                                                                                  rdfs:label "Вспомогательные школы и дошкольные учреждения для умственно отсталых детей. Олигофренопедагогика"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Высшее_профессиональное_образование._Педагогика_высшей_профессиональной_школы
+:Высшее_профессиональное_образование._Педагогика_высшей_профессиональной_школы rdf:type owl:Class ;
+                                                                               rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                                               rdfs:label "Высшее профессиональное образование. Педагогика высшей профессиональной школы"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Гарантии_и_компенсации
@@ -885,6 +959,12 @@
                                   rdfs:label "Деятельность контрольных органов"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Диалектология_и_лингвистическая_география
+:Диалектология_и_лингвистическая_география rdf:type owl:Class ;
+                                           rdfs:subClassOf :Общее_языкознание ;
+                                           rdfs:label "Диалектология и лингвистическая география"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Дифференциальная_психология
 :Дифференциальная_психология rdf:type owl:Class ;
                              rdfs:subClassOf :Общая_психология ;
@@ -909,10 +989,34 @@
                                      rdfs:label "Доказательства в уголовном процессе"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Дошкольное_образование._Дошкольная_педагогика
+:Дошкольное_образование._Дошкольная_педагогика rdf:type owl:Class ;
+                                               rdfs:subClassOf :Народное_образование._Педагогика ;
+                                               rdfs:label "Дошкольное образование. Дошкольная педагогика"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Дравидские_языки
+:Дравидские_языки rdf:type owl:Class ;
+                  rdfs:subClassOf :Языки_мира ;
+                  rdfs:label "Дравидские языки"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Драматургия
 :Драматургия rdf:type owl:Class ;
              rdfs:subClassOf :Произведения_художественной_литературы ;
              rdfs:label "Драматургия"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Древние_языки_Передней_и_Малой_Азии
+:Древние_языки_Передней_и_Малой_Азии rdf:type owl:Class ;
+                                     rdfs:subClassOf :Языки_мира ;
+                                     rdfs:label "Древние языки Передней и Малой Азии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Древние_языки_Средиземноморья
+:Древние_языки_Средиземноморья rdf:type owl:Class ;
+                               rdfs:subClassOf :Языки_мира ;
+                               rdfs:label "Древние языки Средиземноморья"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Другие_виды_вещных_прав
@@ -1011,6 +1115,12 @@
                                             rdfs:label "Имущественные права авторов и исполнителей"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Индоевропейские_языки
+:Индоевропейские_языки rdf:type owl:Class ;
+                       rdfs:subClassOf :Языки_мира ;
+                       rdfs:label "Индоевропейские языки"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Инженерная_психология
 :Инженерная_психология rdf:type owl:Class ;
                        rdfs:subClassOf :Прикладная_психология ;
@@ -1023,16 +1133,34 @@
                                                          rdfs:label "Информационная деятельность в области литературоведения"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Информационная_деятельность_в_области_образования_и_педагогики
+:Информационная_деятельность_в_области_образования_и_педагогики rdf:type owl:Class ;
+                                                                rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                rdfs:label "Информационная деятельность в области образования и педагогики"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Информационная_деятельность_в_области_психологии
 :Информационная_деятельность_в_области_психологии rdf:type owl:Class ;
                                                   rdfs:subClassOf :Общие_вопросы_психологии ;
                                                   rdfs:label "Информационная деятельность в области психологии"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Информационная_деятельность_в_области_языкознания
+:Информационная_деятельность_в_области_языкознания rdf:type owl:Class ;
+                                                   rdfs:subClassOf :Общие_вопросы_языкознания ;
+                                                   rdfs:label "Информационная деятельность в области языкознания"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Информационное_право
 :Информационное_право rdf:type owl:Class ;
                       rdfs:subClassOf :Государство_и_право._Юридические_науки ;
                       rdfs:label "Информационное право"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Информационные_и_формализованные_языки
+:Информационные_и_формализованные_языки rdf:type owl:Class ;
+                                        rdfs:subClassOf :Прикладное_языкознание ;
+                                        rdfs:label "Информационные и формализованные языки"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Иск
@@ -1101,6 +1229,30 @@
                               rdfs:label "История международного права"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_образования_взрослых_и_педагогики_взрослых
+:История_образования_взрослых_и_педагогики_взрослых rdf:type owl:Class ;
+                                                    rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                    rdfs:label "История образования взрослых и педагогики взрослых"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_образования_и_педагогики._Персоналия
+:История_образования_и_педагогики._Персоналия rdf:type owl:Class ;
+                                              rdfs:subClassOf :Народное_образование._Педагогика ;
+                                              rdfs:label "История образования и педагогики. Персоналия"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_образования_и_педагогической_мысли_в_отдельных_странах
+:История_образования_и_педагогической_мысли_в_отдельных_странах rdf:type owl:Class ;
+                                                                rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                                rdfs:label "История образования и педагогической мысли в отдельных странах"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_общеобразовательной_школы_и_педагогики
+:История_общеобразовательной_школы_и_педагогики rdf:type owl:Class ;
+                                                rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                rdfs:label "История общеобразовательной школы и педагогики"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_политических_и_правовых_учений
 :История_политических_и_правовых_учений rdf:type owl:Class ;
                                         rdfs:subClassOf :Государство_и_право._Юридические_науки ;
@@ -1119,10 +1271,46 @@
                                 rdfs:label "История психологии. Персоналия"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_развития_и_применения_технических_средств_и_учебного_оборудования
+:История_развития_и_применения_технических_средств_и_учебного_оборудования rdf:type owl:Class ;
+                                                                           rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                                           rdfs:label "История развития и применения технических средств и учебного оборудования"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_семейного_воспитания_и_семейной_педагогики
+:История_семейного_воспитания_и_семейной_педагогики rdf:type owl:Class ;
+                                                    rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                    rdfs:label "История семейного воспитания и семейной педагогики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_специализированных_отраслей_педагогики
+:История_специализированных_отраслей_педагогики rdf:type owl:Class ;
+                                                rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                                rdfs:label "История специализированных отраслей педагогики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_специальных_школ_и_дефектологии
+:История_специальных_школ_и_дефектологии rdf:type owl:Class ;
+                                         rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+                                         rdfs:label "История специальных школ и дефектологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/История_языкознания._Персоналия
+:История_языкознания._Персоналия rdf:type owl:Class ;
+                                 rdfs:subClassOf :Общие_вопросы_языкознания ;
+                                 rdfs:label "История языкознания. Персоналия"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Источники_международного_права
 :Источники_международного_права rdf:type owl:Class ;
                                 rdfs:subClassOf :Международное_право ;
                                 rdfs:label "Источники международного права"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Кавказские_языки
+:Кавказские_языки rdf:type owl:Class ;
+                  rdfs:subClassOf :Языки_мира ;
+                  rdfs:label "Кавказские языки"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Кадры_литературоведов
@@ -1131,10 +1319,28 @@
                        rdfs:label "Кадры литературоведов"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Кадры_образования
+:Кадры_образования rdf:type owl:Class ;
+                   rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                   rdfs:label "Кадры образования"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Кадры_психологов
 :Кадры_психологов rdf:type owl:Class ;
                   rdfs:subClassOf :Общие_вопросы_психологии ;
                   rdfs:label "Кадры психологов"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Китайско-тибетские_языки
+:Китайско-тибетские_языки rdf:type owl:Class ;
+                          rdfs:subClassOf :Языки_мира ;
+                          rdfs:label "Китайско-тибетские языки"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Классификация_языков
+:Классификация_языков rdf:type owl:Class ;
+                      rdfs:subClassOf :Общее_языкознание ;
+                      rdfs:label "Классификация языков"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Коллективный_договор
@@ -1147,6 +1353,12 @@
 :Конституции_и_акты_конституционного_характера rdf:type owl:Class ;
                                                rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Конституционное_(государственное)_право> ;
                                                rdfs:label "Конституции и акты конституционного характера"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Креольские_языки._Пиджин-языки
+:Креольские_языки._Пиджин-языки rdf:type owl:Class ;
+                                rdfs:subClassOf :Языки_мира ;
+                                rdfs:label "Креольские языки. Пиджин-языки"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Криминалистика
@@ -1179,6 +1391,24 @@
                                   rdfs:label "Криминология в отдельных странах"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Культура_речи_и_языковая_норма
+:Культура_речи_и_языковая_норма rdf:type owl:Class ;
+                                rdfs:subClassOf :Общее_языкознание ;
+                                rdfs:label "Культура речи и языковая норма"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Лексикография
+:Лексикография rdf:type owl:Class ;
+               rdfs:subClassOf :Общее_языкознание ;
+               rdfs:label "Лексикография"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Лексикология._Терминоведение
+:Лексикология._Терминоведение rdf:type owl:Class ;
+                              rdfs:subClassOf :Общее_языкознание ;
+                              rdfs:label "Лексикология. Терминоведение"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Лесное_право
 :Лесное_право rdf:type owl:Class ;
               rdfs:subClassOf :Государство_и_право._Юридические_науки ;
@@ -1189,6 +1419,24 @@
 :Лесное_право_отдельных_стран rdf:type owl:Class ;
                               rdfs:subClassOf :Лесное_право ;
                               rdfs:label "Лесное право отдельных стран"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Лингвистика_текста
+:Лингвистика_текста rdf:type owl:Class ;
+                    rdfs:subClassOf :Общее_языкознание ;
+                    rdfs:label "Лингвистика текста"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Лингвистические_вопросы_перевода
+:Лингвистические_вопросы_перевода rdf:type owl:Class ;
+                                  rdfs:subClassOf :Прикладное_языкознание ;
+                                  rdfs:label "Лингвистические вопросы перевода"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Лингвистические_вопросы_преподавания_языков
+:Лингвистические_вопросы_преподавания_языков rdf:type owl:Class ;
+                                             rdfs:subClassOf :Прикладное_языкознание ;
+                                             rdfs:label "Лингвистические вопросы преподавания языков"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Литература._Литературоведение.Устное_народное_творчество
@@ -1254,6 +1502,12 @@
 :Льготы_для_совмещающих_работу_с_обучением rdf:type owl:Class ;
                                            rdfs:subClassOf :Трудовое_право ;
                                            rdfs:label "Льготы для совмещающих работу с обучением"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Малайско-полинезийские_языки
+:Малайско-полинезийские_языки rdf:type owl:Class ;
+                              rdfs:subClassOf :Языки_мира ;
+                              rdfs:label "Малайско-полинезийские языки"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Массовые_формы_внеколлективного_поведения
@@ -1328,10 +1582,22 @@
                                                           rdfs:label "Международное сотрудничество в области литературоведения"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Международное_сотрудничество_в_области_организации_образования_и_педагогики
+:Международное_сотрудничество_в_области_организации_образования_и_педагогики rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                             rdfs:label "Международное сотрудничество в области организации образования и педагогики"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Международное_сотрудничество_в_области_психологии
 :Международное_сотрудничество_в_области_психологии rdf:type owl:Class ;
                                                    rdfs:subClassOf :Общие_вопросы_психологии ;
                                                    rdfs:label "Международное сотрудничество в области психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Международное_сотрудничество_в_области_языкознания
+:Международное_сотрудничество_в_области_языкознания rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Общие_вопросы_языкознания ;
+                                                    rdfs:label "Международное сотрудничество в области языкознания"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Международное_сотрудничество_по_специальным_вопросам
@@ -1382,10 +1648,52 @@
                        rdfs:label "Места лишения свободы"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методика_обучения_и_воспитания_в_дошкольных_учреждениях
+:Методика_обучения_и_воспитания_в_дошкольных_учреждениях rdf:type owl:Class ;
+                                                         rdfs:subClassOf :Дошкольное_образование._Дошкольная_педагогика ;
+                                                         rdfs:label "Методика обучения и воспитания в дошкольных учреждениях"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методика_преподавания_и_воспитания_в_специальных_школах_и_дошкольных_учреждениях_для_детей_с_отклонениями_в_развитии
+:Методика_преподавания_и_воспитания_в_специальных_школах_и_дошкольных_учреждениях_для_детей_с_отклонениями_в_развитии rdf:type owl:Class ;
+                                                                                                                      rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                                                                                                      rdfs:label "Методика преподавания и воспитания в специальных школах и дошкольных учреждениях для детей с отклонениями в развитии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методика_преподавания_учебных_дисциплин_в_высшей_профессиональной_школе
+:Методика_преподавания_учебных_дисциплин_в_высшей_профессиональной_школе rdf:type owl:Class ;
+                                                                         rdfs:subClassOf :Высшее_профессиональное_образование._Педагогика_высшей_профессиональной_школы ;
+                                                                         rdfs:label "Методика преподавания учебных дисциплин в высшей профессиональной школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методика_преподавания_учебных_дисциплин_в_общеобразовательной_школе
+:Методика_преподавания_учебных_дисциплин_в_общеобразовательной_школе rdf:type owl:Class ;
+                                                                     rdfs:subClassOf :Общеобразовательная_школа._Педагогика_общеобразовательной_школы ;
+                                                                     rdfs:label "Методика преподавания учебных дисциплин в общеобразовательной школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методика_преподавания_учебных_дисциплин_в_профессионально-технической_школе
+:Методика_преподавания_учебных_дисциплин_в_профессионально-технической_школе rdf:type owl:Class ;
+                                                                             rdfs:subClassOf :Начальное_профессионально-техническое_образование._Педагогика_профессиональной_школы ;
+                                                                             rdfs:label "Методика преподавания учебных дисциплин в профессионально-технической школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методика_преподавания_учебных_дисциплин_в_средних_профессиональных_учебных_заведениях
+:Методика_преподавания_учебных_дисциплин_в_средних_профессиональных_учебных_заведениях rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf :Среднее_профессиональное_образование._Педагогика_среднего_профессионального_образования ;
+                                                                                       rdfs:label "Методика преподавания учебных дисциплин в средних профессиональных учебных заведениях"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методика_расследования_отдельных_видов_преступлений
 :Методика_расследования_отдельных_видов_преступлений rdf:type owl:Class ;
                                                      rdfs:subClassOf :Криминалистика ;
                                                      rdfs:label "Методика расследования отдельных видов преступлений"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методы_исследования_и_моделирования._Математические_и_кибернетические_методы_в_педагогике
+:Методы_исследования_и_моделирования._Математические_и_кибернетические_методы_в_педагогике rdf:type owl:Class ;
+                                                                                           rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                                           rdfs:label "Методы исследования и моделирования. Математические и кибернетические методы в педагогике"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методы_исследования_и_моделирования_в_области_психологии._Математические_и_кибернетические_методы
@@ -1394,10 +1702,22 @@
                                                                                                    rdfs:label "Методы исследования и моделирования в области психологии. Математические и кибернетические методы"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методы_лингвистических_исследований
+:Методы_лингвистических_исследований rdf:type owl:Class ;
+                                     rdfs:subClassOf :Общее_языкознание ;
+                                     rdfs:label "Методы лингвистических исследований"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Методы_психологического_исследования._Математическая_психология
 :Методы_психологического_исследования._Математическая_психология rdf:type owl:Class ;
                                                                  rdfs:subClassOf :Общая_психология ;
                                                                  rdfs:label "Методы психологического исследования. Математическая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Морфология
+:Морфология rdf:type owl:Class ;
+            rdfs:subClassOf :Общее_языкознание ;
+            rdfs:label "Морфология"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Муниципальное_право
@@ -1422,6 +1742,11 @@
 :Налоговое_право rdf:type owl:Class ;
                  rdfs:subClassOf :Финансовое_право ;
                  rdfs:label "Налоговое право"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Народное_образование._Педагогика
+:Народное_образование._Педагогика rdf:type owl:Class ;
+                                  rdfs:label "Народное образование. Педагогика."@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Народное_творчество
@@ -1460,6 +1785,12 @@
                                       rdfs:label "Наследственное право отдельных стран"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Начальное_профессионально-техническое_образование._Педагогика_профессиональной_школы
+:Начальное_профессионально-техническое_образование._Педагогика_профессиональной_школы rdf:type owl:Class ;
+                                                                                      rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                                                      rdfs:label "Начальное профессионально-техническое образование. Педагогика профессиональной школы"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Нормирование_труда
 :Нормирование_труда rdf:type owl:Class ;
                     rdfs:subClassOf :Трудовое_право ;
@@ -1472,10 +1803,82 @@
           rdfs:label "Нотариат"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Образование_и_обучение_в_высшей_профессиональной_школе
+:Образование_и_обучение_в_высшей_профессиональной_школе rdf:type owl:Class ;
+                                                        rdfs:subClassOf :Высшее_профессиональное_образование._Педагогика_высшей_профессиональной_школы ;
+                                                        rdfs:label "Образование и обучение в высшей профессиональной школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Образование_и_обучение_в_профессиональной_школе
+:Образование_и_обучение_в_профессиональной_школе rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Начальное_профессионально-техническое_образование._Педагогика_профессиональной_школы ;
+                                                 rdfs:label "Образование и обучение в профессиональной школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Образование_и_обучение_в_средних_профессиональных_учебных_заведениях
+:Образование_и_обучение_в_средних_профессиональных_учебных_заведениях rdf:type owl:Class ;
+                                                                      rdfs:subClassOf :Среднее_профессиональное_образование._Педагогика_среднего_профессионального_образования ;
+                                                                      rdfs:label "Образование и обучение в средних профессиональных учебных заведениях"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Образование_и_развитие_языков
+:Образование_и_развитие_языков rdf:type owl:Class ;
+                               rdfs:subClassOf :Общее_языкознание ;
+                               rdfs:label "Образование и развитие языков"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Образование_по_отдельным_группам_населения
+:Образование_по_отдельным_группам_населения rdf:type owl:Class ;
+                                            rdfs:subClassOf :Система_образования ;
+                                            rdfs:label "Образование по отдельным группам населения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Обучение_инвалидов
+:Обучение_инвалидов rdf:type owl:Class ;
+                    rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                    rdfs:label "Обучение инвалидов"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общая_методика_обучения
+:Общая_методика_обучения rdf:type owl:Class ;
+                         rdfs:subClassOf :Общая_педагогика ;
+                         rdfs:label "Общая методика обучения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общая_педагогика
+:Общая_педагогика rdf:type owl:Class ;
+                  rdfs:subClassOf :Народное_образование._Педагогика ;
+                  rdfs:label "Общая педагогика"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общая_психология
 :Общая_психология rdf:type owl:Class ;
                   rdfs:subClassOf :Психология ;
                   rdfs:label "Общая психология"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общая_теория_воспитания
+:Общая_теория_воспитания rdf:type owl:Class ;
+                         rdfs:subClassOf :Общая_педагогика ;
+                         rdfs:label "Общая теория воспитания"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общая_теория_образования_и_обучения
+:Общая_теория_образования_и_обучения rdf:type owl:Class ;
+                                     rdfs:subClassOf :Общая_педагогика ;
+                                     rdfs:label "Общая теория образования и обучения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общее_языкознание
+:Общее_языкознание rdf:type owl:Class ;
+                   rdfs:subClassOf :Языкознание ;
+                   rdfs:label "Общее языкознание"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общеобразовательная_школа._Педагогика_общеобразовательной_школы
+:Общеобразовательная_школа._Педагогика_общеобразовательной_школы rdf:type owl:Class ;
+                                                                 rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                                 rdfs:label "Общеобразовательная школа. Педагогика общеобразовательной школы"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общественное_мнение_и_право._Опинионика
@@ -1488,6 +1891,18 @@
 :Общественные_фонды_содержания_и_обслуживания_детей_в_детских_учреждениях rdf:type owl:Class ;
                                                                           rdfs:subClassOf :Право_социального_обеспечения ;
                                                                           rdfs:label "Общественные фонды содержания и обслуживания детей в детских учреждениях"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общетеоретические_проблемы_языкознания
+:Общетеоретические_проблемы_языкознания rdf:type owl:Class ;
+                                        rdfs:subClassOf :Общее_языкознание ;
+                                        rdfs:label "Общетеоретические проблемы языкознания"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы
+:Общие_вопросы rdf:type owl:Class ;
+               rdfs:subClassOf :Общая_педагогика ;
+               rdfs:label "Общие вопросы"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_авторского_и_смежных_прав
@@ -1520,6 +1935,18 @@
                                      rdfs:label "Общие вопросы в народном творчестве"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_в_системе_образования
+:Общие_вопросы_в_системе_образования rdf:type owl:Class ;
+                                     rdfs:subClassOf :Система_образования ;
+                                     rdfs:label "Общие вопросы в системе образования"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_внешкольной_педагогики
+:Общие_вопросы_внешкольной_педагогики rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Внешкольное_(дополнительное)_образование_и_воспитание._Внешкольная_педагогика> ;
+                                      rdfs:label "Общие вопросы внешкольной педагогики"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_водного_права
 :Общие_вопросы_водного_права rdf:type owl:Class ;
                              rdfs:subClassOf :Водное_право ;
@@ -1532,6 +1959,12 @@
                                       rdfs:label "Общие вопросы воздухоохранного права"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_высшего_профессионального_образования
+:Общие_вопросы_высшего_профессионального_образования rdf:type owl:Class ;
+                                                     rdfs:subClassOf :Высшее_профессиональное_образование._Педагогика_высшей_профессиональной_школы ;
+                                                     rdfs:label "Общие вопросы высшего профессионального образования"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_гражданского_права
 :Общие_вопросы_гражданского_права rdf:type owl:Class ;
                                   rdfs:subClassOf :Гражданское_право ;
@@ -1542,6 +1975,12 @@
 :Общие_вопросы_гражданского_процесса rdf:type owl:Class ;
                                      rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Гражданско-процессуальное_право_(гражданский_процесс)> ;
                                      rdfs:label "Общие вопросы гражданского процесса"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_дошкольного_образования
+:Общие_вопросы_дошкольного_образования rdf:type owl:Class ;
+                                       rdfs:subClassOf :Дошкольное_образование._Дошкольная_педагогика ;
+                                       rdfs:label "Общие вопросы дошкольного образования"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_законодательства_о_животных
@@ -1628,10 +2067,22 @@
                                              rdfs:label "Общие вопросы международного частного права"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_народного_образования_и_педагогики
+:Общие_вопросы_народного_образования_и_педагогики rdf:type owl:Class ;
+                                                  rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                  rdfs:label "Общие вопросы народного образования и педагогики"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_наследственного_права
 :Общие_вопросы_наследственного_права rdf:type owl:Class ;
                                      rdfs:subClassOf :Наследственное_право ;
                                      rdfs:label "Общие вопросы наследственного права"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_общеобразовательной_школы
+:Общие_вопросы_общеобразовательной_школы rdf:type owl:Class ;
+                                         rdfs:subClassOf :Общеобразовательная_школа._Педагогика_общеобразовательной_школы ;
+                                         rdfs:label "Общие вопросы общеобразовательной школы"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_патентного_права
@@ -1656,6 +2107,18 @@
 :Общие_вопросы_семейного_права rdf:type owl:Class ;
                                rdfs:subClassOf :Семейное_право ;
                                rdfs:label "Общие вопросы семейного права"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_специальной_школы
+:Общие_вопросы_специальной_школы rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                 rdfs:label "Общие вопросы специальной школы"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_среднего_профессионального_образования
+:Общие_вопросы_среднего_профессионального_образования rdf:type owl:Class ;
+                                                      rdfs:subClassOf :Среднее_профессиональное_образование._Педагогика_среднего_профессионального_образования ;
+                                                      rdfs:label "Общие вопросы среднего профессионального бразования"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_судебной_статистики
@@ -1700,10 +2163,28 @@
                                     rdfs:label "Общие вопросы экологического права"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_вопросы_языкознания
+:Общие_вопросы_языкознания rdf:type owl:Class ;
+                           rdfs:subClassOf :Языкознание ;
+                           rdfs:label "Общие вопросы языкознания"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_положения_муниципального_права
 :Общие_положения_муниципального_права rdf:type owl:Class ;
                                       rdfs:subClassOf :Муниципальное_право ;
                                       rdfs:label "Общие положения муниципального права"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_проблемы_грамматики
+:Общие_проблемы_грамматики rdf:type owl:Class ;
+                           rdfs:subClassOf :Общее_языкознание ;
+                           rdfs:label "Общие проблемы грамматики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Общие_проблемы_прикладного_языкознания
+:Общие_проблемы_прикладного_языкознания rdf:type owl:Class ;
+                                        rdfs:subClassOf :Прикладное_языкознание ;
+                                        rdfs:label "Общие проблемы прикладного языкознания"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Объекты_авторского_и_смежных_прав
@@ -1742,16 +2223,40 @@
                                                        rdfs:label "Обязательственное право в международном частном праве"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Организация_и_управление_в_системе_образования
+:Организация_и_управление_в_системе_образования rdf:type owl:Class ;
+                                                rdfs:subClassOf :Система_образования ;
+                                                rdfs:label "Организация и управление в системе образования"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Организация_игровой_деятельности_детей_дошкольного_возраста
+:Организация_игровой_деятельности_детей_дошкольного_возраста rdf:type owl:Class ;
+                                                             rdfs:subClassOf :Дошкольное_образование._Дошкольная_педагогика ;
+                                                             rdfs:label "Организация игровой деятельности детей дошкольного возраста"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Организация_научно-исследовательской_работы_в_области_литературоведения
 :Организация_научно-исследовательской_работы_в_области_литературоведения rdf:type owl:Class ;
                                                                          rdfs:subClassOf :Общие_вопросы_литературоведения ;
                                                                          rdfs:label "Организация научно-исследовательской работы в области литературоведения"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Организация_научно-исследовательской_работы_в_области_образования_и_педагогики
+:Организация_научно-исследовательской_работы_в_области_образования_и_педагогики rdf:type owl:Class ;
+                                                                                rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                                rdfs:label "Организация научно-исследовательской работы в области образования и педагогики"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Организация_научно-исследовательской_работы_в_области_психологии
 :Организация_научно-исследовательской_работы_в_области_психологии rdf:type owl:Class ;
                                                                   rdfs:subClassOf :Общие_вопросы_психологии ;
                                                                   rdfs:label "Организация научно-исследовательской работы в области психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Организация_научно-исследовательской_работы_в_языкознании
+:Организация_научно-исследовательской_работы_в_языкознании rdf:type owl:Class ;
+                                                           rdfs:subClassOf :Общие_вопросы_языкознания ;
+                                                           rdfs:label "Организация научно-исследовательской работы в языкознании"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Организация_труда._Повышение_квалификации
@@ -1964,6 +2469,12 @@
               rdfs:label "Охрана труда"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Палеоазиатские_языки
+:Палеоазиатские_языки rdf:type owl:Class ;
+                      rdfs:subClassOf :Языки_мира ;
+                      rdfs:label "Палеоазиатские языки"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Партийная_система._Общественные_организации
 :Партийная_система._Общественные_организации rdf:type owl:Class ;
                                              rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Конституционное_(государственное)_право> ;
@@ -2000,6 +2511,12 @@
                 rdfs:label "Патопсихология"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Педагогика_детей_раннего_возраста
+:Педагогика_детей_раннего_возраста rdf:type owl:Class ;
+                                   rdfs:subClassOf :Дошкольное_образование._Дошкольная_педагогика ;
+                                   rdfs:label "Педагогика детей раннего возраста"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Педагогическая_психология
 :Педагогическая_психология rdf:type owl:Class ;
                            rdfs:subClassOf :Прикладная_психология ;
@@ -2022,6 +2539,12 @@
 :Переход_наследства_к_государству rdf:type owl:Class ;
                                   rdfs:subClassOf :Наследственное_право ;
                                   rdfs:label "Переход наследства к государству"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Персоналия
+:Персоналия rdf:type owl:Class ;
+            rdfs:subClassOf :История_образования_и_педагогики._Персоналия ;
+            rdfs:label "Персоналия"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Планирование_и_прогнозирование_в_праве
@@ -2462,6 +2985,12 @@
                                          rdfs:label "Правовые аспекты ирригации и мелиорации"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Правовые_вопросы_в_системе_образования
+:Правовые_вопросы_в_системе_образования rdf:type owl:Class ;
+                                        rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                        rdfs:label "Правовые вопросы в системе образования"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Правовые_основы_инвестиционной_деятельности
 :Правовые_основы_инвестиционной_деятельности rdf:type owl:Class ;
                                              rdfs:subClassOf :Финансовое_право ;
@@ -2558,6 +3087,11 @@
                                              rdfs:label "Преподавание литературоведения и литературы"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Преподавание_языкознания
+:Преподавание_языкознания rdf:type owl:Class ;
+                          rdfs:subClassOf :Общие_вопросы_языкознания .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Преступность_и_явления_социальной_патологии
 :Преступность_и_явления_социальной_патологии rdf:type owl:Class ;
                                              rdfs:subClassOf :Криминология ;
@@ -2570,10 +3104,28 @@
                        rdfs:label "Прикладная психология"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Прикладное_языкознание
+:Прикладное_языкознание rdf:type owl:Class ;
+                        rdfs:subClassOf :Языкознание ;
+                        rdfs:label "Прикладное языкознание"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Приложение_языкознания__к_другим_наукам
+:Приложение_языкознания__к_другим_наукам rdf:type owl:Class ;
+                                         rdfs:subClassOf :Прикладное_языкознание ;
+                                         rdfs:label "Приложение языкознания к другим наукам"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Принципы_международного_права
 :Принципы_международного_права rdf:type owl:Class ;
                                rdfs:subClassOf :Международное_право ;
                                rdfs:label "Принципы международного права"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Принципы_организации_образования
+:Принципы_организации_образования rdf:type owl:Class ;
+                                  rdfs:subClassOf :Система_образования ;
+                                  rdfs:label "Принципы организации образования"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Принятие_наследства_и_отказ_от_наследства
@@ -2654,6 +3206,12 @@
                            rdfs:label "Прочие литературные жанры"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Прочие_языки_мира
+:Прочие_языки_мира rdf:type owl:Class ;
+                   rdfs:subClassOf :Языки_мира ;
+                   rdfs:label "Прочие языки мира"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Психика_и_сознание
 :Психика_и_сознание rdf:type owl:Class ;
                     rdfs:subClassOf :Общая_психология ;
@@ -2664,6 +3222,12 @@
 :Психические_процессы_и_состояния rdf:type owl:Class ;
                                   rdfs:subClassOf :Общая_психология ;
                                   rdfs:label "Психические процессы и состояния"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Психолингвистика
+:Психолингвистика rdf:type owl:Class ;
+                  rdfs:subClassOf :Общее_языкознание ;
+                  rdfs:label "Психолингвистика"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Психология
@@ -2779,6 +3343,12 @@
                  rdfs:label "Психофизиология"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Работа_с_детьми_по_месту_жительства
+:Работа_с_детьми_по_месту_жительства rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Внешкольное_(дополнительное)_образование_и_воспитание._Внешкольная_педагогика> ;
+                                     rdfs:label "Работа с детьми по месту жительства"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Рабочее_время_и_время_отдыха
 :Рабочее_время_и_время_отдыха rdf:type owl:Class ;
                               rdfs:subClassOf :Трудовое_право ;
@@ -2789,6 +3359,12 @@
 :Развитие_психики rdf:type owl:Class ;
                   rdfs:subClassOf :Общая_психология ;
                   rdfs:label "Развитие психики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Ранний_детский_аутизм
+:Ранний_детский_аутизм rdf:type owl:Class ;
+                       rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                       rdfs:label "Ранний детский аутизм"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Родство_по_семейному_праву
@@ -2809,6 +3385,12 @@
                                                                                                                 rdfs:label "Роль профессиональных союзов в трудовых правоотношениях. Участие рабочих и служащих в управлении производством"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Руководящие_материалы_по_образованию_и_педагогике
+:Руководящие_материалы_по_образованию_и_педагогике rdf:type owl:Class ;
+                                                   rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                   rdfs:label "Руководящие материалы по образованию и педагогике"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Сборники_различных_произведений
 :Сборники_различных_произведений rdf:type owl:Class ;
                                  rdfs:subClassOf :Произведения_художественной_литературы ;
@@ -2819,6 +3401,12 @@
 :Сделки rdf:type owl:Class ;
         rdfs:subClassOf :Гражданское_право ;
         rdfs:label "Сделки"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Семантика
+:Семантика rdf:type owl:Class ;
+           rdfs:subClassOf :Общее_языкознание ;
+           rdfs:label "Семантика"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Семейное_право
@@ -2839,16 +3427,46 @@
                                 rdfs:label "Семейное право отдельных стран"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Семито-хамитские_языки
+:Семито-хамитские_языки rdf:type owl:Class ;
+                        rdfs:subClassOf :Языки_мира ;
+                        rdfs:label "Семито-хамитские языки"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Сеть_учебных_заведений
+:Сеть_учебных_заведений rdf:type owl:Class ;
+                        rdfs:subClassOf :Система_образования ;
+                        rdfs:label "Сеть учебных заведений"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Символы_государства
 :Символы_государства rdf:type owl:Class ;
                      rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Конституционное_(государственное)_право> ;
                      rdfs:label "Символы государства"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Синтаксис
+:Синтаксис rdf:type owl:Class ;
+           rdfs:subClassOf :Общее_языкознание ;
+           rdfs:label "Синтаксис" .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Система_образования
+:Система_образования rdf:type owl:Class ;
+                     rdfs:subClassOf :Народное_образование._Педагогика ;
+                     rdfs:label "Система образования"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Система_органов_государственной_власти
 :Система_органов_государственной_власти rdf:type owl:Class ;
                                         rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Конституционное_(государственное)_право> ;
                                         rdfs:label "Система органов государственной власти"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Словообразование
+:Словообразование rdf:type owl:Class ;
+                  rdfs:subClassOf :Общее_языкознание ;
+                  rdfs:label "Словообразование"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Служащие_мест_лишения_свободы
@@ -2863,10 +3481,28 @@
                                                                 rdfs:label "Современное состояние и перспективы развития литературоведения"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Современное_состояние_и_перспективы_развития_образования_и_педагогики
+:Современное_состояние_и_перспективы_развития_образования_и_педагогики rdf:type owl:Class ;
+                                                                       rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                                                       rdfs:label "Современное состояние и перспективы развития образования и педагогики"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Современное_состояние_и_перспективы_развития_психологии
 :Современное_состояние_и_перспективы_развития_психологии rdf:type owl:Class ;
                                                          rdfs:subClassOf :Общие_вопросы_психологии ;
                                                          rdfs:label "Современное состояние и перспективы развития психологии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Современное_состояние_и_перспективы_развития_языкознания
+:Современное_состояние_и_перспективы_развития_языкознания rdf:type owl:Class ;
+                                                          rdfs:subClassOf :Общие_вопросы_языкознания ;
+                                                          rdfs:label "Современное состояние и перспективы развития языкознания"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Соматопедия
+:Соматопедия rdf:type owl:Class ;
+             rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+             rdfs:label "Соматопедия"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Состояние_преступности
@@ -2893,6 +3529,12 @@
                              rdfs:label "Социальные нормы и ценности"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Социолингвистика
+:Социолингвистика rdf:type owl:Class ;
+                  rdfs:subClassOf :Общее_языкознание ;
+                  rdfs:label "Социолингвистика"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Социология_права
 :Социология_права rdf:type owl:Class ;
                   rdfs:subClassOf :Теория_государства_и_права ;
@@ -2903,6 +3545,48 @@
 :Социология_преступности rdf:type owl:Class ;
                          rdfs:subClassOf :Криминология ;
                          rdfs:label "Социология преступности"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Специальные_школы_и_дошкольные_учреждения_для_глухих_и_слабослышащих_детей._Вечерние_школы_для_взрослых_глухих_и_слабослышащих._Сурдопедагогика
+:Специальные_школы_и_дошкольные_учреждения_для_глухих_и_слабослышащих_детей._Вечерние_школы_для_взрослых_глухих_и_слабослышащих._Сурдопедагогика rdf:type owl:Class ;
+                                                                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                                                                                                                                 rdfs:label "Специальные школы и дошкольные учреждения для глухих и слабослышащих детей. Вечерние школы для взрослых глухих и слабослышащих. Сурдопедагогика"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Специальные_школы_и_дошкольные_учреждения_для_детей_с_задержкой_психического_развития
+:Специальные_школы_и_дошкольные_учреждения_для_детей_с_задержкой_психического_развития rdf:type owl:Class ;
+                                                                                       rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                                                                       rdfs:label "Специальные школы и дошкольные учреждения для детей с задержкой психического развития"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Специальные_школы_и_дошкольные_учреждения_для_детей_с_нарушениями_опорно-двигательного_аппарата
+:Специальные_школы_и_дошкольные_учреждения_для_детей_с_нарушениями_опорно-двигательного_аппарата rdf:type owl:Class ;
+                                                                                                 rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                                                                                 rdfs:label "Специальные школы и дошкольные учреждения для детей с нарушениями опорно-двигательного аппарата"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Специальные_школы_и_дошкольные_учреждения_для_детей_с_тяжелыми_нарушениями_речи._Логопедические_пункты._Логопедия
+:Специальные_школы_и_дошкольные_учреждения_для_детей_с_тяжелыми_нарушениями_речи._Логопедические_пункты._Логопедия rdf:type owl:Class ;
+                                                                                                                   rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                                                                                                   rdfs:label "Специальные школы и дошкольные учреждения для детей с тяжелыми нарушениями речи. Логопедические пункты. Логопедия"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Специальные_школы_и_дошкольные_учреждения_для_слепых_и_слабовидящих_детей._Тифлопедагогика._Вечерние_школы_для_взрослых_слепых_и_слабовидящих
+:Специальные_школы_и_дошкольные_учреждения_для_слепых_и_слабовидящих_детей._Тифлопедагогика._Вечерние_школы_для_взрослых_слепых_и_слабовидящих rdf:type owl:Class ;
+                                                                                                                                               rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                                                                                                                               rdfs:label "Специальные школы и дошкольные учреждения для слепых и слабовидящих детей. Тифлопедагогика. Вечерние школы для взрослых слепых и слабовидящих"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Специальные_школы_и_учреждения
+:Специальные_школы_и_учреждения rdf:type owl:Class ;
+                                rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Специальные_(коррекционные)_школы._Дефектология> ;
+                                rdfs:label "Специальные школы и учреждения"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Среднее_профессиональное_образование._Педагогика_среднего_профессионального_образования
+:Среднее_профессиональное_образование._Педагогика_среднего_профессионального_образования rdf:type owl:Class ;
+                                                                                         rdfs:subClassOf :Народное_образование._Педагогика ;
+                                                                                         rdfs:label "Среднее профессиональное образование. Педагогика среднего профессионального образования"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Стадии_арбитражного_процесса
@@ -2921,6 +3605,24 @@
 :Стадии_уголовного_процесса rdf:type owl:Class ;
                             rdfs:subClassOf <http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19#Уголовно-процессуальное_право_(уголовный_процесс)> ;
                             rdfs:label "Стадии уголовного процесса"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Статистика_образования_и_педагогики
+:Статистика_образования_и_педагогики rdf:type owl:Class ;
+                                     rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                     rdfs:label "Статистика образования и педагогики"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Стилистика._Лингвистическая_поэтика._Риторика
+:Стилистика._Лингвистическая_поэтика._Риторика rdf:type owl:Class ;
+                                               rdfs:subClassOf :Общее_языкознание ;
+                                               rdfs:label "Стилистика. Лингвистическая поэтика. Риторика"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Студенческие_организации_в_высшей_профессиональной_школе
+:Студенческие_организации_в_высшей_профессиональной_школе rdf:type owl:Class ;
+                                                          rdfs:subClassOf :Высшее_профессиональное_образование._Педагогика_высшей_профессиональной_школы ;
+                                                          rdfs:label "Студенческие организации в высшей профессиональной школе"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Ступени_исполнения_приговора
@@ -3025,6 +3727,18 @@
                             rdfs:label "Теория государства и права"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Теория_дошкольного_воспитания_и_развития
+:Теория_дошкольного_воспитания_и_развития rdf:type owl:Class ;
+                                          rdfs:subClassOf :Дошкольное_образование._Дошкольная_педагогика ;
+                                          rdfs:label "Теория дошкольного воспитания и развития"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Теория_дошкольного_образования_и_обучения
+:Теория_дошкольного_образования_и_обучения rdf:type owl:Class ;
+                                           rdfs:subClassOf :Дошкольное_образование._Дошкольная_педагогика ;
+                                           rdfs:label "Теория дошкольного образования и обучения"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Теория_и_методология_литературоведения_и_литературной_критики
 :Теория_и_методология_литературоведения_и_литературной_критики rdf:type owl:Class ;
                                                                rdfs:subClassOf :Общие_вопросы_литературоведения ;
@@ -3055,6 +3769,12 @@
               rdfs:label "Теория права"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Теория_развития_личности
+:Теория_развития_личности rdf:type owl:Class ;
+                          rdfs:subClassOf :Общая_педагогика ;
+                          rdfs:label "Теория развития личности"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Терминология._Справочная_литература._Учебная_литература
 :Терминология._Справочная_литература._Учебная_литература rdf:type owl:Class ;
                                                          rdfs:subClassOf :Общие_вопросы_психологии ;
@@ -3067,10 +3787,46 @@
                                 rdfs:label "Терминология литературоведения"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Терминология_языкознания
+:Терминология_языкознания rdf:type owl:Class ;
+                          rdfs:subClassOf :Общие_вопросы_языкознания ;
+                          rdfs:label "Терминология языкознания"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Территория_в_международном_праве
 :Территория_в_международном_праве rdf:type owl:Class ;
                                   rdfs:subClassOf :Международное_право ;
                                   rdfs:label "Территория в международном праве"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Типы_высших_профессиональных_учебных_заведений
+:Типы_высших_профессиональных_учебных_заведений rdf:type owl:Class ;
+                                                rdfs:subClassOf :Высшее_профессиональное_образование._Педагогика_высшей_профессиональной_школы ;
+                                                rdfs:label "Типы высших профессиональных учебных заведений"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Типы_дошкольных_учреждений
+:Типы_дошкольных_учреждений rdf:type owl:Class ;
+                            rdfs:subClassOf :Дошкольное_образование._Дошкольная_педагогика ;
+                            rdfs:label "Типы дошкольных учреждений"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Типы_и_виды_общеобразовательных_учреждений
+:Типы_и_виды_общеобразовательных_учреждений rdf:type owl:Class ;
+                                            rdfs:subClassOf :Общеобразовательная_школа._Педагогика_общеобразовательной_школы ;
+                                            rdfs:label "Типы и виды общеобразовательных учреждений"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Типы_профессионально-технических_учебных_заведений
+:Типы_профессионально-технических_учебных_заведений rdf:type owl:Class ;
+                                                    rdfs:subClassOf :Начальное_профессионально-техническое_образование._Педагогика_профессиональной_школы ;
+                                                    rdfs:label "Типы профессионально-технических учебных заведений"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Типы_средних_профессиональных_учебных_заведений
+:Типы_средних_профессиональных_учебных_заведений rdf:type owl:Class ;
+                                                 rdfs:subClassOf :Среднее_профессиональное_образование._Педагогика_среднего_профессионального_образования ;
+                                                 rdfs:label "Типы средних профессиональных учебных заведений"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Труд_женщин
@@ -3175,6 +3931,18 @@
                                          rdfs:label "Управление охраной атмосферного воздуха"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Урало-алтайские_языки
+:Урало-алтайские_языки rdf:type owl:Class ;
+                       rdfs:subClassOf :Языки_мира ;
+                       rdfs:label "Урало-алтайские языки"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Уровни_языка._Язык_как_система
+:Уровни_языка._Язык_как_система rdf:type owl:Class ;
+                                rdfs:subClassOf :Общее_языкознание ;
+                                rdfs:label "Уровни языка. Язык как система"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Устное_народное_творчество_отдельных_стран_и_народов_мира
 :Устное_народное_творчество_отдельных_стран_и_народов_мира rdf:type owl:Class ;
                                                            rdfs:subClassOf :Народное_творчество ;
@@ -3215,6 +3983,30 @@
 :Учении_о_коллизии_законов rdf:type owl:Class ;
                            rdfs:subClassOf :Международное_частное_право ;
                            rdfs:label "Учении о коллизии законов"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Ученические_организации_в_профессионально-технической_школе
+:Ученические_организации_в_профессионально-технической_школе rdf:type owl:Class ;
+                                                             rdfs:subClassOf :Начальное_профессионально-техническое_образование._Педагогика_профессиональной_школы ;
+                                                             rdfs:label "Ученические организации в профессионально-технической школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Ученические_организации_в_средних_профессиональных_учебных_заведениях
+:Ученические_организации_в_средних_профессиональных_учебных_заведениях rdf:type owl:Class ;
+                                                                       rdfs:subClassOf :Среднее_профессиональное_образование._Педагогика_среднего_профессионального_образования ;
+                                                                       rdfs:label "Ученические организации в средних профессиональных учебных заведениях"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Ученические_организации_в_школе
+:Ученические_организации_в_школе rdf:type owl:Class ;
+                                 rdfs:subClassOf :Общеобразовательная_школа._Педагогика_общеобразовательной_школы ;
+                                 rdfs:label "Ученические организации в школе"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Философские_вопросы_и_методология_педагогики
+:Философские_вопросы_и_методология_педагогики rdf:type owl:Class ;
+                                              rdfs:subClassOf :Общие_вопросы_народного_образования_и_педагогики ;
+                                              rdfs:label "Философские вопросы и методология педагогики"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Философские_вопросы_и_методология_психологии
@@ -3259,6 +4051,12 @@
                                                          rdfs:label "Фонды социального обеспечения и социального страхования"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Фонология._Фонетика._Акцентология
+:Фонология._Фонетика._Акцентология rdf:type owl:Class ;
+                                   rdfs:subClassOf :Общее_языкознание ;
+                                   rdfs:label "Фонология. Фонетика. Акцентология"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Формы_и_методы_борьбы_с_преступностью_и_предупреждения_преступлений
 :Формы_и_методы_борьбы_с_преступностью_и_предупреждения_преступлений rdf:type owl:Class ;
                                                                      rdfs:subClassOf :Криминология ;
@@ -3275,6 +4073,12 @@
 :Формы_прямого_волеизъявления_граждан_и_другие_формы_осуществления_местного_самоуправления rdf:type owl:Class ;
                                                                                            rdfs:subClassOf :Муниципальное_право ;
                                                                                            rdfs:label "Формы прямого волеизъявления граждан и другие формы осуществления местного самоуправления"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Фразеология
+:Фразеология rdf:type owl:Class ;
+             rdfs:subClassOf :Общее_языкознание ;
+             rdfs:label "Фразеология"@ru .
 
 
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Художественная_литература_для_детей
@@ -3343,10 +4147,51 @@
                         rdfs:label "Юридическая психология"@ru .
 
 
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Язык_и_письмо
+:Язык_и_письмо rdf:type owl:Class ;
+               rdfs:subClassOf :Общее_языкознание ;
+               rdfs:label "Язык и письмо"@ru .
+
+
 ###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Язык_и_стиль_художественных_произведений
 :Язык_и_стиль_художественных_произведений rdf:type owl:Class ;
                                           rdfs:subClassOf :Теория_литературы ;
                                           rdfs:label "Язык и стиль художественных произведений"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Языки_Юго-Восточной_Азии
+:Языки_Юго-Восточной_Азии rdf:type owl:Class ;
+                          rdfs:subClassOf :Языки_мира ;
+                          rdfs:label "Языки Юго-Восточной Азии"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Языки_американских_индейцев
+:Языки_американских_индейцев rdf:type owl:Class ;
+                             rdfs:subClassOf :Языки_мира ;
+                             rdfs:label "Языки американских индейцев"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Языки_мира
+:Языки_мира rdf:type owl:Class ;
+            rdfs:subClassOf :Языкознание ;
+            rdfs:label "Языки мира"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Языки_народов_Центральной_и_Южной_Африки
+:Языки_народов_Центральной_и_Южной_Африки rdf:type owl:Class ;
+                                          rdfs:subClassOf :Языки_мира ;
+                                          rdfs:label "Языки народов Центральной и Южной Африки"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Языки_папуа
+:Языки_папуа rdf:type owl:Class ;
+             rdfs:subClassOf :Языки_мира ;
+             rdfs:label "Языки папуа"@ru .
+
+
+###  http://www.semanticweb.org/григорий/ontologies/2024/10/untitled-ontology-19/Языкознание
+:Языкознание rdf:type owl:Class ;
+             rdfs:label "Языкознание"@ru .
 
 
 ###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
