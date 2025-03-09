@@ -251,7 +251,7 @@
 ###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#instruments-for-solar-research
 :instruments-for-solar-research rdf:type owl:Class ;
                                 rdfs:subClassOf :observatories-instruments-apparatus-and-methods-of-astronomical-observations ;
-                                rdfs:label "Инструменты для исследования Солнца" .
+                                rdfs:label "Инструменты для исследования Солнца"@ru .
 
 
 ###  http://www.semanticweb.org/user/ontologies/2024/2/ontology-of-knowledge#internal-structure-and-evolution-of-stars
