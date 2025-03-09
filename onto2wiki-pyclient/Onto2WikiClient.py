@@ -1,5 +1,3 @@
-from shutil import posix
-
 from parser import parser_ttl
 from pprint import pprint
 
